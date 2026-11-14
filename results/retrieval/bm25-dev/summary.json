@@ -1,0 +1,25 @@
+{
+  "method": "bm25",
+  "split": "dev",
+  "n": 24,
+  "hit1": 15,
+  "hit3": 20,
+  "hit_at_k": 20,
+  "top_k": 3,
+  "median_ms": 3.8,
+  "config": {
+    "bm25_mode": "syllable",
+    "bm25_fold": false,
+    "k1": 1.2,
+    "b": 0.75,
+    "pool": 20,
+    "rrf_k": 60,
+    "no_filter": false
+  },
+  "missed_hit3": [
+    "d01",
+    "d09",
+    "d11",
+    "d20"
+  ]
+}

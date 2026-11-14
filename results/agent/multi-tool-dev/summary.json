@@ -1,0 +1,37 @@
+{
+  "name": "multi-tool",
+  "split": "dev",
+  "config": {
+    "model": "gpt-4.1-mini",
+    "methods": [
+      "dense",
+      "bm25",
+      "hybrid"
+    ],
+    "top_k": 3,
+    "budget_chars": 3500,
+    "max_searches": 3,
+    "max_llm_turns": 8,
+    "temperature": 0.0,
+    "name": "multi-tool"
+  },
+  "cases": 27,
+  "status": {
+    "answered": 16,
+    "abstain": 11,
+    "error": 0
+  },
+  "answerable": 24,
+  "context_evidence_rate": "8/24",
+  "searches": {
+    "1": 14,
+    "2": 5,
+    "3": 8
+  },
+  "tokens": {
+    "prompt": 101712,
+    "completion": 4492
+  },
+  "cost_usd": 0.04787,
+  "median_ms": 4642.3
+}
