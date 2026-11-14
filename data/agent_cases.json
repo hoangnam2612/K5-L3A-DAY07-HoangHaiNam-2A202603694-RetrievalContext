@@ -1,0 +1,289 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "question": "Nguyên nhân của cuộc cãi vã giữa vợ chồng anh cu là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "question": "Khi anh cu hất đổ mâm cơm, chị cu kể lể rằng ngồi trên khung cửi từ sáng đến giờ mới kiếm được bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "question": "Cả mâm cơm tối nhà anh cu chỉ có món gì ăn kèm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "question": "Khi chị cu nhấc niêu cơm lên xem thì còn lại bao nhiêu hạt cơm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "question": "Người ta định giết con Mực lần đầu vào dịp nào, và vì sao nó thoát nạn?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "question": "Tật xấu nào của con Mực khiến người trong nhà không thể tha thứ được?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "question": "Lần cuối cùng con Mực thoát nạn là nhờ ai, và người đó đã báo tin gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "question": "Người nhà dùng vật gì úp lên con Mực khi nó đang ăn cơm để bắt nó?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "question": "Chị hàng bánh dầy tố cáo vợ Lúng đã làm gì với số bánh để chỉ phải trả một xu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "question": "Vợ Lúng đi dệt cửi thuê mỗi ngày được bao nhiêu tiền, và người chồng lấy đi bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "question": "Lúng đã mua những thứ gì để uống rượu trước khi trừng phạt vợ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "question": "Ngoài chiếc roi mây, Lúng còn đi tìm hai thứ gì nữa để trói vợ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "period": "truoc-cach-mang"
+    }
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "question": "Hùng cho bạn biết mình đã bỏ Nga từ bao giờ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "question": "Người kể chuyện thuê chỗ trọ ở xóm lao động Thị Nghè với giá bao nhiêu một tháng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "question": "Người kể chuyện nhìn qua khe ván nhà bên cạnh và thấy điều gì khiến ông run lên?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "question": "Vì sao Tảo xộc vào nhà Bình trong cơn giận dữ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "question": "Theo Tảo, việc đem thịt bán cho quân Pháp là tội gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "period": "sau-cach-mang"
+    }
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "question": "Theo lời 'bà tiên' mà Bình nhắc, mỗi lần muốn giận thì nên làm gì để nguôi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "question": "Thứ mà chị Chuột nấu rồi bảo các con là chè thật ra là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "period": "truoc-cach-mang"
+    }
+  },
+  {
+    "id": "d20",
+    "split": "dev",
+    "question": "Chị Chuột nói mình vừa bán những thứ gì, và được bao nhiêu tiền?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d21",
+    "split": "dev",
+    "question": "Bác Tư làm rơi vật gì xuống bể nước khiến cậu con trai phải lội xuống tìm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d22",
+    "split": "dev",
+    "question": "Vợ bác bếp Tư đã mất được bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d23",
+    "split": "dev",
+    "question": "Chị tổ trưởng du kích cho biết bao nhiêu phần trong đội đã có chồng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d24",
+    "split": "dev",
+    "question": "So với làm ruộng, các chị du kích thấy việc đi chiến đấu vất vả thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d25",
+    "split": "dev",
+    "question": "Anh cu chị cu trong truyện Con mèo ở làng nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Truyện Con mèo không nêu tên làng của vợ chồng anh cu; cần grep 'anh cu' toàn corpus."
+  },
+  {
+    "id": "d26",
+    "split": "dev",
+    "question": "Con Mực trong truyện Cái chết của con Mực được bao nhiêu tuổi?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Văn bản chỉ nói Mực 'già hơn trong hai con chó', không nêu tuổi."
+  },
+  {
+    "id": "d27",
+    "split": "dev",
+    "question": "Vợ chồng Lúng trong truyện Đòn chồng đã lấy nhau được mấy năm?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Cần kiểm tra truyện Đòn chồng (trang 12) không nêu số năm hôn nhân."
+  },
+  {
+    "id": "tn01",
+    "split": "test",
+    "question": "Để ông lý Nhưng làm ngơ việc vợ chồng nhà kia không có giấy giá thú, anh chồng phải biện cho ông bao nhiêu tiền?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "period": "truoc-cach-mang"
+    }
+  },
+  {
+    "id": "tn02",
+    "split": "test",
+    "question": "Ông khóa Mẫn phát đơn kiện lý trưởng tất cả bao nhiêu khoản?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "tn03",
+    "split": "test",
+    "question": "Cuối cùng, ông lý Nhưng hả giận với ông khóa Mẫn bằng cách nào, ở đâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "tn04",
+    "split": "test",
+    "question": "Chiếc áo ba-đơ-xuy mà Trạch Văn Đoành mặc suốt mùa đông mua hết bao nhiêu và mua vào dịp nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "tn05",
+    "split": "test",
+    "question": "Hai cái móng giò bị mất trong ngày giã đám rốt cuộc ông Cửu Đoành đem cho ai?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "tn06",
+    "split": "test",
+    "question": "Vì sao Liễu phải cuốc vườn đến khuya hơn những người khác trong làng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "period": "sau-cach-mang"
+    }
+  },
+  {
+    "id": "tn07",
+    "split": "test",
+    "question": "Kiện hình dung sẽ xây gì ở chỗ giáp làng Sơn, và lợi ích ra sao?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "tn08",
+    "split": "test",
+    "question": "Khi không còn ra chợ nữa, cô Hoàn nhận làm việc gì để kiếm thêm tiền?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "tn09",
+    "split": "test",
+    "question": "Ông lý Nhưng bị phạt bao nhiêu tiền khi thua kiện?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Truyện chỉ nói 'ba tháng tù án treo; chân lý trưởng thì bị cách', không có khoản tiền phạt."
+  },
+  {
+    "id": "tn10",
+    "split": "test",
+    "question": "Trạch Văn Đoành có mấy người con?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Truyện chỉ nói hắn về làng 'với một con vợ theo', không nhắc con cái."
+  },
+  {
+    "id": "tn11",
+    "split": "test",
+    "question": "Kiện giữ chức vụ gì trong đơn vị kháng chiến của anh?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Truyện Đợi chờ chỉ nói Kiện 'đi xa' theo đoàn thể, không nêu đơn vị hay chức vụ."
+  }
+]

@@ -1,0 +1,962 @@
+{
+  "sources": [
+    {
+      "source_id": "namcao",
+      "title": "Tuyển tập truyện ngắn Nam Cao (bản số hóa Markdown)",
+      "author": "Nam Cao",
+      "language": "vi",
+      "format": "markdown",
+      "source_url": "https://github.com/khudocmo/truyen-ngan-nam-cao",
+      "local_path": "starter/data/raw/nam-cao/ (not committed; fetch with the commit below)",
+      "license_or_permission": {
+        "statement_verbatim": "The source texts in this ebook are believed to be in the public domain in Vietnam; that is, they are believed to be free of copyright restrictions in Vietnam. They may still be copyrighted in other countries, so users located outside of Vietnam must check their local laws before using this ebook.\n\nThe creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "reading": "Texts are 'believed to be in the public domain in Vietnam' (a belief stated by the repository, not a license grant); contributions by the digitizers are CC0. Users outside Vietnam must check local law. Edition/source of the printed text is not stated."
+      },
+      "accessed_at": "2026-11-13",
+      "snapshot_version": {
+        "git_commit": "049faf18d1313ded145258e4da1a4725cace9fbe",
+        "commit_date": "2026-01-09T10:38:33+07:00",
+        "unit_files_sha256_of_hashes": "0e3e32109d97b363f6a07827a1613fc77596f08a3d6af6bc80a48c1754039b41"
+      },
+      "counting_rule": "Unit = one story file (.md) under truoc-cach-mang/ or sau-cach-mang/ (GUIDE.md: an unpaginated source is counted in independent meaningful units of >= 1500 normalized characters). Unit number = ordinal (truoc-cach-mang sorted by file name, then sau-cach-mang sorted by file name). Normalized characters = length of the story body after normalize_markdown (title line, rules, footnote definitions, image lines and HTML tags dropped; inline markers stripped; whitespace collapsed). Not counted: files/ (merged e-books that repeat the stories), doc.md, README.md, metadata.yaml, Makefile, minimal.css, LICENSE.md.",
+      "excluded_from_repo": "files/ (merged ebooks duplicating the stories), doc.md, README.md, metadata.yaml, Makefile, minimal.css",
+      "units_total": 59,
+      "units_counted": 59,
+      "units_below_min_chars": 0,
+      "total_chars": 1038921,
+      "chars_min_median_max": [
+        6274,
+        13358,
+        63506
+      ],
+      "per_period": {
+        "truoc-cach-mang": {
+          "units": 43,
+          "chars": 728408
+        },
+        "sau-cach-mang": {
+          "units": 16,
+          "chars": 310513
+        }
+      },
+      "extractor": "src.ingestion.normalize_markdown / load_markdown_corpus",
+      "filter_field": {
+        "name": "period",
+        "values": [
+          "truoc-cach-mang",
+          "sau-cach-mang"
+        ],
+        "source": "folder name in the repository (before / after the August Revolution)"
+      },
+      "units": [
+        {
+          "unit": 1,
+          "page_id": "namcao-u01",
+          "unit_id": "ba-nguoi-ban",
+          "file": "truoc-cach-mang/ba-nguoi-ban.md",
+          "period": "truoc-cach-mang",
+          "title": "Ba người bạn",
+          "title_year_in_heading": null,
+          "chars": 32759,
+          "raw_lines": 519,
+          "file_sha256": "17a5f85ee6e92e6198d2ca78f54cccfa954acdc1df878dd61b94e23247c914e8",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 2,
+          "page_id": "namcao-u02",
+          "unit_id": "bai-hoc-quet-nha",
+          "file": "truoc-cach-mang/bai-hoc-quet-nha.md",
+          "period": "truoc-cach-mang",
+          "title": "Bài học quét nhà",
+          "title_year_in_heading": null,
+          "chars": 12468,
+          "raw_lines": 121,
+          "file_sha256": "e4679a18c30c8f2ea375108dd2812ed557634ea9ac7701ebea3011e10efe3984",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 1
+          }
+        },
+        {
+          "unit": 3,
+          "page_id": "namcao-u03",
+          "unit_id": "cai-chet-cua-con-muc",
+          "file": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+          "period": "truoc-cach-mang",
+          "title": "Cái chết của con Mực",
+          "title_year_in_heading": null,
+          "chars": 6937,
+          "raw_lines": 47,
+          "file_sha256": "0e8c56f5b6b94a12e389a2e1bc9bcf0cbf1c242a1ff576ff2efd286f194050ff",
+          "removed_lines": {
+            "title_line": 1,
+            "html_tag": 2
+          }
+        },
+        {
+          "unit": 4,
+          "page_id": "namcao-u04",
+          "unit_id": "cai-mat-khong-choi-duoc",
+          "file": "truoc-cach-mang/cai-mat-khong-choi-duoc.md",
+          "period": "truoc-cach-mang",
+          "title": "Cái mặt không chơi được",
+          "title_year_in_heading": null,
+          "chars": 14363,
+          "raw_lines": 159,
+          "file_sha256": "3854189e94715072f35ed88fa01470536e8315dc226c3d35b88bf63a9cf9f330",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 5,
+          "page_id": "namcao-u05",
+          "unit_id": "chuyen-buon-giua-dem-vui",
+          "file": "truoc-cach-mang/chuyen-buon-giua-dem-vui.md",
+          "period": "truoc-cach-mang",
+          "title": "Chuyện buồn giữa đêm vui",
+          "title_year_in_heading": null,
+          "chars": 10059,
+          "raw_lines": 95,
+          "file_sha256": "3c297718c8e13a478dc86709afc661ef7a64c4af2515ac9bbdd5bc71f7149b82",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 6,
+          "page_id": "namcao-u06",
+          "unit_id": "con-meo-mat-ngoc",
+          "file": "truoc-cach-mang/con-meo-mat-ngoc.md",
+          "period": "truoc-cach-mang",
+          "title": "Con mèo mắt ngọc",
+          "title_year_in_heading": null,
+          "chars": 34149,
+          "raw_lines": 337,
+          "file_sha256": "4c9413974f0e802a2419c49b9bf3c8e3422e141dd6b9549674722c3dcbd30461",
+          "removed_lines": {
+            "title_line": 1,
+            "image": 7,
+            "rule": 10
+          }
+        },
+        {
+          "unit": 7,
+          "page_id": "namcao-u07",
+          "unit_id": "con-meo",
+          "file": "truoc-cach-mang/con-meo.md",
+          "period": "truoc-cach-mang",
+          "title": "Con mèo",
+          "title_year_in_heading": null,
+          "chars": 6274,
+          "raw_lines": 101,
+          "file_sha256": "1e59191d03fff934590f657853c63604ef11137580efe2f94d5bc549ef58c8af",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 8,
+          "page_id": "namcao-u08",
+          "unit_id": "cuoi",
+          "file": "truoc-cach-mang/cuoi.md",
+          "period": "truoc-cach-mang",
+          "title": "Cười",
+          "title_year_in_heading": null,
+          "chars": 12241,
+          "raw_lines": 113,
+          "file_sha256": "1dbd280199d450a601fcdb705509e9506cda298880ce162a51d9da5226bd5540",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 9,
+          "page_id": "namcao-u09",
+          "unit_id": "di-hao",
+          "file": "truoc-cach-mang/di-hao.md",
+          "period": "truoc-cach-mang",
+          "title": "Dì Hảo",
+          "title_year_in_heading": null,
+          "chars": 15106,
+          "raw_lines": 65,
+          "file_sha256": "cdbe84d6d62cc135f874ec853d134e10b0fb09a1f3a9442c3f0a8ef1d16d5af0",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 10,
+          "page_id": "namcao-u10",
+          "unit_id": "dieu-van",
+          "file": "truoc-cach-mang/dieu-van.md",
+          "period": "truoc-cach-mang",
+          "title": "Điếu văn",
+          "title_year_in_heading": null,
+          "chars": 15821,
+          "raw_lines": 83,
+          "file_sha256": "7c37fcf39251511900366428f55cae93213ac4808cf66e162934cfc1e38f943f",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 11,
+          "page_id": "namcao-u11",
+          "unit_id": "doi-mong-gio",
+          "file": "truoc-cach-mang/doi-mong-gio.md",
+          "period": "truoc-cach-mang",
+          "title": "Đôi móng giò",
+          "title_year_in_heading": null,
+          "chars": 9997,
+          "raw_lines": 65,
+          "file_sha256": "5a9eccb38fd512548064ea43de7f82e3b5330cca4c52c04ad938ec011962d551",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 12,
+          "page_id": "namcao-u12",
+          "unit_id": "don-chong",
+          "file": "truoc-cach-mang/don-chong.md",
+          "period": "truoc-cach-mang",
+          "title": "Đòn chồng",
+          "title_year_in_heading": null,
+          "chars": 8233,
+          "raw_lines": 63,
+          "file_sha256": "ed851f2652ab5cf158fafe4240f20fc7d5ffa365024f2ab639eb10c7526caa18",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 13,
+          "page_id": "namcao-u13",
+          "unit_id": "don-khach",
+          "file": "truoc-cach-mang/don-khach.md",
+          "period": "truoc-cach-mang",
+          "title": "Đón khách",
+          "title_year_in_heading": null,
+          "chars": 13358,
+          "raw_lines": 225,
+          "file_sha256": "076c8e615acb08c43b53c0733ef89efe976eeb5aad93f3d3a4703b6d0d98035a",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 1
+          }
+        },
+        {
+          "unit": 14,
+          "page_id": "namcao-u14",
+          "unit_id": "dui-mu",
+          "file": "truoc-cach-mang/dui-mu.md",
+          "period": "truoc-cach-mang",
+          "title": "Đui mù",
+          "title_year_in_heading": null,
+          "chars": 8408,
+          "raw_lines": 51,
+          "file_sha256": "fa639a55dbb3cf463f15718408f6efc03b0319f17ea5845bdb36895aed1cd8a6",
+          "removed_lines": {
+            "title_line": 1,
+            "html_tag": 2
+          }
+        },
+        {
+          "unit": 15,
+          "page_id": "namcao-u15",
+          "unit_id": "giang-sang",
+          "file": "truoc-cach-mang/giang-sang.md",
+          "period": "truoc-cach-mang",
+          "title": "Giăng sáng",
+          "title_year_in_heading": null,
+          "chars": 15960,
+          "raw_lines": 73,
+          "file_sha256": "0aa641ee6748f63618fb39cc43e971fb607c83c88d106616040c4741165510f3",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 16,
+          "page_id": "namcao-u16",
+          "unit_id": "lam-to",
+          "file": "truoc-cach-mang/lam-to.md",
+          "period": "truoc-cach-mang",
+          "title": "Làm tổ",
+          "title_year_in_heading": null,
+          "chars": 15261,
+          "raw_lines": 117,
+          "file_sha256": "d03f3d8b9e16f1c211615db7e9284f893cfcfd844d180dac9f8cc8d61e7f9f9d",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 17,
+          "page_id": "namcao-u17",
+          "unit_id": "lang-ran",
+          "file": "truoc-cach-mang/lang-ran.md",
+          "period": "truoc-cach-mang",
+          "title": "Lang Rận",
+          "title_year_in_heading": null,
+          "chars": 18332,
+          "raw_lines": 197,
+          "file_sha256": "d9195f212e78486e369f20ae96ae4eef870dedd2be7b0a2a292cf15ee9d6c47e",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 18,
+          "page_id": "namcao-u18",
+          "unit_id": "lao-hac",
+          "file": "truoc-cach-mang/lao-hac.md",
+          "period": "truoc-cach-mang",
+          "title": "Lão Hạc",
+          "title_year_in_heading": "1943",
+          "chars": 16062,
+          "raw_lines": 165,
+          "file_sha256": "6fac41575df033c1bafbe5c17881a60e84c3cf95774ffdb049680304b0595569",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 19,
+          "page_id": "namcao-u19",
+          "unit_id": "mot-bua-no",
+          "file": "truoc-cach-mang/mot-bua-no.md",
+          "period": "truoc-cach-mang",
+          "title": "Một bữa no",
+          "title_year_in_heading": null,
+          "chars": 15852,
+          "raw_lines": 139,
+          "file_sha256": "17feafe261c83abd9f5b2ed7fa4cb4b14d9f74430424754c4718247d417104c6",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 20,
+          "page_id": "namcao-u20",
+          "unit_id": "mot-dam-cuoi",
+          "file": "truoc-cach-mang/mot-dam-cuoi.md",
+          "period": "truoc-cach-mang",
+          "title": "Một đám cưới",
+          "title_year_in_heading": null,
+          "chars": 24907,
+          "raw_lines": 197,
+          "file_sha256": "aeea850e06f04e5b6b4b3d39d0ae7358ec4a2b6325bdc4c79f3710b324ecf2e1",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 21,
+          "page_id": "namcao-u21",
+          "unit_id": "mot-truyen-xuvonia",
+          "file": "truoc-cach-mang/mot-truyen-xuvonia.md",
+          "period": "truoc-cach-mang",
+          "title": "Một truyện xu-vơ-nia",
+          "title_year_in_heading": null,
+          "chars": 14654,
+          "raw_lines": 157,
+          "file_sha256": "5af43bebbe2529b14e03c5cad0cdb6a1a9aa62a90409db84ed36adda590c54bc",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 22,
+          "page_id": "namcao-u22",
+          "unit_id": "mua-danh",
+          "file": "truoc-cach-mang/mua-danh.md",
+          "period": "truoc-cach-mang",
+          "title": "Mua danh",
+          "title_year_in_heading": null,
+          "chars": 12146,
+          "raw_lines": 125,
+          "file_sha256": "143ef58289e97d1ea527b92a5eb2737dc71fd097b895983b14432485a32daba7",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 23,
+          "page_id": "namcao-u23",
+          "unit_id": "mua-nha",
+          "file": "truoc-cach-mang/mua-nha.md",
+          "period": "truoc-cach-mang",
+          "title": "Mua nhà",
+          "title_year_in_heading": null,
+          "chars": 12661,
+          "raw_lines": 89,
+          "file_sha256": "e9f0695c24e96cf0bb8956b2935c84e0ef6a7c9d0fc3019bcde35e161cd49fbf",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 24,
+          "page_id": "namcao-u24",
+          "unit_id": "ngheo",
+          "file": "truoc-cach-mang/ngheo.md",
+          "period": "truoc-cach-mang",
+          "title": "Nghèo",
+          "title_year_in_heading": null,
+          "chars": 7183,
+          "raw_lines": 151,
+          "file_sha256": "642c5960bcee2d2f32f34f87f35fb6dfba1d0e3ec9b4a489db3ca7420e13d41d",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 25,
+          "page_id": "namcao-u25",
+          "unit_id": "nhin-nguoi-ta-sung-suong",
+          "file": "truoc-cach-mang/nhin-nguoi-ta-sung-suong.md",
+          "period": "truoc-cach-mang",
+          "title": "Nhìn người ta sung sướng",
+          "title_year_in_heading": null,
+          "chars": 11883,
+          "raw_lines": 109,
+          "file_sha256": "3509a0b2737811b6728be10d4da03586478691940386494d525bd7f991365a02",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 1
+          }
+        },
+        {
+          "unit": 26,
+          "page_id": "namcao-u26",
+          "unit_id": "nho-nhen",
+          "file": "truoc-cach-mang/nho-nhen.md",
+          "period": "truoc-cach-mang",
+          "title": "Nhỏ nhen",
+          "title_year_in_heading": null,
+          "chars": 13680,
+          "raw_lines": 139,
+          "file_sha256": "9a584c90cee660bf8f8e46f47c3584ddee00ce201a36780c6900e32956a244e7",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 27,
+          "page_id": "namcao-u27",
+          "unit_id": "nhung-chuyen-khong-muon-viet",
+          "file": "truoc-cach-mang/nhung-chuyen-khong-muon-viet.md",
+          "period": "truoc-cach-mang",
+          "title": "Những chuyện không muốn viết",
+          "title_year_in_heading": null,
+          "chars": 8975,
+          "raw_lines": 79,
+          "file_sha256": "4100d2388ba55369441f1628ddf52a59bd842da244fff957e26f4b75bcfa0dde",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 28,
+          "page_id": "namcao-u28",
+          "unit_id": "nhung-tre-khon-nan",
+          "file": "truoc-cach-mang/nhung-tre-khon-nan.md",
+          "period": "truoc-cach-mang",
+          "title": "Những trẻ khốn nạn",
+          "title_year_in_heading": null,
+          "chars": 57296,
+          "raw_lines": 1106,
+          "file_sha256": "6e460b0930e784c457f99355f1ed781c6ec54231a357fe2229fdb17eeb7dd679",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 29,
+          "page_id": "namcao-u29",
+          "unit_id": "nu-cuoi",
+          "file": "truoc-cach-mang/nu-cuoi.md",
+          "period": "truoc-cach-mang",
+          "title": "Nụ cười",
+          "title_year_in_heading": null,
+          "chars": 30864,
+          "raw_lines": 472,
+          "file_sha256": "9cbd335473fb552c6711923ede1abb5696ac3afa4edd110e39ece662f53db697",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 30,
+          "page_id": "namcao-u30",
+          "unit_id": "nua-dem",
+          "file": "truoc-cach-mang/nua-dem.md",
+          "period": "truoc-cach-mang",
+          "title": "Nửa đêm",
+          "title_year_in_heading": null,
+          "chars": 55380,
+          "raw_lines": 435,
+          "file_sha256": "8099e5f52e9a072c1f2a9b4125f4af5d78d82b30879eec66a33d9627a1f447dc",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 31,
+          "page_id": "namcao-u31",
+          "unit_id": "nuoc-mat",
+          "file": "truoc-cach-mang/nuoc-mat.md",
+          "period": "truoc-cach-mang",
+          "title": "Nước mắt",
+          "title_year_in_heading": null,
+          "chars": 19043,
+          "raw_lines": 209,
+          "file_sha256": "b01af7984197c0aa53c78f3c1e135996a0250ecdbc6c4e248aefde61e46e0922",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 1
+          }
+        },
+        {
+          "unit": 32,
+          "page_id": "namcao-u32",
+          "unit_id": "o-hien",
+          "file": "truoc-cach-mang/o-hien.md",
+          "period": "truoc-cach-mang",
+          "title": "Ở hiền",
+          "title_year_in_heading": null,
+          "chars": 18236,
+          "raw_lines": 57,
+          "file_sha256": "7fcf0d76d32200b40acee0e5f5b3e9f13a44d49fdf1c2bb14a48f61b6dbc5de7",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 33,
+          "page_id": "namcao-u33",
+          "unit_id": "quai-di",
+          "file": "truoc-cach-mang/quai-di.md",
+          "period": "truoc-cach-mang",
+          "title": "Quái dị",
+          "title_year_in_heading": null,
+          "chars": 13216,
+          "raw_lines": 189,
+          "file_sha256": "3d2f6bf9b44312b343722c323d638f0df3df1ba60f3ca8f9cd558a870e21fb76",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 34,
+          "page_id": "namcao-u34",
+          "unit_id": "quen-dieu-do",
+          "file": "truoc-cach-mang/quen-dieu-do.md",
+          "period": "truoc-cach-mang",
+          "title": "Quên điều độ",
+          "title_year_in_heading": null,
+          "chars": 14500,
+          "raw_lines": 221,
+          "file_sha256": "c9aa715f43940a2a7b5ce88b2b4a88f7c8cb432ab752c3104e55ee94e7533d9d",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 3
+          }
+        },
+        {
+          "unit": 35,
+          "page_id": "namcao-u35",
+          "unit_id": "rinh-trom",
+          "file": "truoc-cach-mang/rinh-trom.md",
+          "period": "truoc-cach-mang",
+          "title": "Rình trộm",
+          "title_year_in_heading": null,
+          "chars": 30124,
+          "raw_lines": 251,
+          "file_sha256": "67fadd209ca965be03529a4ac395a88ef0b4e31c95a8ccf9ec7f2d4ad729cbff",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 36,
+          "page_id": "namcao-u36",
+          "unit_id": "rua-hon",
+          "file": "truoc-cach-mang/rua-hon.md",
+          "period": "truoc-cach-mang",
+          "title": "Rửa hờn",
+          "title_year_in_heading": null,
+          "chars": 9556,
+          "raw_lines": 87,
+          "file_sha256": "999571d58efd4c26574e5a36b1ece2be78dad5f966fb92d16c636b9ef19273c9",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 37,
+          "page_id": "namcao-u37",
+          "unit_id": "sao-lai-the-nay",
+          "file": "truoc-cach-mang/sao-lai-the-nay.md",
+          "period": "truoc-cach-mang",
+          "title": "Sao lại thế này?",
+          "title_year_in_heading": null,
+          "chars": 11702,
+          "raw_lines": 81,
+          "file_sha256": "633087b3b47d82f91a72f423ea1e929f0b146b28f24e78cdee4bad3db49893ee",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 1
+          }
+        },
+        {
+          "unit": 38,
+          "page_id": "namcao-u38",
+          "unit_id": "thoi-di-ve",
+          "file": "truoc-cach-mang/thoi-di-ve.md",
+          "period": "truoc-cach-mang",
+          "title": "Thôi, đi về",
+          "title_year_in_heading": null,
+          "chars": 11425,
+          "raw_lines": 135,
+          "file_sha256": "8a3d606775143484d1571b8820540a584acb686571252bad78ba5a64e3bd2fd0",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 39,
+          "page_id": "namcao-u39",
+          "unit_id": "tre-con-khong-duoc-an-thit-cho",
+          "file": "truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md",
+          "period": "truoc-cach-mang",
+          "title": "Trẻ con không được ăn thịt chó",
+          "title_year_in_heading": null,
+          "chars": 19101,
+          "raw_lines": 183,
+          "file_sha256": "5ed2b1c44eecb87b132b5861cc758140b8c3dc563a26aca5669d02087b51f817",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 1
+          }
+        },
+        {
+          "unit": 40,
+          "page_id": "namcao-u40",
+          "unit_id": "truyen-tinh",
+          "file": "truoc-cach-mang/truyen-tinh.md",
+          "period": "truoc-cach-mang",
+          "title": "Truyện tình",
+          "title_year_in_heading": null,
+          "chars": 12513,
+          "raw_lines": 151,
+          "file_sha256": "a2cebd97ee998b0c3551a5e6710afbd6e1cbfb81eed03273fac2223799ff78a0",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 41,
+          "page_id": "namcao-u41",
+          "unit_id": "tu-cach-mo",
+          "file": "truoc-cach-mang/tu-cach-mo.md",
+          "period": "truoc-cach-mang",
+          "title": "Tư cách mõ",
+          "title_year_in_heading": null,
+          "chars": 11904,
+          "raw_lines": 71,
+          "file_sha256": "b0eb6cb6afdf2725405af34cb315a3725942f996d73ad627110811a3896f74d9",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 42,
+          "page_id": "namcao-u42",
+          "unit_id": "tu-ngay-me-chet",
+          "file": "truoc-cach-mang/tu-ngay-me-chet.md",
+          "period": "truoc-cach-mang",
+          "title": "Từ ngày mẹ chết",
+          "title_year_in_heading": null,
+          "chars": 13872,
+          "raw_lines": 147,
+          "file_sha256": "615037227dd023fdbbd1501d2d46e6abf1f40530f46ebfefcf9d3e68782e807d",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 4
+          }
+        },
+        {
+          "unit": 43,
+          "page_id": "namcao-u43",
+          "unit_id": "xem-boi",
+          "file": "truoc-cach-mang/xem-boi.md",
+          "period": "truoc-cach-mang",
+          "title": "Xem bói",
+          "title_year_in_heading": null,
+          "chars": 11947,
+          "raw_lines": 87,
+          "file_sha256": "5f63f9edc34930a6ae20cc5f0717612927abaf57cd5c4cbd09d10243b8ba6d56",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 44,
+          "page_id": "namcao-u44",
+          "unit_id": "bon-cay-so-cach-mot-can-cu-dich",
+          "file": "sau-cach-mang/bon-cay-so-cach-mot-can-cu-dich.md",
+          "period": "sau-cach-mang",
+          "title": "Bốn cây số cách một căn cứ địch",
+          "title_year_in_heading": null,
+          "chars": 15842,
+          "raw_lines": 173,
+          "file_sha256": "9b6da114eb3f6375f650cfe8000578c9d1d79fa69b3ba94a92f3e9b9d0f38280",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 45,
+          "page_id": "namcao-u45",
+          "unit_id": "dinh-muc",
+          "file": "sau-cach-mang/dinh-muc.md",
+          "period": "sau-cach-mang",
+          "title": "Định mức",
+          "title_year_in_heading": null,
+          "chars": 24644,
+          "raw_lines": 241,
+          "file_sha256": "72fa8e1b1beda698dc06ab64916e81f98bc1256335548c15b9fa3c66147fd928",
+          "removed_lines": {
+            "title_line": 1,
+            "footnote_definition": 1
+          }
+        },
+        {
+          "unit": 46,
+          "page_id": "namcao-u46",
+          "unit_id": "doi-cho",
+          "file": "sau-cach-mang/doi-cho.md",
+          "period": "sau-cach-mang",
+          "title": "Đợi chờ",
+          "title_year_in_heading": null,
+          "chars": 11795,
+          "raw_lines": 147,
+          "file_sha256": "9a2550f2897d0cdb86f90f51269e53ca4e1034b29260478732661f2ba11c85ab",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 47,
+          "page_id": "namcao-u47",
+          "unit_id": "doi-mat",
+          "file": "sau-cach-mang/doi-mat.md",
+          "period": "sau-cach-mang",
+          "title": "Đôi mắt",
+          "title_year_in_heading": null,
+          "chars": 24393,
+          "raw_lines": 225,
+          "file_sha256": "00b911be7948390b52a924edbc97b85bfa15a4eb51ef194dcc5f93e9c858806f",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 48,
+          "page_id": "namcao-u48",
+          "unit_id": "duong-vo-nam",
+          "file": "sau-cach-mang/duong-vo-nam.md",
+          "period": "sau-cach-mang",
+          "title": "Đường vô Nam",
+          "title_year_in_heading": null,
+          "chars": 13075,
+          "raw_lines": 75,
+          "file_sha256": "0cee00f0ac731841d8a7fd07c4e87854f522aa52151c4350930f08711f39732d",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 49,
+          "page_id": "namcao-u49",
+          "unit_id": "hoi-nghi-noi-thang",
+          "file": "sau-cach-mang/hoi-nghi-noi-thang.md",
+          "period": "sau-cach-mang",
+          "title": "Hội nghị nói thẳng",
+          "title_year_in_heading": null,
+          "chars": 12689,
+          "raw_lines": 197,
+          "file_sha256": "102fcf4a62b9ef4ee475f5152525c44dc3aecb52063745bffbd490d434ae5f7f",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 50,
+          "page_id": "namcao-u50",
+          "unit_id": "mo-sam-banh",
+          "file": "sau-cach-mang/mo-sam-banh.md",
+          "period": "sau-cach-mang",
+          "title": "Mò sâm banh",
+          "title_year_in_heading": null,
+          "chars": 9832,
+          "raw_lines": 175,
+          "file_sha256": "9f7f931440cf04ff6596617bd14b1b6a1ce0a24302f03bddfe34f7fda45e9a1b",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 51,
+          "page_id": "namcao-u51",
+          "unit_id": "nam-anh-hang-thit",
+          "file": "sau-cach-mang/nam-anh-hang-thit.md",
+          "period": "sau-cach-mang",
+          "title": "Năm anh hàng thịt",
+          "title_year_in_heading": null,
+          "chars": 10720,
+          "raw_lines": 221,
+          "file_sha256": "d6e3072d2d188c5bcf1bf9288c9e02d730fd0649fe0ad4880a12beaad9a13221",
+          "removed_lines": {
+            "title_line": 1,
+            "rule": 3
+          }
+        },
+        {
+          "unit": 52,
+          "page_id": "namcao-u52",
+          "unit_id": "nhung-ban-tay-dep-ay",
+          "file": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+          "period": "sau-cach-mang",
+          "title": "Những bàn tay đẹp ấy",
+          "title_year_in_heading": null,
+          "chars": 10695,
+          "raw_lines": 99,
+          "file_sha256": "5d6a4814f329c6c9a704ea3dbfed43b84ed21e424838f94941a839a3243f78ee",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 53,
+          "page_id": "namcao-u53",
+          "unit_id": "noi-truan-chuyen-cua-khach-ma-hong",
+          "file": "sau-cach-mang/noi-truan-chuyen-cua-khach-ma-hong.md",
+          "period": "sau-cach-mang",
+          "title": "Nỗi truân chuyên của khách má hồng",
+          "title_year_in_heading": null,
+          "chars": 13157,
+          "raw_lines": 247,
+          "file_sha256": "2a691100ac5104df117bf66f199125c576252ed2c0e60ba4af8112d0d4cf61b9",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 54,
+          "page_id": "namcao-u54",
+          "unit_id": "o-rung",
+          "file": "sau-cach-mang/o-rung.md",
+          "period": "sau-cach-mang",
+          "title": "Ở rừng (Nhật ký)",
+          "title_year_in_heading": null,
+          "chars": 63506,
+          "raw_lines": 529,
+          "file_sha256": "01cedaee0c815502ec8bc399d9f475ffadde7c8052d804304c4e26e9d41063c1",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 55,
+          "page_id": "namcao-u55",
+          "unit_id": "tran-cu",
+          "file": "sau-cach-mang/tran-cu.md",
+          "period": "sau-cach-mang",
+          "title": "Trần Cừ",
+          "title_year_in_heading": null,
+          "chars": 12054,
+          "raw_lines": 153,
+          "file_sha256": "8949c3d0f3e13de9ec66432071adb22d6565ae570f37c6c6d3307b77b64041e0",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 56,
+          "page_id": "namcao-u56",
+          "unit_id": "tren-nhung-con-duong-viet-bac",
+          "file": "sau-cach-mang/tren-nhung-con-duong-viet-bac.md",
+          "period": "sau-cach-mang",
+          "title": "Trên những con đường Việt Bắc",
+          "title_year_in_heading": null,
+          "chars": 15944,
+          "raw_lines": 99,
+          "file_sha256": "76785e68a201fd2c4f84a5bbbaa8ed0c731c2d46d46e20207cea9be259d0e906",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 57,
+          "page_id": "namcao-u57",
+          "unit_id": "tu-nguoc-ve-xuoi",
+          "file": "sau-cach-mang/tu-nguoc-ve-xuoi.md",
+          "period": "sau-cach-mang",
+          "title": "Từ ngược về xuôi",
+          "title_year_in_heading": null,
+          "chars": 12873,
+          "raw_lines": 115,
+          "file_sha256": "e80ace17b1ffb443ada9a0a4b6446862334e17ef755898154a7865951b2caa8a",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 58,
+          "page_id": "namcao-u58",
+          "unit_id": "vai-net-ghi-qua-vung-vua-giai-phong",
+          "file": "sau-cach-mang/vai-net-ghi-qua-vung-vua-giai-phong.md",
+          "period": "sau-cach-mang",
+          "title": "Vài nét ghi qua vùng vừa giải phóng",
+          "title_year_in_heading": null,
+          "chars": 43458,
+          "raw_lines": 315,
+          "file_sha256": "fb35e84f8a2efa60c9082575fee1ff5b4f9ca7dfb6edb61231f658ba212a643c",
+          "removed_lines": {
+            "title_line": 1
+          }
+        },
+        {
+          "unit": 59,
+          "page_id": "namcao-u59",
+          "unit_id": "vui-dan-cong",
+          "file": "sau-cach-mang/vui-dan-cong.md",
+          "period": "sau-cach-mang",
+          "title": "Vui dân công",
+          "title_year_in_heading": null,
+          "chars": 15836,
+          "raw_lines": 111,
+          "file_sha256": "05ca673da44b6d65f0b6f034aa63eea601968499ccfaeca02b3149d92fb66230",
+          "removed_lines": {
+            "title_line": 1
+          }
+        }
+      ],
+      "issues": [
+        {
+          "unit": 28,
+          "file": "truoc-cach-mang/nhung-tre-khon-nan.md",
+          "event": "markdown_marker_left",
+          "detail": "a stray Markdown character remains in the source text; not guessed or edited"
+        }
+      ]
+    }
+  ]
+}

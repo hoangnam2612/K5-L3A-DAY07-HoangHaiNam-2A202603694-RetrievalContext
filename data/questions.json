@@ -1,0 +1,497 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Nguyên nhân của cuộc cãi vã giữa vợ chồng anh cu là gì?",
+    "expected_answer": "Con mèo, cộng với cái nóng bức của trời.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 7,
+        "evidence": "Đầu đuôi tại con mèo. Nhưng cũng tại trời bức nữa. Bức không chịu được."
+      }
+    ],
+    "origin": "day6:d01"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Khi anh cu hất đổ mâm cơm, chị cu kể lể rằng ngồi trên khung cửi từ sáng đến giờ mới kiếm được bao nhiêu?",
+    "expected_answer": "Chừng một đồng hào.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 7,
+        "evidence": "Từ sáng đến giờ, tao ngồi trầy trầy trên khung cửi, mới được chừng một đồng hào"
+      }
+    ],
+    "origin": "day6:d02"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Cả mâm cơm tối nhà anh cu chỉ có món gì ăn kèm?",
+    "expected_answer": "Một bát muối vừng.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 7,
+        "evidence": "Cả mâm có một bát muối vừng."
+      }
+    ],
+    "origin": "day6:d03"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Khi chị cu nhấc niêu cơm lên xem thì còn lại bao nhiêu hạt cơm?",
+    "expected_answer": "Ba hạt cơm.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 7,
+        "evidence": "Còn ba hột cơm ranh!"
+      }
+    ],
+    "origin": "day6:d04"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Người ta định giết con Mực lần đầu vào dịp nào, và vì sao nó thoát nạn?",
+    "expected_answer": "Dịp Thanh Minh; nó thoát vì hôm ấy bà chủ nhà bị ốm.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 3,
+        "evidence": "Thoạt tiên người ta định ngày chết cho nó vào dịp Thanh Minh. May cho nó hôm ấy bà chủ nhà bị ốm."
+      }
+    ],
+    "origin": "day6:d05"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tật xấu nào của con Mực khiến người trong nhà không thể tha thứ được?",
+    "expected_answer": "Nó sủa như một con gà gáy.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 3,
+        "evidence": "Nhưng nó lại sủa như một con gà gáy: cái này thì không thể nào tha thứ được."
+      }
+    ],
+    "origin": "day6:d06"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Lần cuối cùng con Mực thoát nạn là nhờ ai, và người đó đã báo tin gì?",
+    "expected_answer": "Nhờ Du, người con cả vừa viết thư báo sắp về.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 3,
+        "evidence": "Nhưng lần nầy Mực vẫn còn thoát nạn là vì nhờ có Du. Người con cả xa xôi ấy vừa viết thư báo chẳng bao lâu sẽ về."
+      }
+    ],
+    "origin": "day6:d07"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người nhà dùng vật gì úp lên con Mực khi nó đang ăn cơm để bắt nó?",
+    "expected_answer": "Cái thúng.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 3,
+        "evidence": "Miếng chưa qua cổ thì cái thúng đã chụp quanh trên mình."
+      }
+    ],
+    "origin": "day6:d08"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Chị hàng bánh dầy tố cáo vợ Lúng đã làm gì với số bánh để chỉ phải trả một xu?",
+    "expected_answer": "Chập hai tấm bánh vào làm một.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 12,
+        "evidence": "Tôi biết chị ta chập hai tấm vào làm một, nhưng tôi lờ đi, để rồi xem chị ta làm ăn thế nào."
+      }
+    ],
+    "origin": "day6:d09"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Vợ Lúng đi dệt cửi thuê mỗi ngày được bao nhiêu tiền, và người chồng lấy đi bao nhiêu?",
+    "expected_answer": "Được một hào và chồng lấy cả một hào.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 12,
+        "evidence": "Đi dệt cửi thuê cho người ta ngày được một hào thì chồng lấy cả một hào"
+      }
+    ],
+    "origin": "day6:d10"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Lúng đã mua những thứ gì để uống rượu trước khi trừng phạt vợ?",
+    "expected_answer": "Cả chai rượu và một cái đùi vịt hai hào.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 12,
+        "evidence": "Cháo bắc lên bếp rồi, hắn chạy đi mua rượu. Cả chai. Với một cái đùi vịt hai hào nữa."
+      }
+    ],
+    "origin": "day6:d11"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ngoài chiếc roi mây, Lúng còn đi tìm hai thứ gì nữa để trói vợ?",
+    "expected_answer": "Cái đòn gánh và sợi dây thừng.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 12,
+        "evidence": "Còn phải đi tìm cái đòn gánh và sợi dây thừng nữa."
+      }
+    ],
+    "origin": "day6:d12",
+    "filter": {
+      "period": "truoc-cach-mang"
+    }
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hùng cho bạn biết mình đã bỏ Nga từ bao giờ?",
+    "expected_answer": "Từ năm tháng trước.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 14,
+        "evidence": "Tôi bỏ Nga từ năm tháng trước kia rồi!"
+      }
+    ],
+    "origin": "day6:d13"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người kể chuyện thuê chỗ trọ ở xóm lao động Thị Nghè với giá bao nhiêu một tháng?",
+    "expected_answer": "Năm đồng một tháng.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 14,
+        "evidence": "với cái giá tiền năm đồng một tháng"
+      }
+    ],
+    "origin": "day6:d14"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Người kể chuyện nhìn qua khe ván nhà bên cạnh và thấy điều gì khiến ông run lên?",
+    "expected_answer": "Người vợ của người lính đang nũng nịu trên giường, ôm cổ một chàng trai trẻ không phải là anh lính.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 14,
+        "evidence": "Người thiếu phụ có con mắt ngây thơ trong trẻo kia đang nũng nịu trên giường, cánh tay trần đu lấy cổ một chàng trai trẻ mà tôi nhận ra không phải là anh lính."
+      }
+    ],
+    "origin": "day6:d15"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Vì sao Tảo xộc vào nhà Bình trong cơn giận dữ?",
+    "expected_answer": "Vì vẫn còn người lén đem thịt bán cho bọn Pháp.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 51,
+        "evidence": "Vẫn còn có đứa lẻn lút đem thịt bán cho bọn Pháp!"
+      }
+    ],
+    "origin": "day6:d16"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo Tảo, việc đem thịt bán cho quân Pháp là tội gì?",
+    "expected_answer": "Là bán nước, phản nước, cấp lương cho giặc.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 51,
+        "evidence": "cấp lương cho giặc! nuôi sống giặc! như vậy là bán nước, như vậy là phản nước"
+      }
+    ],
+    "origin": "day6:d17",
+    "filter": {
+      "period": "sau-cach-mang"
+    }
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Theo lời 'bà tiên' mà Bình nhắc, mỗi lần muốn giận thì nên làm gì để nguôi?",
+    "expected_answer": "Rót đầy ba chén nước, uống mỗi chén một hơi cho hết.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 51,
+        "evidence": "mỗi lần ta muốn giận, chỉ việc rót đầy ba chén nước, uống mỗi chén một hơi cho hết."
+      }
+    ],
+    "origin": "day6:d18"
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thứ mà chị Chuột nấu rồi bảo các con là chè thật ra là gì?",
+    "expected_answer": "Là cám.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 24,
+        "evidence": "Không phải chè, cám mà! Cám nấu mà bu bảo chè!"
+      }
+    ],
+    "origin": "day6:t01 (test cũ, đã bị xem -> chuyển sang dev)",
+    "filter": {
+      "period": "truoc-cach-mang"
+    }
+  },
+  {
+    "id": "d20",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Chị Chuột nói mình vừa bán những thứ gì, và được bao nhiêu tiền?",
+    "expected_answer": "Con chó mực và hai buồng chuối non, được bốn hào.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 24,
+        "evidence": "Tôi vừa bán con chó mực với hai buồng chuối non được bốn hào."
+      }
+    ],
+    "origin": "day6:t02 (test cũ, đã bị xem -> chuyển sang dev)"
+  },
+  {
+    "id": "d21",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Bác Tư làm rơi vật gì xuống bể nước khiến cậu con trai phải lội xuống tìm?",
+    "expected_answer": "Một chai sâm-banh.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 50,
+        "evidence": "Tao đánh rơi chai \"sâm-banh\" vào trong này rồi!"
+      }
+    ],
+    "origin": "day6:t03 (test cũ, đã bị xem -> chuyển sang dev)"
+  },
+  {
+    "id": "d22",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vợ bác bếp Tư đã mất được bao lâu?",
+    "expected_answer": "Đã ba năm.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 50,
+        "evidence": "vợ chết đã ba năm rồi mà nghĩ đến lúc nào bác ta vẫn còn thương"
+      }
+    ],
+    "origin": "day6:t04 (test cũ, đã bị xem -> chuyển sang dev)"
+  },
+  {
+    "id": "d23",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Chị tổ trưởng du kích cho biết bao nhiêu phần trong đội đã có chồng?",
+    "expected_answer": "Hai phần ba.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 52,
+        "evidence": "Hai phần ba chúng em đã có chồng, một vài người đã có con."
+      }
+    ],
+    "origin": "day6:t05 (test cũ, đã bị xem -> chuyển sang dev)"
+  },
+  {
+    "id": "d24",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "So với làm ruộng, các chị du kích thấy việc đi chiến đấu vất vả thế nào?",
+    "expected_answer": "Không vất vả bằng làm ruộng.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 52,
+        "evidence": "Chúng tôi không thấy vất vả bằng làm ruộng."
+      }
+    ],
+    "origin": "day6:t06 (test cũ, đã bị xem -> chuyển sang dev)"
+  },
+  {
+    "id": "tn01",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Để ông lý Nhưng làm ngơ việc vợ chồng nhà kia không có giấy giá thú, anh chồng phải biện cho ông bao nhiêu tiền?",
+    "expected_answer": "Hai chục bạc.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 36,
+        "evidence": "biện cho ông lý hai chục bạc"
+      }
+    ],
+    "origin": "new",
+    "filter": {
+      "period": "truoc-cach-mang"
+    }
+  },
+  {
+    "id": "tn02",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Ông khóa Mẫn phát đơn kiện lý trưởng tất cả bao nhiêu khoản?",
+    "expected_answer": "Mười tám khoản.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 36,
+        "evidence": "ông phát đơn kiện lý trưởng tất cả mười tám khoản"
+      }
+    ],
+    "origin": "new"
+  },
+  {
+    "id": "tn03",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Cuối cùng, ông lý Nhưng hả giận với ông khóa Mẫn bằng cách nào, ở đâu?",
+    "expected_answer": "Ra bãi tha ma, đái lên mộ bố ông khóa Mẫn.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 36,
+        "evidence": "Chính là mộ bố ông khóa Mẫn"
+      }
+    ],
+    "origin": "new"
+  },
+  {
+    "id": "tn04",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Chiếc áo ba-đơ-xuy mà Trạch Văn Đoành mặc suốt mùa đông mua hết bao nhiêu và mua vào dịp nào?",
+    "expected_answer": "Bảy mươi quan, mua hồi đi lính sang Tây.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 11,
+        "evidence": "Hắn mua hồi đi lính sang Tây. Có bảy mươi quan."
+      }
+    ],
+    "origin": "new"
+  },
+  {
+    "id": "tn05",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Hai cái móng giò bị mất trong ngày giã đám rốt cuộc ông Cửu Đoành đem cho ai?",
+    "expected_answer": "Cho anh kép và cô đào, mỗi người một cái.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 11,
+        "evidence": "Ông rút một tay áo ra, quẳng một cái móng giò cho anh kép."
+      }
+    ],
+    "origin": "new"
+  },
+  {
+    "id": "tn06",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Vì sao Liễu phải cuốc vườn đến khuya hơn những người khác trong làng?",
+    "expected_answer": "Vì chị có ba con nhỏ nên phải chạy giặc sớm hơn mọi người, ban ngày làm được ít, phải làm bù bằng cách làm khuya.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 46,
+        "evidence": "Liễu những ba con, cùng bé cả. Chị phải chạy sớm hơn mọi người."
+      }
+    ],
+    "origin": "new",
+    "filter": {
+      "period": "sau-cach-mang"
+    }
+  },
+  {
+    "id": "tn07",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Kiện hình dung sẽ xây gì ở chỗ giáp làng Sơn, và lợi ích ra sao?",
+    "expected_answer": "Xây một cái cổng, cứu được non một trăm mẫu ruộng.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 46,
+        "evidence": "Xây một cái cổng ở chỗ giáp làng Sơn, cứu được non một trăm mẫu ruộng"
+      }
+    ],
+    "origin": "new"
+  },
+  {
+    "id": "tn08",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Khi không còn ra chợ nữa, cô Hoàn nhận làm việc gì để kiếm thêm tiền?",
+    "expected_answer": "Nhận bế trẻ con thuê.",
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 5,
+        "evidence": "cô nhận bế trẻ con thuê"
+      }
+    ],
+    "origin": "new"
+  }
+]
