@@ -1,0 +1,87 @@
+[
+ {
+  "query_id": "tn01",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: hai chục bạc; chi tiết thêm có trong đoạn.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn02",
+  "citation_support": [],
+  "note": "Từ chối nhầm (3 lượt dense, evidence không vào context).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "tn03",
+  "citation_support": [
+   false
+  ],
+  "note": "Sai: kể cảnh ông khóa Mẫn sai đem cau mời lý cựu (và gán nhầm chủ thể), không nêu \"ra bãi tha ma, đái lên mộ bố ông khóa Mẫn\" (para-011 không vào context).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "tn04",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: bảy mươi quan, mua hồi đi lính sang Tây.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn05",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "tn06",
+  "citation_support": [
+   true
+  ],
+  "note": "Có lý do cốt lõi (ba con, phải chạy sớm hơn) nhưng viết sai \"chị không có con thơ\" (câu đó nói về những người khác).",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn07",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "tn08",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "tn09",
+  "citation_support": [
+   true
+  ],
+  "note": "Nội dung nói không có thông tin về số tiền phạt nhưng agent đặt enough_evidence=true (status answered) và mở đầu bằng \"bị phạt ba tháng tù án treo\".",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "tn10",
+  "citation_support": [],
+  "note": "Từ chối đúng.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "tn11",
+  "citation_support": [],
+  "note": "Từ chối đúng.",
+  "abstention_correct": true
+ }
+]

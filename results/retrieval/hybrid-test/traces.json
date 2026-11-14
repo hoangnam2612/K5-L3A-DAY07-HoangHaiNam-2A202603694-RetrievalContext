@@ -1,0 +1,726 @@
+[
+  {
+    "query_id": "tn01",
+    "question": "Để ông lý Nhưng làm ngơ việc vợ chồng nhà kia không có giấy giá thú, anh chồng phải biện cho ông bao nhiêu tiền?",
+    "method": "hybrid",
+    "filter": {
+      "period": "truoc-cach-mang"
+    },
+    "results": [
+      {
+        "id": "namcao-p036-para-001",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/rua-hon.md",
+        "page": 36,
+        "metadata": {
+          "file": "truoc-cach-mang/rua-hon.md",
+          "title": "Rửa hờn",
+          "period": "truoc-cach-mang",
+          "n_chars": 752,
+          "page_id": "namcao-u36",
+          "section": "Rửa hờn",
+          "unit_id": "rua-hon",
+          "chunking": "para",
+          "line_end": 5,
+          "line_start": 5,
+          "page_lines": 87,
+          "chunk_index": 1
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "namcao-p036-para-007",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/rua-hon.md",
+        "page": 36,
+        "metadata": {
+          "file": "truoc-cach-mang/rua-hon.md",
+          "title": "Rửa hờn",
+          "period": "truoc-cach-mang",
+          "n_chars": 950,
+          "page_id": "namcao-u36",
+          "section": "Rửa hờn",
+          "unit_id": "rua-hon",
+          "chunking": "para",
+          "line_end": 59,
+          "line_start": 53,
+          "page_lines": 87,
+          "chunk_index": 7
+        },
+        "score": 0.030158730158730156,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p032-para-020",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/o-hien.md",
+        "page": 32,
+        "metadata": {
+          "file": "truoc-cach-mang/o-hien.md",
+          "title": "Ở hiền",
+          "period": "truoc-cach-mang",
+          "n_chars": 985,
+          "page_id": "namcao-u32",
+          "section": "Ở hiền",
+          "unit_id": "o-hien",
+          "chunking": "para",
+          "line_end": 49,
+          "line_start": 49,
+          "page_lines": 57,
+          "chunk_index": 20
+        },
+        "score": 0.02862400327131466,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "elapsed_ms": 343.1108000004315,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 36,
+        "evidence": "biện cho ông lý hai chục bạc"
+      }
+    ]
+  },
+  {
+    "query_id": "tn02",
+    "question": "Ông khóa Mẫn phát đơn kiện lý trưởng tất cả bao nhiêu khoản?",
+    "method": "hybrid",
+    "filter": null,
+    "results": [
+      {
+        "id": "namcao-p036-para-007",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/rua-hon.md",
+        "page": 36,
+        "metadata": {
+          "file": "truoc-cach-mang/rua-hon.md",
+          "title": "Rửa hờn",
+          "period": "truoc-cach-mang",
+          "n_chars": 950,
+          "page_id": "namcao-u36",
+          "section": "Rửa hờn",
+          "unit_id": "rua-hon",
+          "chunking": "para",
+          "line_end": 59,
+          "line_start": 53,
+          "page_lines": 87,
+          "chunk_index": 7
+        },
+        "score": 0.029906956136464335,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "namcao-p022-para-010",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/mua-danh.md",
+        "page": 22,
+        "metadata": {
+          "file": "truoc-cach-mang/mua-danh.md",
+          "title": "Mua danh",
+          "period": "truoc-cach-mang",
+          "n_chars": 987,
+          "page_id": "namcao-u22",
+          "section": "Mua danh",
+          "unit_id": "mua-danh",
+          "chunking": "para",
+          "line_end": 93,
+          "line_start": 77,
+          "page_lines": 125,
+          "chunk_index": 10
+        },
+        "score": 0.02797339593114241,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p022-para-012",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/mua-danh.md",
+        "page": 22,
+        "metadata": {
+          "file": "truoc-cach-mang/mua-danh.md",
+          "title": "Mua danh",
+          "period": "truoc-cach-mang",
+          "n_chars": 839,
+          "page_id": "namcao-u22",
+          "section": "Mua danh",
+          "unit_id": "mua-danh",
+          "chunking": "para",
+          "line_end": 105,
+          "line_start": 103,
+          "page_lines": 125,
+          "chunk_index": 12
+        },
+        "score": 0.027884615384615386,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "elapsed_ms": 321.52810000116006,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 36,
+        "evidence": "ông phát đơn kiện lý trưởng tất cả mười tám khoản"
+      }
+    ]
+  },
+  {
+    "query_id": "tn03",
+    "question": "Cuối cùng, ông lý Nhưng hả giận với ông khóa Mẫn bằng cách nào, ở đâu?",
+    "method": "hybrid",
+    "filter": null,
+    "results": [
+      {
+        "id": "namcao-p036-para-008",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/rua-hon.md",
+        "page": 36,
+        "metadata": {
+          "file": "truoc-cach-mang/rua-hon.md",
+          "title": "Rửa hờn",
+          "period": "truoc-cach-mang",
+          "n_chars": 966,
+          "page_id": "namcao-u36",
+          "section": "Rửa hờn",
+          "unit_id": "rua-hon",
+          "chunking": "para",
+          "line_end": 65,
+          "line_start": 61,
+          "page_lines": 87,
+          "chunk_index": 8
+        },
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p036-para-003",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/rua-hon.md",
+        "page": 36,
+        "metadata": {
+          "file": "truoc-cach-mang/rua-hon.md",
+          "title": "Rửa hờn",
+          "period": "truoc-cach-mang",
+          "n_chars": 701,
+          "page_id": "namcao-u36",
+          "section": "Rửa hờn",
+          "unit_id": "rua-hon",
+          "chunking": "para",
+          "line_end": 27,
+          "line_start": 13,
+          "page_lines": 87,
+          "chunk_index": 3
+        },
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p036-para-009",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/rua-hon.md",
+        "page": 36,
+        "metadata": {
+          "file": "truoc-cach-mang/rua-hon.md",
+          "title": "Rửa hờn",
+          "period": "truoc-cach-mang",
+          "n_chars": 991,
+          "page_id": "namcao-u36",
+          "section": "Rửa hờn",
+          "unit_id": "rua-hon",
+          "chunking": "para",
+          "line_end": 69,
+          "line_start": 67,
+          "page_lines": 87,
+          "chunk_index": 9
+        },
+        "score": 0.03149801587301587,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "elapsed_ms": 281.2482999997883,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 36,
+        "evidence": "Chính là mộ bố ông khóa Mẫn"
+      }
+    ]
+  },
+  {
+    "query_id": "tn04",
+    "question": "Chiếc áo ba-đơ-xuy mà Trạch Văn Đoành mặc suốt mùa đông mua hết bao nhiêu và mua vào dịp nào?",
+    "method": "hybrid",
+    "filter": null,
+    "results": [
+      {
+        "id": "namcao-p011-para-003",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/doi-mong-gio.md",
+        "page": 11,
+        "metadata": {
+          "file": "truoc-cach-mang/doi-mong-gio.md",
+          "title": "Đôi móng giò",
+          "period": "truoc-cach-mang",
+          "n_chars": 993,
+          "page_id": "namcao-u11",
+          "section": "Đôi móng giò",
+          "unit_id": "doi-mong-gio",
+          "chunking": "para",
+          "line_end": 9,
+          "line_start": 9,
+          "page_lines": 65,
+          "chunk_index": 3
+        },
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "namcao-p011-para-004",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/doi-mong-gio.md",
+        "page": 11,
+        "metadata": {
+          "file": "truoc-cach-mang/doi-mong-gio.md",
+          "title": "Đôi móng giò",
+          "period": "truoc-cach-mang",
+          "n_chars": 479,
+          "page_id": "namcao-u11",
+          "section": "Đôi móng giò",
+          "unit_id": "doi-mong-gio",
+          "chunking": "para",
+          "line_end": 9,
+          "line_start": 9,
+          "page_lines": 65,
+          "chunk_index": 4
+        },
+        "score": 0.03252247488101534,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p045-para-002",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/dinh-muc.md",
+        "page": 45,
+        "metadata": {
+          "file": "sau-cach-mang/dinh-muc.md",
+          "title": "Định mức",
+          "period": "sau-cach-mang",
+          "n_chars": 975,
+          "page_id": "namcao-u45",
+          "section": "Định mức",
+          "unit_id": "dinh-muc",
+          "chunking": "para",
+          "line_end": 23,
+          "line_start": 17,
+          "page_lines": 241,
+          "chunk_index": 2
+        },
+        "score": 0.028665028665028666,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "elapsed_ms": 393.470699998943,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 11,
+        "evidence": "Hắn mua hồi đi lính sang Tây. Có bảy mươi quan."
+      }
+    ]
+  },
+  {
+    "query_id": "tn05",
+    "question": "Hai cái móng giò bị mất trong ngày giã đám rốt cuộc ông Cửu Đoành đem cho ai?",
+    "method": "hybrid",
+    "filter": null,
+    "results": [
+      {
+        "id": "namcao-p011-para-011",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/doi-mong-gio.md",
+        "page": 11,
+        "metadata": {
+          "file": "truoc-cach-mang/doi-mong-gio.md",
+          "title": "Đôi móng giò",
+          "period": "truoc-cach-mang",
+          "n_chars": 983,
+          "page_id": "namcao-u11",
+          "section": "Đôi móng giò",
+          "unit_id": "doi-mong-gio",
+          "chunking": "para",
+          "line_end": 43,
+          "line_start": 43,
+          "page_lines": 65,
+          "chunk_index": 11
+        },
+        "score": 0.03131881575727918,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p011-para-009",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/doi-mong-gio.md",
+        "page": 11,
+        "metadata": {
+          "file": "truoc-cach-mang/doi-mong-gio.md",
+          "title": "Đôi móng giò",
+          "period": "truoc-cach-mang",
+          "n_chars": 965,
+          "page_id": "namcao-u11",
+          "section": "Đôi móng giò",
+          "unit_id": "doi-mong-gio",
+          "chunking": "para",
+          "line_end": 29,
+          "line_start": 21,
+          "page_lines": 65,
+          "chunk_index": 9
+        },
+        "score": 0.031024531024531024,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p030-para-042",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/nua-dem.md",
+        "page": 30,
+        "metadata": {
+          "file": "truoc-cach-mang/nua-dem.md",
+          "title": "Nửa đêm",
+          "period": "truoc-cach-mang",
+          "n_chars": 842,
+          "page_id": "namcao-u30",
+          "section": "Nửa đêm",
+          "unit_id": "nua-dem",
+          "chunking": "para",
+          "line_end": 197,
+          "line_start": 193,
+          "page_lines": 435,
+          "chunk_index": 42
+        },
+        "score": 0.02900988017658188,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": false,
+    "hit3": false,
+    "elapsed_ms": 302.099200000157,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 11,
+        "evidence": "Ông rút một tay áo ra, quẳng một cái móng giò cho anh kép."
+      }
+    ]
+  },
+  {
+    "query_id": "tn06",
+    "question": "Vì sao Liễu phải cuốc vườn đến khuya hơn những người khác trong làng?",
+    "method": "hybrid",
+    "filter": {
+      "period": "sau-cach-mang"
+    },
+    "results": [
+      {
+        "id": "namcao-p046-para-003",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/doi-cho.md",
+        "page": 46,
+        "metadata": {
+          "file": "sau-cach-mang/doi-cho.md",
+          "title": "Đợi chờ",
+          "period": "sau-cach-mang",
+          "n_chars": 743,
+          "page_id": "namcao-u46",
+          "section": "Đợi chờ",
+          "unit_id": "doi-cho",
+          "chunking": "para",
+          "line_end": 9,
+          "line_start": 7,
+          "page_lines": 147,
+          "chunk_index": 3
+        },
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "namcao-p046-para-004",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/doi-cho.md",
+        "page": 46,
+        "metadata": {
+          "file": "sau-cach-mang/doi-cho.md",
+          "title": "Đợi chờ",
+          "period": "sau-cach-mang",
+          "n_chars": 844,
+          "page_id": "namcao-u46",
+          "section": "Đợi chờ",
+          "unit_id": "doi-cho",
+          "chunking": "para",
+          "line_end": 21,
+          "line_start": 11,
+          "page_lines": 147,
+          "chunk_index": 4
+        },
+        "score": 0.030330882352941176,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p046-para-002",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/doi-cho.md",
+        "page": 46,
+        "metadata": {
+          "file": "sau-cach-mang/doi-cho.md",
+          "title": "Đợi chờ",
+          "period": "sau-cach-mang",
+          "n_chars": 969,
+          "page_id": "namcao-u46",
+          "section": "Đợi chờ",
+          "unit_id": "doi-cho",
+          "chunking": "para",
+          "line_end": 7,
+          "line_start": 7,
+          "page_lines": 147,
+          "chunk_index": 2
+        },
+        "score": 0.02878726010616578,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "elapsed_ms": 316.52609999946435,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 46,
+        "evidence": "Liễu những ba con, cùng bé cả. Chị phải chạy sớm hơn mọi người."
+      }
+    ]
+  },
+  {
+    "query_id": "tn07",
+    "question": "Kiện hình dung sẽ xây gì ở chỗ giáp làng Sơn, và lợi ích ra sao?",
+    "method": "hybrid",
+    "filter": null,
+    "results": [
+      {
+        "id": "namcao-p046-para-012",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/doi-cho.md",
+        "page": 46,
+        "metadata": {
+          "file": "sau-cach-mang/doi-cho.md",
+          "title": "Đợi chờ",
+          "period": "sau-cach-mang",
+          "n_chars": 930,
+          "page_id": "namcao-u46",
+          "section": "Đợi chờ",
+          "unit_id": "doi-cho",
+          "chunking": "para",
+          "line_end": 103,
+          "line_start": 97,
+          "page_lines": 147,
+          "chunk_index": 12
+        },
+        "score": 0.030886196246139225,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "namcao-p054-para-042",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/o-rung.md",
+        "page": 54,
+        "metadata": {
+          "file": "sau-cach-mang/o-rung.md",
+          "title": "Ở rừng (Nhật ký)",
+          "period": "sau-cach-mang",
+          "n_chars": 800,
+          "page_id": "namcao-u54",
+          "section": "Ở rừng (Nhật ký)",
+          "unit_id": "o-rung",
+          "chunking": "para",
+          "line_end": 255,
+          "line_start": 245,
+          "page_lines": 529,
+          "chunk_index": 42
+        },
+        "score": 0.02928692699490662,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p059-para-018",
+        "source_id": "namcao",
+        "source": "sau-cach-mang/vui-dan-cong.md",
+        "page": 59,
+        "metadata": {
+          "file": "sau-cach-mang/vui-dan-cong.md",
+          "title": "Vui dân công",
+          "period": "sau-cach-mang",
+          "n_chars": 998,
+          "page_id": "namcao-u59",
+          "section": "Vui dân công",
+          "unit_id": "vui-dan-cong",
+          "chunking": "para",
+          "line_end": 109,
+          "line_start": 109,
+          "page_lines": 111,
+          "chunk_index": 18
+        },
+        "score": 0.028371628371628373,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "elapsed_ms": 309.10279999989143,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 46,
+        "evidence": "Xây một cái cổng ở chỗ giáp làng Sơn, cứu được non một trăm mẫu ruộng"
+      }
+    ]
+  },
+  {
+    "query_id": "tn08",
+    "question": "Khi không còn ra chợ nữa, cô Hoàn nhận làm việc gì để kiếm thêm tiền?",
+    "method": "hybrid",
+    "filter": null,
+    "results": [
+      {
+        "id": "namcao-p005-para-010",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/chuyen-buon-giua-dem-vui.md",
+        "page": 5,
+        "metadata": {
+          "file": "truoc-cach-mang/chuyen-buon-giua-dem-vui.md",
+          "title": "Chuyện buồn giữa đêm vui",
+          "period": "truoc-cach-mang",
+          "n_chars": 860,
+          "page_id": "namcao-u05",
+          "section": "Chuyện buồn giữa đêm vui",
+          "unit_id": "chuyen-buon-giua-dem-vui",
+          "chunking": "para",
+          "line_end": 75,
+          "line_start": 75,
+          "page_lines": 95,
+          "chunk_index": 10
+        },
+        "score": 0.030886196246139225,
+        "rank": 1,
+        "method": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "namcao-p009-para-007",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/di-hao.md",
+        "page": 9,
+        "metadata": {
+          "file": "truoc-cach-mang/di-hao.md",
+          "title": "Dì Hảo",
+          "period": "truoc-cach-mang",
+          "n_chars": 912,
+          "page_id": "namcao-u09",
+          "section": "Dì Hảo",
+          "unit_id": "di-hao",
+          "chunking": "para",
+          "line_end": 25,
+          "line_start": 23,
+          "page_lines": 65,
+          "chunk_index": 7
+        },
+        "score": 0.0304147465437788,
+        "rank": 2,
+        "method": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "namcao-p004-para-011",
+        "source_id": "namcao",
+        "source": "truoc-cach-mang/cai-mat-khong-choi-duoc.md",
+        "page": 4,
+        "metadata": {
+          "file": "truoc-cach-mang/cai-mat-khong-choi-duoc.md",
+          "title": "Cái mặt không chơi được",
+          "period": "truoc-cach-mang",
+          "n_chars": 367,
+          "page_id": "namcao-u04",
+          "section": "Cái mặt không chơi được",
+          "unit_id": "cai-mat-khong-choi-duoc",
+          "chunking": "para",
+          "line_end": 105,
+          "line_start": 105,
+          "page_lines": 159,
+          "chunk_index": 11
+        },
+        "score": 0.03021353930031804,
+        "rank": 3,
+        "method": "hybrid",
+        "hit": false
+      }
+    ],
+    "hit1": true,
+    "hit3": true,
+    "elapsed_ms": 313.0958000001556,
+    "gold": [
+      {
+        "source_id": "namcao",
+        "page": 5,
+        "evidence": "cô nhận bế trẻ con thuê"
+      }
+    ]
+  }
+]

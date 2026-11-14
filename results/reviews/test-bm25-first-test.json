@@ -1,0 +1,100 @@
+[
+ {
+  "query_id": "tn01",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: hai chục bạc; chi tiết thêm có trong đoạn.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn02",
+  "citation_support": [
+   false
+  ],
+  "note": "Đúng \"18 khoản\" và các chi tiết (ký tên, các khoản nặng nhất) có trong para-007 (đã vào context), nhưng citation là para-009 không chứa các chi tiết đó: trả lời đúng, citation sai. NHÃN DỄ TRANH CÃI (nếu coi citation sai làm thiếu evidence thì hạ xuống 1).",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn03",
+  "citation_support": [
+   false
+  ],
+  "note": "Sai: kể kế \"đem cau mời lý cựu\" (và gán nhầm cho ông lý Nhưng), không nêu bãi tha ma/mộ bố ông khóa Mẫn (para-011 không vào context); câu trả lời bị cắt ngắn.",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "tn04",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn05",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: anh kép và cô đào.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn06",
+  "citation_support": [
+   true
+  ],
+  "note": "Như baseline: có lý do cốt lõi nhưng viết sai \"chị không có con thơ\".",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn07",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng cổng ở chỗ giáp làng Sơn và lợi hàng chục vạn đồng, nhưng đổi \"non một trăm mẫu\" thành \"hơn một trăm mẫu\" (ngược nghĩa).",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn08",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: bế trẻ con thuê; chi tiết thêm có trong đoạn.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "tn09",
+  "citation_support": [
+   true
+  ],
+  "note": "Không từ chối: trả lời \"bị phạt ba tháng tù án treo\", không nói không có khoản tiền phạt.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "tn10",
+  "citation_support": [
+   false
+  ],
+  "note": "Bịa: gán \"một người con trai duy nhất\" (là Đoành, con của ông lão câu cá) thành con của Đoành; citation không hỗ trợ.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "tn11",
+  "citation_support": [
+   false,
+   false
+  ],
+  "note": "Bịa: \"giữ chức vụ đoàn thể\" không có trong truyện.",
+  "abstention_correct": false
+ }
+]

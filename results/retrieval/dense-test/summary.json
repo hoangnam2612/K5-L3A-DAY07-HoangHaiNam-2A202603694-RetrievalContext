@@ -1,0 +1,26 @@
+{
+  "method": "dense",
+  "split": "test",
+  "n": 8,
+  "hit1": 2,
+  "hit3": 3,
+  "hit_at_k": 3,
+  "top_k": 3,
+  "median_ms": 332.4,
+  "config": {
+    "bm25_mode": "syllable",
+    "bm25_fold": false,
+    "k1": 1.2,
+    "b": 0.75,
+    "pool": 20,
+    "rrf_k": 60,
+    "no_filter": false
+  },
+  "missed_hit3": [
+    "tn02",
+    "tn03",
+    "tn05",
+    "tn07",
+    "tn08"
+  ]
+}

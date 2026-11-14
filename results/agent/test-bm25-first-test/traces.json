@@ -1,0 +1,1216 @@
+[
+  {
+    "query_id": "tn01",
+    "question": "Để ông lý Nhưng làm ngơ việc vợ chồng nhà kia không có giấy giá thú, anh chồng phải biện cho ông bao nhiêu tiền?",
+    "filter": {
+      "period": "truoc-cach-mang"
+    },
+    "status": "answered",
+    "answer": "Ông lý Nhưng làm ngơ việc vợ chồng nhà kia không có giấy giá thú, anh chồng phải biện cho ông lý hai chục bạc để ông làm ngơ, rồi sau đó khi nào xoay được vài, ba chục bạc nữa lại đến ông lý để ông liệu cách vào giá thú cho vợ chồng anh và khai sinh cho đứa con giúp [namcao-p036-para-001].",
+    "citations": [
+      "namcao-p036-para-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_ZxzhcRT0YjYQMxo8tyTDcqzP",
+        "method": "bm25",
+        "query": "ông Lý Nhưng làm ngơ giấy giá thú biện bao nhiêu tiền",
+        "filter": {
+          "period": "truoc-cach-mang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p036-para-001",
+            "score": 28.93100587255951,
+            "rank": 1,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p016-para-005",
+            "score": 16.34091028028353,
+            "rank": 2,
+            "source": "truoc-cach-mang/lam-to.md",
+            "page": 16
+          },
+          {
+            "id": "namcao-p036-para-005",
+            "score": 15.58829585201411,
+            "rank": 3,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          }
+        ],
+        "context": "[namcao-p036-para-001 | truoc-cach-mang/rua-hon.md | page 36]\nNguyên có vợ chồng nhà kia, lúc lấy nhau, bởi quá nghèo nên chẳng cưới cheo gì. Họ ăn ở với nhau theo kiểu vợ chồng theo. Mới đây chị vợ để được một đứa con. Ông lý nhà ta biết thóp anh chồng non mặt, nên đến lòe anh ta đủ thứ. Ông nhất định bảo rằng: đứa con của anh ta không thể khai sinh, bởi vì vợ chồng anh chưa làm giấy giá thú: mà anh có làm giấy giá thú cũng không thể được bởi vì người đàn bà có con ra rồi; không những thế, nếu việc phát giác ra, anh có lỗi...Kết cục thì anh chồng đành chạy ngược chạy xuôn biện cho ông lý hai chục bạc để ông làm ngơ cho việc ấy: rồi ngày một, ngày hai, khi nào xoay được vài, ba chục bạc nữa lại đến ông, ông sẽ liệu cách vào giá thú cho vợ chồng anh và khai sinh cho đứa con anh giúp. Để khỏi lo hậu hoạn.\n\n[namcao-p016-para-005 | truoc-cach-mang/lam-to.md | page 16]\nVốn xưa kia Thai cũng có vườn. Có ba sào. Chẳng phải của ông cha để lại cho. Ông cha hắn cũng nghèo. Lúc sống cơ nghiệp có bao nhiêu thì lúc chết lại quây gói vào mà mang đi hết. Bởi vì người ta không phải là con chó, người ta không thể chết như con chó chết: chết còn làm lợi cho kẻ khác. Người chết phải đem chôn. Lại không thể cầm cái mai, moi một đống đất lên mà chôn như chôn một con mèo chết vào gốc cây khế cho cây khế ngọt. Phải mua cỗ gỗ, phải mời xóm mời làng. Phải có bát nước, miếng trầu. Phải biện lưng cơm cho những người khiêng. Ấy nói phận nghèo. Nếu có thể còn xoay mượn được thì còn phải đến trăm thứ khác. Cái chết ở thôn quê là một cái gì rầy rà to. Vậy thì dẫu bố mẹ Thai có vườn để lại cho Thai thì Thai cũng phải bán đi rồi. Nhưng thật tình là không có. Ba sào vườn của hắn, nguyên do là của ông lý Biên cho hắn. Hồi ấy hắn làm đầy tớ nhà ông lý. Chính vào hồi kinh tế. Thóc có hào tám, hai hào một thúng. Làm ruộng không đủ tiền trâu bò với tiền nộp thuế.\n\n[namcao-p036-para-005 | truoc-cach-mang/rua-hon.md | page 36]\n-- Nào ai biết được rằng: các ông ấy kiếm ăn cả ở chỗ vợ người ta đẻ! Ai rỗi hơi mà bới móc? Đứa nào nó chửi ông ấy, ông ấy không làm gì được nó, ông ấy cứ người ta ông ấy húc! Húc đâu chứ húc đây thì chỉ tổ biêu đầu mà thôi!\n\nNói của đáng tội, cái trần ngôn thì ông khóa Mẫn không làm. Nhưng ông cũng không thèm đến nhà ông lý Nhưng để phân trần ra trắng, ra đen, ông dấm dẳn nói thế thôi. Rồi ông tặc lưỡi, bảo thêm:\n\n-- Với lại, nghĩ cho kỹ thì cái thằng nào nó làm cái trần ngôn, cũng không nên trách nó. Ăn bẩn, nó chửi cho là phải!...\n\nẤy thế là hai người bất hòa với nhau!....\n\nÔng lý khai chiến trước. Ông chọc tức ông Khóa mẫn như thế này: Ông khóa Mẫn có một người họ hàng xa có cái mũi đỏ và sần sùi như một cái vỏ cam sành. Nhiều người bảo: chứng phong...Ông lý bèn làm giấy khám nghiệm. Nếu quả thật có bệnh tật, tất người ta tống ông vào trại hủi. Ông này sợ lắm. Ông biện chè đến van lạy ông lý. Ông lý nhất định không chịu nhận. Khấn bằng nào, ông cũng gạt ra mà bảo:",
+        "context_ids": [
+          "namcao-p036-para-001",
+          "namcao-p016-para-005",
+          "namcao-p036-para-005"
+        ],
+        "context_chars": 2903,
+        "n_candidates": 3,
+        "elapsed_ms": 2.5
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 2220.7,
+        "prompt_tokens": 571,
+        "completion_tokens": 28
+      },
+      {
+        "ms": 1799.8,
+        "prompt_tokens": 1579,
+        "completion_tokens": 121
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2150,
+      "completion_tokens": 149,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001098,
+    "n_searches": 1,
+    "elapsed_ms": 4023.1,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn02",
+    "question": "Ông khóa Mẫn phát đơn kiện lý trưởng tất cả bao nhiêu khoản?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Ông khóa Mẫn phát đơn kiện lý trưởng tất cả 18 khoản, với sự ký tên của gần một trăm người, trong đó có học trò ông, cha chú học trò ông và một số đàn em trong làng. Một số khoản nặng nhất gồm bao chiếm công điền, tự tiện bán thứ vị để lấy tiền bỏ túi, ăn bớt gạch ngói xây trường học đem về xây nhà cho vợ lẽ. [namcao-p036-para-009]",
+    "citations": [
+      "namcao-p036-para-009"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_MvcIzOReSqVvQ91cWvI1paMU",
+        "method": "bm25",
+        "query": "Ông khóa Mẫn phát đơn kiện lý trưởng",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p036-para-008",
+            "score": 30.557279623685062,
+            "rank": 1,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p036-para-009",
+            "score": 26.457594042783583,
+            "rank": 2,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p036-para-007",
+            "score": 23.779268714077993,
+            "rank": 3,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          }
+        ],
+        "context": "[namcao-p036-para-008 | truoc-cach-mang/rua-hon.md | page 36]\nVụ kiện giằng dai lắm. Việc trước chưa xong thì việc sau đã tòi ra. Cứ ông khóa Mẫn kiện ông lý Nhưng, rồi ông lý Nhưng lại kiện ông khóa Mẫn. Rồi vây cánh của hai người kiện lẫn nhau. Việc nọ dính líu đến việc kia, chằng chịt lẫn nhau, không sao gỡ ra được nữa. Cả hai bên cùng hại của. Ông lý Nhưng bán đi năm mẫu ruộng. Ông khóa Mẫn thì chẳng có gì để bán, nhưng bà con, anh em cũng phải bỏ ra cho cũng khá nhiều. Sát khí bừng bừng. Họ đã đe giết lẫn nhau. Mà sự thật thì cả hai ông, mỗi lần ra khỏi nhà, đều phải có người đi hộ vệ...\n\nKết cục thì ông lý Nhưng thua, thua một cách khá sâu cay. Ba tháng tù án treo; chân lý trưởng thì bị cách. Người ta nói: ông tức quá, thổ ra hàng bát máu...\n\nThật ra thì không phải thế. Chỉ tại dân làng ghét ông nên họ nói thế. Họ rủa mát ông chơi đó! Nhờ trời, ông được cái tạng người cũng khỏe. Ông không đến nỗi uất máu lên mà chết. Có điều ông cũng tức. Và cũng xấu hổ với làng nước nữa. Ông không dám ló mặt ra khỏi nhà...\n\n[namcao-p036-para-009 | truoc-cach-mang/rua-hon.md | page 36]\nNhưng đã bảo rằng: ông khóa Mẫn là người rất mực thâm. Có đời nào ông lại để cho kẻ địch của mình yên? Tuy ông được kiện, nhưng ông vẫn còn căm lắm, bởi hắn đã làm ông hại của. Nhân lúc thừa thế, ông bèn vận động cho một người cháu ra làm lý trưởng...Hôm làm khao, ông nghĩ ra một kế ác vô cùng: ông sai người đem cau đến mời ông lý cựu. Cố nhiên là ông cựu hiểu. Ông đỏ bừng mặt mũi. Ông nghẹn cổ không nói được. Mãi đến lúc tên người nhà nhà ông khóa Mẫn ra rồi, ông mới bật ra một tiếng. Ông chửi tục. Ông nghiến răng lại mà chửi tục. Mắt ông nảy lửa. Mép ông xùi bọt. Người ông run lên vì giận. Ông đổ xuống cái giường như một cây gỗ đổ. Ông hậm hực. Đôi mắt ông ầng ậng nước. Ông nghĩ đến một con dao...Ông nghĩ đến một cái búa đinh...Ông nghĩ đến một cái chai...Ông nghĩ đến cả một mâm rượu hắt cả vào mặt ông khóa Mẫn...\n\nBỗng ông đập tay xuống giường thật mạnh, bật người lên. Ông hầm hầm ra khỏi nhà, nắm chặt hai tay, bước thật nhanh những bước nghe chắc nịch. Bà vợ ông hoảng hốt:\n\n[namcao-p036-para-007 | truoc-cach-mang/rua-hon.md | page 36]\nNgười ta đã biết tính ông: ông không thích nói nhiều. Nếu bà kia hỏi một câu nữa, thế nào ông cũng mắng. Bởi vậy bà không hỏi. Bà cởi ruột tượng lần ra một cuộn giấy bạc, đếm đưa cho ông khóa hai chục cái, tay đưa miệng mếu:\n\n-- Tôi gửi ông chỗ này để ông xe pháo, đò giang...Trăm sự nhờ ông..\n\n-- Được rồi! Bà cứ yên lòng về...Tôi chịu nó, thà tôi làm giống chó!...\n\nLập tức ông đội khăn, mặc áo, đi ra tỉnh...Mấy hôm sau, ông mũi đỏ có họ với ông được về. Thế nghĩa là cái đấm của lý Nhưng không chạm được đến người ông. Nhưng ông vẫn còn căm. Bởi vì ông mới chỉ đỡ mà thôi. Ông chưa đánh. Có giả miếng được thì mới giỏi...Nửa tháng sau, ông giả miếng: ông phát đơn kiện lý trưởng tất cả mười tám khoản; ngót một trăm người kí, phần nhiều là học trò ông, cha chú học trò ông, và một số đàn em trong làng. Mấy khoản nặng nhất là: bao chiếm công điền, tự tiện bán thứ vị để lấy tiền bỏ túi, ăn bớt gạch ngói xây trường học đem về xây nhà cho vợ lẽ...",
+        "context_ids": [
+          "namcao-p036-para-008",
+          "namcao-p036-para-009",
+          "namcao-p036-para-007"
+        ],
+        "context_chars": 3097,
+        "n_candidates": 3,
+        "elapsed_ms": 1.5
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p036-para-009"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1370.0,
+        "prompt_tokens": 525,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 2112.8,
+        "prompt_tokens": 1602,
+        "completion_tokens": 126
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2127,
+      "completion_tokens": 148,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001088,
+    "n_searches": 1,
+    "elapsed_ms": 3484.4,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn03",
+    "question": "Cuối cùng, ông lý Nhưng hả giận với ông khóa Mẫn bằng cách nào, ở đâu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Ông lý Nhưng giận ông khóa Mẫn vì ông khóa Mẫn đã làm ông hại của, kiện cáo giằng dai và gây nhiều thiệt hại cho ông lý Nhưng. Trong một lần làm khao, ông lý Nhưng nghĩ ra một kế ác: sai người đem cau đến mời ông lý cựu, khiến ông lý cựu hiểu ý và ông lý Nhưng rất tức giận, chửi tục, mắt nảy lửa, mép xùi bọt, người run lên vì giận, đổ xuống giường như cây gỗ đổ, rồi hầm hầm ra khỏi nhà với thái độ rất giận dữ. Sự việc này xảy ra trong nhà ông lý Nhưng khi ông đập tay xuống giường thật mạnh rồi bước ra ngoài với bước chân chắc nịch, bà vợ ông hoảng hốt. Đây là cách ông lý Nhưng hả giận ông khóa Mẫn và diễn ra tại nhà ông lý Nhưng [namcao-p036-para-009].",
+    "citations": [
+      "namcao-p036-para-009"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_kamR8zzAsTxplAvY2x0Feaui",
+        "method": "bm25",
+        "query": "ông lý Nhưng giận ông khóa Mẫn",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p036-para-009",
+            "score": 22.516090972926097,
+            "rank": 1,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p036-para-003",
+            "score": 21.630869171639766,
+            "rank": 2,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p036-para-008",
+            "score": 21.326197546614374,
+            "rank": 3,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          }
+        ],
+        "context": "[namcao-p036-para-009 | truoc-cach-mang/rua-hon.md | page 36]\nNhưng đã bảo rằng: ông khóa Mẫn là người rất mực thâm. Có đời nào ông lại để cho kẻ địch của mình yên? Tuy ông được kiện, nhưng ông vẫn còn căm lắm, bởi hắn đã làm ông hại của. Nhân lúc thừa thế, ông bèn vận động cho một người cháu ra làm lý trưởng...Hôm làm khao, ông nghĩ ra một kế ác vô cùng: ông sai người đem cau đến mời ông lý cựu. Cố nhiên là ông cựu hiểu. Ông đỏ bừng mặt mũi. Ông nghẹn cổ không nói được. Mãi đến lúc tên người nhà nhà ông khóa Mẫn ra rồi, ông mới bật ra một tiếng. Ông chửi tục. Ông nghiến răng lại mà chửi tục. Mắt ông nảy lửa. Mép ông xùi bọt. Người ông run lên vì giận. Ông đổ xuống cái giường như một cây gỗ đổ. Ông hậm hực. Đôi mắt ông ầng ậng nước. Ông nghĩ đến một con dao...Ông nghĩ đến một cái búa đinh...Ông nghĩ đến một cái chai...Ông nghĩ đến cả một mâm rượu hắt cả vào mặt ông khóa Mẫn...\n\nBỗng ông đập tay xuống giường thật mạnh, bật người lên. Ông hầm hầm ra khỏi nhà, nắm chặt hai tay, bước thật nhanh những bước nghe chắc nịch. Bà vợ ông hoảng hốt:\n\n[namcao-p036-para-003 | truoc-cach-mang/rua-hon.md | page 36]\nAi về tôi gửi cái mo\n\nLý Nhưng có thiếu thì cho mà dùng.\n\nLý Nhưng ơi hỡi lý Nhưng!\n\nTưởng là ông hóa ra thằng ăn dơ!\n\nĐứa nào lật cái giấy này đi cả nhà nó chết.\n\nChỉ ba, bốn hôm sau là bài vè trên đây đã được truyền khẩu lan đi khắp cả làng. Lý Nhưng xám mặt. Ông nghĩ ngay đến ông khóa Mẫn...\n\n-- Việc này không thằng Mẫn, cứ cổ ông mà chặt!... Ông đã biết ngay từ cái hôm ấy kia mà! Mình chỉ quên có một tí, quên không cho mời nó, ấy thế mà nó để ý thù mình được!... Cái quân nó sấp mặt! Cứ việc gì có nó thì nó im thin thít, động việc gì nó không được chấm mút gì vào đấy, là nó quay đầu lại cắn. Giống mõ! Đểu! Ba que! Xỏ lá!... Đồ lục súc!...\n\nChửi như thế ông vẫn chưa hả giận. Ông cười khểnh:\n\n[namcao-p036-para-008 | truoc-cach-mang/rua-hon.md | page 36]\nVụ kiện giằng dai lắm. Việc trước chưa xong thì việc sau đã tòi ra. Cứ ông khóa Mẫn kiện ông lý Nhưng, rồi ông lý Nhưng lại kiện ông khóa Mẫn. Rồi vây cánh của hai người kiện lẫn nhau. Việc nọ dính líu đến việc kia, chằng chịt lẫn nhau, không sao gỡ ra được nữa. Cả hai bên cùng hại của. Ông lý Nhưng bán đi năm mẫu ruộng. Ông khóa Mẫn thì chẳng có gì để bán, nhưng bà con, anh em cũng phải bỏ ra cho cũng khá nhiều. Sát khí bừng bừng. Họ đã đe giết lẫn nhau. Mà sự thật thì cả hai ông, mỗi lần ra khỏi nhà, đều phải có người đi hộ vệ...\n\nKết cục thì ông lý Nhưng thua, thua một cách khá sâu cay. Ba tháng tù án treo; chân lý trưởng thì bị cách. Người ta nói: ông tức quá, thổ ra hàng bát máu...\n\nThật ra thì không phải thế. Chỉ tại dân làng ghét ông nên họ nói thế. Họ rủa mát ông chơi đó! Nhờ trời, ông được cái tạng người cũng khỏe. Ông không đến nỗi uất máu lên mà chết. Có điều ông cũng tức. Và cũng xấu hổ với làng nước nữa. Ông không dám ló mặt ra khỏi nhà...",
+        "context_ids": [
+          "namcao-p036-para-009",
+          "namcao-p036-para-003",
+          "namcao-p036-para-008"
+        ],
+        "context_chars": 2848,
+        "n_candidates": 3,
+        "elapsed_ms": 1.8
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1015.6,
+        "prompt_tokens": 531,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 2381.6,
+        "prompt_tokens": 1543,
+        "completion_tokens": 243
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2074,
+      "completion_tokens": 264,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001252,
+    "n_searches": 1,
+    "elapsed_ms": 3399.0,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "tn04",
+    "question": "Chiếc áo ba-đơ-xuy mà Trạch Văn Đoành mặc suốt mùa đông mua hết bao nhiêu và mua vào dịp nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Chiếc áo ba-đơ-xuy mà Trạch Văn Đoành mặc suốt mùa đông mua hồi đi lính sang Tây với giá bảy mươi quan. Chiếc áo đã dùng được gần ba mươi năm và mặc suốt ngày suốt đêm trong mùa đông [namcao-p011-para-003][namcao-p011-para-004].",
+    "citations": [
+      "namcao-p011-para-003",
+      "namcao-p011-para-004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_YzVbGeyVcN86oWGYYpwXFlp0",
+        "method": "bm25",
+        "query": "Trạch Văn Đoành áo ba-đơ-xuy mua mùa đông",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p011-para-003",
+            "score": 38.93403032798271,
+            "rank": 1,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-000",
+            "score": 24.31341811748948,
+            "rank": 2,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-004",
+            "score": 23.988613000003312,
+            "rank": 3,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          }
+        ],
+        "context": "[namcao-p011-para-003 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay những cái ăn, cái mặt của hắn cũng khác người. Cái ăn bất tất nói làm gì. Người ta ăn ở trong nhà. Vậy thì ai muốn ăn thế nào tùy thích. Ông cũng vậy mà tôi cũng vậy. Ít ra chúng ta cũng có có một xó để tự do. Khi cửa nhà chúng ta khép kín. Ta có thể lố lăng mà không bận gì đến ai. Nhưng chúng ta mặc áo chỉnh tề để ra đường. Vậy thì quần ao sở dĩ có, một phần lớn không phải vì ta, mà lại vì những con mắt nhìn ta. Đã vì chúng, thì chiều chúng một tý kể cũng là phải lẽ. Muốn chiều chúng thật nhiều thì cũng được. Trạch Văn Đoành không thế. Nghĩ đến cách mặc của hắn bao giờ người ta cũng nghĩ đến mùa đông. Bởi mùa đông mới thật có những người mặc chẳng vì ai, nhưng chỉ vì sự dễ chịu của mình. Đoành thuộc vào hạng ấy. Suốt một mùa, hắn chỉ mặc một cái ba-đơ-xuy sắc chó gio. Hắn mua hồi đi lính sang Tây. Có bảy mươi quan. Thế mà bền. Đến nay, tất cả, có đến ngót ba chục năm rồi đấy. Lần lót rách bươm tự bao giờ. Nhưng còn cái lần ngoài. Mặc nguyên nó cũng còn ấm bằng mười áo kép.\n\n[namcao-p011-para-000 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay cái tên cũng khó nghe rồi. Thà cứ là Kèo, là Cột, là Hạ, là Đông. Là gì cũng còn dễ nghe. Nhưng hắn ta lại là Trạch Văn Đoành. Nghe như súng thần công. Nó chọc vào lỗ tai.\n\n[namcao-p011-para-004 | truoc-cach-mang/doi-mong-gio.md | page 11]\nHắn mặc suốt ngày suốt đêm, khi ăn, khi ngủ, khi làm, khi chơi. Cái áo ba-đơ-xuy mất hết cúc rồi. Hắn đơm hai cái dải thật to hình cái bơi chèo. Những khi hắn đi cày, hai cái giải được bắt giao nhau để thắt lại ở sau lưng. Chặt chẽ và gọn gàng không kém một cái đai. Những lúc hắn đi chơi hoặc ra đình thì hai dải lại cởi ra buông xuôi cho lẩn vào hai mép áo trong. Hắn lại có vẻ ung dung lắm. Ai dám bảo cáo áo ba-đơ-xuy này là cái áo ba-đơ-xuy đi cày? Mà có bảo nữa thì đã sao?",
+        "context_ids": [
+          "namcao-p011-para-003",
+          "namcao-p011-para-000",
+          "namcao-p011-para-004"
+        ],
+        "context_chars": 1853,
+        "n_candidates": 3,
+        "elapsed_ms": 3.2
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1165.3,
+        "prompt_tokens": 541,
+        "completion_tokens": 28
+      },
+      {
+        "ms": 1466.6,
+        "prompt_tokens": 1212,
+        "completion_tokens": 119
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1753,
+      "completion_tokens": 147,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000936,
+    "n_searches": 1,
+    "elapsed_ms": 2635.3,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn05",
+    "question": "Hai cái móng giò bị mất trong ngày giã đám rốt cuộc ông Cửu Đoành đem cho ai?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Ông Cửu Đoành đã đem hai cái móng giò cho anh kép và cô đào trong đám giã đám, như một phần thưởng cho họ hát hay, coi đó quý hơn tiền nhiều [namcao-p011-para-012].",
+    "citations": [
+      "namcao-p011-para-012"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_qJSMZYqdVl7gM60SaYIRtTzU",
+        "method": "bm25",
+        "query": "ông Cửu Đoành cho móng giò",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p011-para-011",
+            "score": 31.405307424634604,
+            "rank": 1,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-012",
+            "score": 23.528098340739,
+            "rank": 2,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-009",
+            "score": 13.190234861370318,
+            "rank": 3,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          }
+        ],
+        "context": "[namcao-p011-para-011 | truoc-cach-mang/doi-mong-gio.md | page 11]\nMột thoáng sau là đã lại thấy ông đang nói gì toang toáng ở gốc đa. Rồi một thoáng sau lại thấy ông cười hô hố giữa một đám trẻ con xúm xít xem ống nhòm. Nhưng hai bàn đã bưng mâm. Các cụ sai một ông phó đi tìm ông Cửu. Bấy giờ ông Cửu mới lẹt đẹt kéo lê đôi giày đi vào đình. Trong đình huyên náo lắm. Các cụ đang hạch hai bàn làm sao lại thiếu hai cái móng giò? Móng giò có bốn ông to nhất. Lệ làng từ cổ đến giờ vẫn thế. Tuy trong số bốn ông to nhất chẳng ông nào còn khỏe răng để có thể gặm nổi cái móng giò nhưng cũng chẳng ông nào chịu mất. Một miếng giữa làng...Đừng có tưởng...Bây giờ còn có hai cái, thì ông nào ăn ông nào đừng?... Các cụ quát hai bàn như vậy. Và hai bàn xanh mắt. Họ cãi nhau chí chóe. Anh nọ rằng anh kia để mất. Anh nào, mặc! Cứ biết là hai bàn sơ ý là hai bàn phải bắt mua can rượu tạ!... Ông Cửu Đoành không nói gì. Ông chỉ cười. Bởi ông đã đi nhiều, từng trải nhiều nên thấy nhiều cái to tát hơn cái móng giò nhiều lắm. Hai cái móng giò không đáng kể.\n\n[namcao-p011-para-012 | truoc-cach-mang/doi-mong-gio.md | page 11]\nRa quái gì mà ngậu lên!\n\nCác cụ uống rượu cũng xong rồi, hai bàn đã giải mâm. Lại hát nhà tơ. Ông Cửu ngồi thưởng trống. Ông bảo đào, bảo kép:\n\n-- Hát cho thật hay vào mới được. Tôi nghe hát, nếu vừa ý, bao giờ cũng có thưởng.\n\nCô đầu tủm tỉm cười:\n\n-- Bẩm vâng!\n\nHai đầu rượu tưởng ông Cửu sộp, đến kèm sẵn hai bên...Khúc hát xong kép buông đàn, đào buông phách. Ông Cửu đứng lên để thọc hai tay vào túi áo ba-đơ-xuy màu chó gio. Ông bảo:\n\n-- Tớ đã hứa tất cả là phải có. Nhưng tiền thì thật hết. Tớ đãi cho cái này, có lẽ còn quý hơn tiền nhiều...\n\nÔng rút một tay áo ra, quẳng một cái móng giò cho anh kép. Ông rút nốt tay kia ra, quẳng một cái móng giò nữa cho cô đào. Rồi ông quay lại:\n\n-- Chào các cụ! Tôi xin vô phép!...\n\nÔng lẹp kẹp kéo lê đôi giày qua bọn trai em, hoan hô ông bằng những tiếng cười nổ như xe phành phành.\n\nTiểu thuyết thứ Bảy.\n\nSố 442, ngày 5-12-1942\n\n[namcao-p011-para-009 | truoc-cach-mang/doi-mong-gio.md | page 11]\nCác ông bắt đầu sợ hắn mà hắn cũng bắt đầu khinh nhờn các ông. Hắn coi các ông như những đồ trẻ con. Để những khi say rượu đùa...\n\nNăm ngoái làng vào đám. Hôm giã đám, có mổ một con lợn tế thần rồi đồng dân hội ẩm. Đồng dân đây có nghĩa là các cụ. Bởi nếu trai em cũng thấy có hứng muốn cùng nhau hội ẩm thì đã có các hàng rượu dựng chung quanh đình.\n\nLúc tế, ông Cửu Đoành còn ngủ ở nhà. Ông ấy không biết tế, và cũng không nỡ cởi cái áo ba-đơ-xuy ra để khoác cái áo thụng xanh vào mà tế. Các cụ miễn đi cho ông vậy! Điều ấy thì ông không phải nài: các cụ chẳng mong gì có ông; ông cứ ở nhà đến hết đám cho quan viên mừng!\n\nNhưng ông không ở nhà. Tế xong người ta thấy ông hai tay thọc vào trong túi áo ba-đơ-xuy sắc chó gio, vênh vênh cái mặt lên trời đi ra đình. Trông từ đằng xa đã ghét rồi! Nhưng không thể đuổi ông về, các cụ đành cố tươi cười chào mời ông vồn vã:\n\n-- Kìa! Ông Cửu!... Mời ông vào trong này. Chúng tôi ngồi đợi mãi. Mời ông ngồi thưởng trống.",
+        "context_ids": [
+          "namcao-p011-para-011",
+          "namcao-p011-para-012",
+          "namcao-p011-para-009"
+        ],
+        "context_chars": 3029,
+        "n_candidates": 3,
+        "elapsed_ms": 1.8
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1443.3,
+        "prompt_tokens": 536,
+        "completion_tokens": 24
+      },
+      {
+        "ms": 1651.7,
+        "prompt_tokens": 1634,
+        "completion_tokens": 87
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2170,
+      "completion_tokens": 111,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001046,
+    "n_searches": 1,
+    "elapsed_ms": 3097.1,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn06",
+    "question": "Vì sao Liễu phải cuốc vườn đến khuya hơn những người khác trong làng?",
+    "filter": {
+      "period": "sau-cach-mang"
+    },
+    "status": "answered",
+    "answer": "Liễu phải cuốc vườn đến khuya hơn những người khác trong làng vì chị không có con thơ, ban ngày có thể làm việc ít hơn, nhưng phải cố gắng làm khuya hơn để bù lại. Chị có ba con, phải chạy sớm hơn mọi người nên công việc ban ngày không nhiều, nên chị phải làm khuya để kéo lại công việc. Chị tự nhủ sẽ ngủ bù vào ban ngày [namcao-p046-para-003].",
+    "citations": [
+      "namcao-p046-para-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_hv7f8wkM9j0D3kG1PRU6xTSL",
+        "method": "bm25",
+        "query": "Liễu cuốc vườn khuya",
+        "filter": {
+          "period": "sau-cach-mang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p046-para-003",
+            "score": 23.640625704245274,
+            "rank": 1,
+            "source": "sau-cach-mang/doi-cho.md",
+            "page": 46
+          },
+          {
+            "id": "namcao-p046-para-005",
+            "score": 18.722356711370864,
+            "rank": 2,
+            "source": "sau-cach-mang/doi-cho.md",
+            "page": 46
+          },
+          {
+            "id": "namcao-p046-para-004",
+            "score": 15.101628194169042,
+            "rank": 3,
+            "source": "sau-cach-mang/doi-cho.md",
+            "page": 46
+          }
+        ],
+        "context": "[namcao-p046-para-003 | sau-cach-mang/doi-cho.md | page 46]\nNhững tiếng cuốc mỗi lúc một rõ thêm. Trăng từ từ lên cao.\n\nTrăng đã lên cao lắm. Đêm về khuya càng vắng lặng. Người ta nghe rõ cả tiếng rì rầm của lá tre. Tiếng cuốc thưa dần. Nó tắt ở vườn này rồi tắt ở vườn kia. Giấc ngủ lan tràn, trải rộng dần và đè nặng trĩu xóm làng, tĩnh mịch. Vài tiếng cuốc lẻ tẻ còn sót lại. Liễu đã ngáp mấy lần. Cái cuốc bắt đầu loạc choạc. Nhưng vẫn còn tiếng cuốc ở vườn bên cạnh. Liễu nhất định chưa chịu đi nghỉ. Người ta không có con thơ, ban ngày có thể làm tận đến lúc chắc chắn là có Tây đến mới cần chạy trốn. Liễu những ba con, cùng bé cả. Chị phải chạy sớm hơn mọi người. Công việc ban ngày chẳng bao nhiêu, chị phải cố kéo lại bằng cách làm khuya hơn người khác. \"Rồi ban ngày ngủ\", chị tự nhủ như vậy.\n\n[namcao-p046-para-005 | sau-cach-mang/doi-cho.md | page 46]\nChị nhận ra ngay là Nhàn. Nhàn hay hát những câu ấy quá đến nỗi Liễu chỉ nghe mà cũng thuộc. Tiếng hát êm êm ngân trong đêm khuya và trong lòng Liễu. Nhàn thấy Liễu cởi trần đứng ở sân, ngạc nhiên hỏi:\n\n-- Chị chưa đi ngủ kia à?\n\n-- Chưa, vừa cuốc vườn xong\n\n-- Hoan hô phụ nữ tăng gia sản xuất!\n\nCô con gái đang tuổi ngổ ngáo, reo lên to quá\n\nLiễu ra hiệu tay, ngăn lại.\n\n-- Khẽ mồm chứ. Cô ả! Để cho con người ta ngủ.\n\nNhàn chợt nhớ ra.\n\n-- Chết thật! Tôi vô ý quá. Cháu nó chịu ngủ với chị nó, hở chị?\n\n-- Cũng phải chịu chứ! Thời kháng chiến này mà không thế thì chết đói... Bây giờ mới tan học kia à?\n\n-- Tan lâu rồi. Nhưng em còn phải đi khai hội nên đến bây giờ mới về.\n\n-- Bàn gì mà khuya thế?\n\n-- Định chương trình thi đua ái quốc.\n\nNhàn nhìn kỹ Liễu, nắm lấy cổ tay chị.\n\n-- Bà chị tôi lớp này đen mà gầy lắm. Trông già sọm hẳn đi khéo ông anh tôi về không nhận nữa thì nguy đấy.\n\nLiễu cười\n\n-- Tôi ba con rồi, chả sợ. Nhưng cô chưa chồng thì mới lo!\n\n[namcao-p046-para-004 | sau-cach-mang/doi-cho.md | page 46]\nTiếng cuốc ở vườn bên tắt nốt. Tay Liễu rã rời thêm. Mỗi lần cất cuốc lên, chị phải vận động cả người. Người chị cũng đã thành một cái gì nặng trĩu, chị phải lấy sức ra mà lay động. Giấc ngủ đè nặng trên mi mắt chị. Bóng tối lẩn vào trong đầu chị. Tiếng cuốc rời rạc của chị vang lên khó nhọc và cô độc quá. Không còn gì vây bọc chị, nâng đỡ và kích thích. Một mình sao người ta yếu đuối và buồn nản thế!\n\nTrăng đã đứng đỉnh đầu. Những bụi chuối, bụi tre như ngủ gục trên cái bóng của chúng đã thu gọn lại. Liễu thở hổn hển, xách cái cuốc về. Ngồi xuống đầu hè nghỉ một lúc cho ráo mồ hôi, rồi chị lấy quần áo đi ra sân tắm. Nước làm cho chị nhẹ nhõm và khoan khoái lại.\n\nVề đến sân, chị nghe thấy tiếng người hát nho nhỏ từ ngoài ngõ đưa vào.\n\nChiều về trên cánh đồng xanh\n\nCó nàng gánh lúa cho anh đi diệt thù,\n\nTừ ngày chinh chiến mùa thu...",
+        "context_ids": [
+          "namcao-p046-para-003",
+          "namcao-p046-para-005",
+          "namcao-p046-para-004"
+        ],
+        "context_chars": 2731,
+        "n_candidates": 3,
+        "elapsed_ms": 0.3
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1040.1,
+        "prompt_tokens": 560,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 1695.8,
+        "prompt_tokens": 1543,
+        "completion_tokens": 136
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2103,
+      "completion_tokens": 158,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001094,
+    "n_searches": 1,
+    "elapsed_ms": 2736.3,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn07",
+    "question": "Kiện hình dung sẽ xây gì ở chỗ giáp làng Sơn, và lợi ích ra sao?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Kiện dự định xây một cái cổng ở chỗ giáp làng Sơn, cứu được hơn một trăm mẫu ruộng, mỗi năm lợi cho làng hàng chục vạn đồng. Ngoài ra, Kiện còn phác thảo kế hoạch phát triển làng như lát gạch các đường làng, xây thêm trường học, lập câu lạc bộ, thư viện, phòng thông tin có máy vô tuyến điện, và phát triển hợp tác xã lớn mạnh trong vòng ba năm, nhằm nâng cao đời sống và kinh tế của dân làng [namcao-p046-para-012].",
+    "citations": [
+      "namcao-p046-para-012"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_DKSU7Ca4EHHocPHKb9IgsHS9",
+        "method": "bm25",
+        "query": "Kiện xây gì chỗ giáp làng Sơn lợi ích",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p046-para-012",
+            "score": 27.75786344750364,
+            "rank": 1,
+            "source": "sau-cach-mang/doi-cho.md",
+            "page": 46
+          },
+          {
+            "id": "namcao-p036-para-007",
+            "score": 14.197156831618715,
+            "rank": 2,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p038-para-001",
+            "score": 10.722986806027087,
+            "rank": 3,
+            "source": "truoc-cach-mang/thoi-di-ve.md",
+            "page": 38
+          }
+        ],
+        "context": "[namcao-p046-para-012 | sau-cach-mang/doi-cho.md | page 46]\nLiễu và Nhàn cùng nhớ lại những buổi sáng trăng xưa anh chị em tụ tập ở cái sân này nói chuyện. Kiện phác những việc sẽ làm: \"Xây một cái cổng ở chỗ giáp làng Sơn, cứu được non một trăm mẫu ruộng, mỗi năm lợi cho làng được hàng chục vạn đồng. Không cờ bạc, khao vọng, ma chay phí phạm, lại chịu khó làm ăn hợp lý, lợi dụng từng cái đầm cái ao, chỗ thả cá, chỗ thả sen, giồng nhãn khắp vệ đường, khuếch trương việc trồng bông kéo sợi, mấy lúc làng mình khá? Chỉ ba năm. Nhất định tất cả những đường làng này đều lát gạch. Trường học phải làm thêm hai cái nữa. Chúng mình phải có câu lạc bộ, thư viện ra hồn. Phòng thông tin phải có máy vô tuyến điện... Hợp tác xã của chúng mình lúc ấy to lắm nhé!\".\n\nNhàn chép miệng.\n\n-- Mẹ cha thằng Tây! Chúng nó chỉ muốn bóp cổ chúng mình cho chúng mình không sao ngóc đầu lên được. Nhưng ai người ta chịu nó?\n\nNhư trả lời vào đúng câu của Nhàn, tiếng súng và lựu đạn bỗng nổ ran. Nhàn reo lên.\n\n[namcao-p036-para-007 | truoc-cach-mang/rua-hon.md | page 36]\nNgười ta đã biết tính ông: ông không thích nói nhiều. Nếu bà kia hỏi một câu nữa, thế nào ông cũng mắng. Bởi vậy bà không hỏi. Bà cởi ruột tượng lần ra một cuộn giấy bạc, đếm đưa cho ông khóa hai chục cái, tay đưa miệng mếu:\n\n-- Tôi gửi ông chỗ này để ông xe pháo, đò giang...Trăm sự nhờ ông..\n\n-- Được rồi! Bà cứ yên lòng về...Tôi chịu nó, thà tôi làm giống chó!...\n\nLập tức ông đội khăn, mặc áo, đi ra tỉnh...Mấy hôm sau, ông mũi đỏ có họ với ông được về. Thế nghĩa là cái đấm của lý Nhưng không chạm được đến người ông. Nhưng ông vẫn còn căm. Bởi vì ông mới chỉ đỡ mà thôi. Ông chưa đánh. Có giả miếng được thì mới giỏi...Nửa tháng sau, ông giả miếng: ông phát đơn kiện lý trưởng tất cả mười tám khoản; ngót một trăm người kí, phần nhiều là học trò ông, cha chú học trò ông, và một số đàn em trong làng. Mấy khoản nặng nhất là: bao chiếm công điền, tự tiện bán thứ vị để lấy tiền bỏ túi, ăn bớt gạch ngói xây trường học đem về xây nhà cho vợ lẽ...\n\n[namcao-p038-para-001 | truoc-cach-mang/thoi-di-ve.md | page 38]\nSau là thiệt một mối lợi to của dân làng. Nghĩ khổ.\n\nCứ xét lần trước là đủ biết. Lần trước, quan cũng đã sức về cho lý trưởng khai. Các cụ trên quá tham lam. Các cụ vào hùa với nhau, cụ nào cũng khai cho mình một vé riêng, vợ mình một vé riêng, các con mình mỗi đứa một vé riêng, rồi đến thằng ở cũng làm một vé riêng nốt, cho đầy đủ cả. Số sợ Nhà nước cấp cho có hạn. Các cụ và bầu đàn thê tử nhà các cụ chiếm hết rồi, tất nhiên là lũ đàn em phải ngồi trơ. Hoặc giả có còn lại năm, ba chục vé vào tên bọn đàn em, thì các cụ lại lợi dụng sự trùng tên để mà chiếm nốt. Những kẻ bị chiếm, đó là manh mối biết ai là người chiếm của mình rồi, mua cau chè đem đến tận nhà lạy van xin. Khổ một điều: mối lợi khá to, ai dại gì lại nhả ra? Chúng có có lạy van mấy cũng hoàn toàn vô ích. Chúng bèn không lạy nữa. Ngọt không được thì chúng xẵng. Chúng bàn nhau dùng cách chửi. Ôi chao! Ở cái làng này, người ta chửi đã nhiều nhưng thật tự cổ chí kim, chưa có bao giờ người ta chửi hăng đến vậy.",
+        "context_ids": [
+          "namcao-p046-para-012",
+          "namcao-p036-para-007",
+          "namcao-p038-para-001"
+        ],
+        "context_chars": 3056,
+        "n_candidates": 3,
+        "elapsed_ms": 1.4
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1286.3,
+        "prompt_tokens": 530,
+        "completion_tokens": 25
+      },
+      {
+        "ms": 2182.9,
+        "prompt_tokens": 1571,
+        "completion_tokens": 157
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2101,
+      "completion_tokens": 182,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001132,
+    "n_searches": 1,
+    "elapsed_ms": 3470.7,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn08",
+    "question": "Khi không còn ra chợ nữa, cô Hoàn nhận làm việc gì để kiếm thêm tiền?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Khi không còn ra chợ nữa, cô Hoàn nhận làm việc bế trẻ con thuê để kiếm thêm tiền. Những người mẹ cần đi làm hay đi chợ, sáng sáng đem con đến chỗ cô, cô sẽ ẵm, mớm, ru ngủ và tắm rửa cho trẻ. Họ trả công cho cô mỗi ngày hai hoặc ba xu, hoặc có người trả công bằng lời nói suông. Công việc này giúp cô có thêm thu nhập và niềm vui trong cuộc sống khi được nâng niu đứa trẻ và nghe tiếng cười khóc của chúng. [namcao-p005-para-010]",
+    "citations": [
+      "namcao-p005-para-010"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_M9HE3SbVSw6gE7mHSmEcyiIe",
+        "method": "bm25",
+        "query": "cô Hoàn không ra chợ làm gì kiếm tiền",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p005-para-010",
+            "score": 14.052673239023699,
+            "rank": 1,
+            "source": "truoc-cach-mang/chuyen-buon-giua-dem-vui.md",
+            "page": 5
+          },
+          {
+            "id": "namcao-p058-para-029",
+            "score": 12.041877078301638,
+            "rank": 2,
+            "source": "sau-cach-mang/vai-net-ghi-qua-vung-vua-giai-phong.md",
+            "page": 58
+          },
+          {
+            "id": "namcao-p005-para-003",
+            "score": 11.97282569398023,
+            "rank": 3,
+            "source": "truoc-cach-mang/chuyen-buon-giua-dem-vui.md",
+            "page": 5
+          }
+        ],
+        "context": "[namcao-p005-para-010 | truoc-cach-mang/chuyen-buon-giua-dem-vui.md | page 5]\nMột hôm, trong cuộc đi chơi bằng xe đạp, đến một làng kia, nó sực nhớ ra rằng đây là làng người cô mù ở. Sự tò mò, nhiều hơn là tình thương,xui nó rẽ vào thăm. Người cô đã già và gầy,và xanh hơn trước rất nhiều. Tóc cô đã lốm đốm hoa râm. Cô không đi chợ nữa. Cô ngồi nhà bán thuốc, ai mua thì đến. Số tiền kiếm được, do thế, có sút đi đôi chút. Muốn bù vào đấy, cô nhận bế trẻ con thuê. Những người mẹ cần đi làm hay đi chợ, sáng sáng cứ đem đến chỗ cô, kèm theo một nắm cơm. Cô sẽ ẵm nó cho, khi nó đói, cô mớm nó. Rồi cô ru nó ngủ. Cô còn mầy mò tắm rửa cho nó nữa. Tối đến, mẹ lại tới rước con về. Họ trả công cho cô mỗi ngày hai hoặc ba xu. Cũng có người chẳng có xu nào! Họ trả công bằng một lời nói suông. Thì cũng được. Miễn là cô được nâng niu đứa trẻ, nghe nó cười, nó khóc, vuốt ve cái mông mát trơn của nó. Không có chúng, đời cô sẽ buồn biết bao!…\n\n[namcao-p058-para-029 | sau-cach-mang/vai-net-ghi-qua-vung-vua-giai-phong.md | page 58]\nAnh ngụy binh ra hàng cho biết rằng: hồi Pháp còn đóng nhiều vị trí, kiểm soát được một số dân không thể bỏ ruộng đất mà đi, những người dân bắt buộc phải giả vờ theo chúng nó, cứ đúng kỳ hạn phải đến trình giấy, nên thị xã còn có người lui tới. Bấy giờ chúng bày ra những trò bán vải, mở sòng bạc ngay giữa chợ, để dử một số dân đi chợ. Nhưng từ ngày chúng bị ta vây chặt, thị xã đứt hẳn mọi liên lạc với ngoài, buôn bán rút lại chỉ còn một số nhỏ người quẩn quanh mua, bán lẫn của nhau. Một vài kẻ sừng sỏ, dùng tiền hay gái, dựa vào thế lực mấy thằng quan, được chúng nó cho về Hà Nội buôn hàng Tây lên bán cho Tây: mấy đứa con buôn vô liêm sỉ ấy làm giàu. Mấy thằng nửa ma cô nửa bồi tiêm, mấy con mẹ tứ chiếng giang hồ mở quán rượu, tiệm hút, nhà thổ hay cả ba thứ ấy hỗn hợp với nhau kiếm ăn về bọn lê dương.\n\n[namcao-p005-para-003 | truoc-cach-mang/chuyen-buon-giua-dem-vui.md | page 5]\nVậy thì nàng có để ý gì đến cái sự một bà cô đến dự hay không đến dự! Mặc bà cô ấy! Miễn là nàng với Phúc yêu nhau là đủ. Cái đáng kể trong đám cưới, ấy là tình yêu giữa đôi trai gái, đâu có phải vì một bà cô hay một bà dì?…\n\nTuy nghĩ vậy,nhưng nàng cũng lơ đãng hỏi:\n\n– Cô Hoàn? … Cô Hoàn nào?\n\n– Cô Hoàn mù. Cô ấy là chị ruột thầy. Để anh kể chuyện cô ấy cho Quyên nghe nhé. Buồn cười lắm!\n\nBuồn cười lắm! Phúc do quen miệng mà nói thế. Thật ra thì chuyện cô Hoàn chẳng có gì buồn cười lắm. Có thể nói là trái lại. Phúc kể như thế này:",
+        "context_ids": [
+          "namcao-p005-para-010",
+          "namcao-p058-para-029",
+          "namcao-p005-para-003"
+        ],
+        "context_chars": 2459,
+        "n_candidates": 3,
+        "elapsed_ms": 3.5
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p005-para-010"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1125.3,
+        "prompt_tokens": 529,
+        "completion_tokens": 24
+      },
+      {
+        "ms": 1792.6,
+        "prompt_tokens": 1426,
+        "completion_tokens": 153
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1955,
+      "completion_tokens": 177,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001065,
+    "n_searches": 1,
+    "elapsed_ms": 2921.6,
+    "split": "test",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "tn09",
+    "question": "Ông lý Nhưng bị phạt bao nhiêu tiền khi thua kiện?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Ông lý Nhưng bị phạt ba tháng tù án treo khi thua kiện. Ngoài ra, ông còn bị cách chức chân lý trưởng và phải chịu nhiều thiệt hại về danh dự và tài sản do vụ kiện kéo dài và căng thẳng với ông khóa Mẫn.[namcao-p036-para-008]",
+    "citations": [
+      "namcao-p036-para-008"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_9AaqzDVL1V08ZwA0xySGRtKi",
+        "method": "bm25",
+        "query": "Ông lý Nhưng bị phạt tiền khi thua kiện",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p036-para-008",
+            "score": 21.542668812149298,
+            "rank": 1,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p036-para-007",
+            "score": 11.70797515287844,
+            "rank": 2,
+            "source": "truoc-cach-mang/rua-hon.md",
+            "page": 36
+          },
+          {
+            "id": "namcao-p001-para-002",
+            "score": 10.794946845707207,
+            "rank": 3,
+            "source": "truoc-cach-mang/ba-nguoi-ban.md",
+            "page": 1
+          }
+        ],
+        "context": "[namcao-p036-para-008 | truoc-cach-mang/rua-hon.md | page 36]\nVụ kiện giằng dai lắm. Việc trước chưa xong thì việc sau đã tòi ra. Cứ ông khóa Mẫn kiện ông lý Nhưng, rồi ông lý Nhưng lại kiện ông khóa Mẫn. Rồi vây cánh của hai người kiện lẫn nhau. Việc nọ dính líu đến việc kia, chằng chịt lẫn nhau, không sao gỡ ra được nữa. Cả hai bên cùng hại của. Ông lý Nhưng bán đi năm mẫu ruộng. Ông khóa Mẫn thì chẳng có gì để bán, nhưng bà con, anh em cũng phải bỏ ra cho cũng khá nhiều. Sát khí bừng bừng. Họ đã đe giết lẫn nhau. Mà sự thật thì cả hai ông, mỗi lần ra khỏi nhà, đều phải có người đi hộ vệ...\n\nKết cục thì ông lý Nhưng thua, thua một cách khá sâu cay. Ba tháng tù án treo; chân lý trưởng thì bị cách. Người ta nói: ông tức quá, thổ ra hàng bát máu...\n\nThật ra thì không phải thế. Chỉ tại dân làng ghét ông nên họ nói thế. Họ rủa mát ông chơi đó! Nhờ trời, ông được cái tạng người cũng khỏe. Ông không đến nỗi uất máu lên mà chết. Có điều ông cũng tức. Và cũng xấu hổ với làng nước nữa. Ông không dám ló mặt ra khỏi nhà...\n\n[namcao-p036-para-007 | truoc-cach-mang/rua-hon.md | page 36]\nNgười ta đã biết tính ông: ông không thích nói nhiều. Nếu bà kia hỏi một câu nữa, thế nào ông cũng mắng. Bởi vậy bà không hỏi. Bà cởi ruột tượng lần ra một cuộn giấy bạc, đếm đưa cho ông khóa hai chục cái, tay đưa miệng mếu:\n\n-- Tôi gửi ông chỗ này để ông xe pháo, đò giang...Trăm sự nhờ ông..\n\n-- Được rồi! Bà cứ yên lòng về...Tôi chịu nó, thà tôi làm giống chó!...\n\nLập tức ông đội khăn, mặc áo, đi ra tỉnh...Mấy hôm sau, ông mũi đỏ có họ với ông được về. Thế nghĩa là cái đấm của lý Nhưng không chạm được đến người ông. Nhưng ông vẫn còn căm. Bởi vì ông mới chỉ đỡ mà thôi. Ông chưa đánh. Có giả miếng được thì mới giỏi...Nửa tháng sau, ông giả miếng: ông phát đơn kiện lý trưởng tất cả mười tám khoản; ngót một trăm người kí, phần nhiều là học trò ông, cha chú học trò ông, và một số đàn em trong làng. Mấy khoản nặng nhất là: bao chiếm công điền, tự tiện bán thứ vị để lấy tiền bỏ túi, ăn bớt gạch ngói xây trường học đem về xây nhà cho vợ lẽ...\n\n[namcao-p001-para-002 | truoc-cach-mang/ba-nguoi-ban.md | page 1]\nTuy vậy, ai học cụ Toàn ít lâu là mến cụ ngay, bởi vì con người ấy nghiêm thì nghiêm thật nhưng không ác; cụ không dong túng một cái lỗi nhỏ nào, nhưng trong khi đánh phạt, cụ điềm tĩnh, không lộ một chút gì nóng giận, đến nỗi người ta hiểu ngay rằng cụ đánh phạt không phải để cho hả giận đâu, nhưng chỉ để sửa lỗi học trò: cụ đánh phạt không phải vì tức-tối nhưng chính là yêu. Người ta có thể trách cái quan-niệm giáo dục sai lầm của cụ, người ta không giận cụ.",
+        "context_ids": [
+          "namcao-p036-para-008",
+          "namcao-p036-para-007",
+          "namcao-p001-para-002"
+        ],
+        "context_chars": 2574,
+        "n_candidates": 3,
+        "elapsed_ms": 3.1
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1201.1,
+        "prompt_tokens": 524,
+        "completion_tokens": 24
+      },
+      {
+        "ms": 1560.3,
+        "prompt_tokens": 1402,
+        "completion_tokens": 101
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1926,
+      "completion_tokens": 125,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.00097,
+    "n_searches": 1,
+    "elapsed_ms": 2764.7,
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "query_id": "tn10",
+    "question": "Trạch Văn Đoành có mấy người con?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Trạch Văn Đoành chỉ có một người con trai duy nhất, là con của ông lão dở hơi và vợ đã chết, sống với cha trong một cái lều bên bờ sông. Sau khi cha chết, Trạch Văn Đoành bỏ làng đi đó đi đây khắp nước Nam [namcao-p011-para-005].",
+    "citations": [
+      "namcao-p011-para-005"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_QjGCOEKSk4GrXndxAcu235Ix",
+        "method": "bm25",
+        "query": "Trạch Văn Đoành con",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p011-para-000",
+            "score": 20.083956778369984,
+            "rank": 1,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-002",
+            "score": 17.864381710041133,
+            "rank": 2,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-003",
+            "score": 14.806447587113585,
+            "rank": 3,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          }
+        ],
+        "context": "[namcao-p011-para-000 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay cái tên cũng khó nghe rồi. Thà cứ là Kèo, là Cột, là Hạ, là Đông. Là gì cũng còn dễ nghe. Nhưng hắn ta lại là Trạch Văn Đoành. Nghe như súng thần công. Nó chọc vào lỗ tai.\n\n[namcao-p011-para-002 | truoc-cach-mang/doi-mong-gio.md | page 11]\nCái đầu Trạch Văn Đoành không húi như đầu của chúng ta. Một lối riêng. Hắn gọi là mốt tiền văn minh, hậu nhà sư. Đằng trước có mấy món tóc dài để chải lật lên. Đằng sau cạo nhẵn thin như quả bưởi. Cho nó sạch. Hắn tặc lưỡi và bảo thế những khi vui miệng. Bởi vì nếu hắn không vui miệng thì hắn không nói thế. Hắn không thích cắt nghĩa những việc làm của hắn. Ai nói gì, mặc họ. Hắn cứ làm theo ý hắn và không cần nói để tự bênh vực mình.\n\n[namcao-p011-para-003 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay những cái ăn, cái mặt của hắn cũng khác người. Cái ăn bất tất nói làm gì. Người ta ăn ở trong nhà. Vậy thì ai muốn ăn thế nào tùy thích. Ông cũng vậy mà tôi cũng vậy. Ít ra chúng ta cũng có có một xó để tự do. Khi cửa nhà chúng ta khép kín. Ta có thể lố lăng mà không bận gì đến ai. Nhưng chúng ta mặc áo chỉnh tề để ra đường. Vậy thì quần ao sở dĩ có, một phần lớn không phải vì ta, mà lại vì những con mắt nhìn ta. Đã vì chúng, thì chiều chúng một tý kể cũng là phải lẽ. Muốn chiều chúng thật nhiều thì cũng được. Trạch Văn Đoành không thế. Nghĩ đến cách mặc của hắn bao giờ người ta cũng nghĩ đến mùa đông. Bởi mùa đông mới thật có những người mặc chẳng vì ai, nhưng chỉ vì sự dễ chịu của mình. Đoành thuộc vào hạng ấy. Suốt một mùa, hắn chỉ mặc một cái ba-đơ-xuy sắc chó gio. Hắn mua hồi đi lính sang Tây. Có bảy mươi quan. Thế mà bền. Đến nay, tất cả, có đến ngót ba chục năm rồi đấy. Lần lót rách bươm tự bao giờ. Nhưng còn cái lần ngoài. Mặc nguyên nó cũng còn ấm bằng mười áo kép.",
+        "context_ids": [
+          "namcao-p011-para-000",
+          "namcao-p011-para-002",
+          "namcao-p011-para-003"
+        ],
+        "context_chars": 1811,
+        "n_candidates": 3,
+        "elapsed_ms": 1.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_JAbG1s4bMIgMCaRWWugg8BD4",
+        "method": "bm25",
+        "query": "Trạch Văn Đoành con",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p011-para-000",
+            "score": 20.083956778369984,
+            "rank": 1,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-002",
+            "score": 17.864381710041133,
+            "rank": 2,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-003",
+            "score": 14.806447587113585,
+            "rank": 3,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          }
+        ],
+        "context": "[namcao-p011-para-000 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay cái tên cũng khó nghe rồi. Thà cứ là Kèo, là Cột, là Hạ, là Đông. Là gì cũng còn dễ nghe. Nhưng hắn ta lại là Trạch Văn Đoành. Nghe như súng thần công. Nó chọc vào lỗ tai.\n\n[namcao-p011-para-002 | truoc-cach-mang/doi-mong-gio.md | page 11]\nCái đầu Trạch Văn Đoành không húi như đầu của chúng ta. Một lối riêng. Hắn gọi là mốt tiền văn minh, hậu nhà sư. Đằng trước có mấy món tóc dài để chải lật lên. Đằng sau cạo nhẵn thin như quả bưởi. Cho nó sạch. Hắn tặc lưỡi và bảo thế những khi vui miệng. Bởi vì nếu hắn không vui miệng thì hắn không nói thế. Hắn không thích cắt nghĩa những việc làm của hắn. Ai nói gì, mặc họ. Hắn cứ làm theo ý hắn và không cần nói để tự bênh vực mình.\n\n[namcao-p011-para-003 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay những cái ăn, cái mặt của hắn cũng khác người. Cái ăn bất tất nói làm gì. Người ta ăn ở trong nhà. Vậy thì ai muốn ăn thế nào tùy thích. Ông cũng vậy mà tôi cũng vậy. Ít ra chúng ta cũng có có một xó để tự do. Khi cửa nhà chúng ta khép kín. Ta có thể lố lăng mà không bận gì đến ai. Nhưng chúng ta mặc áo chỉnh tề để ra đường. Vậy thì quần ao sở dĩ có, một phần lớn không phải vì ta, mà lại vì những con mắt nhìn ta. Đã vì chúng, thì chiều chúng một tý kể cũng là phải lẽ. Muốn chiều chúng thật nhiều thì cũng được. Trạch Văn Đoành không thế. Nghĩ đến cách mặc của hắn bao giờ người ta cũng nghĩ đến mùa đông. Bởi mùa đông mới thật có những người mặc chẳng vì ai, nhưng chỉ vì sự dễ chịu của mình. Đoành thuộc vào hạng ấy. Suốt một mùa, hắn chỉ mặc một cái ba-đơ-xuy sắc chó gio. Hắn mua hồi đi lính sang Tây. Có bảy mươi quan. Thế mà bền. Đến nay, tất cả, có đến ngót ba chục năm rồi đấy. Lần lót rách bươm tự bao giờ. Nhưng còn cái lần ngoài. Mặc nguyên nó cũng còn ấm bằng mười áo kép.",
+        "context_ids": [
+          "namcao-p011-para-000",
+          "namcao-p011-para-002",
+          "namcao-p011-para-003"
+        ],
+        "context_chars": 1811,
+        "n_candidates": 3,
+        "elapsed_ms": 1.3
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_CWoT65sJsJB9z0vprdW3X8a0",
+        "method": "bm25",
+        "query": "Trạch Văn Đoành con mấy người",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p011-para-000",
+            "score": 20.083956778369984,
+            "rank": 1,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-002",
+            "score": 19.671882589667867,
+            "rank": 2,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          },
+          {
+            "id": "namcao-p011-para-005",
+            "score": 16.488736743577057,
+            "rank": 3,
+            "source": "truoc-cach-mang/doi-mong-gio.md",
+            "page": 11
+          }
+        ],
+        "context": "[namcao-p011-para-000 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay cái tên cũng khó nghe rồi. Thà cứ là Kèo, là Cột, là Hạ, là Đông. Là gì cũng còn dễ nghe. Nhưng hắn ta lại là Trạch Văn Đoành. Nghe như súng thần công. Nó chọc vào lỗ tai.\n\n[namcao-p011-para-002 | truoc-cach-mang/doi-mong-gio.md | page 11]\nCái đầu Trạch Văn Đoành không húi như đầu của chúng ta. Một lối riêng. Hắn gọi là mốt tiền văn minh, hậu nhà sư. Đằng trước có mấy món tóc dài để chải lật lên. Đằng sau cạo nhẵn thin như quả bưởi. Cho nó sạch. Hắn tặc lưỡi và bảo thế những khi vui miệng. Bởi vì nếu hắn không vui miệng thì hắn không nói thế. Hắn không thích cắt nghĩa những việc làm của hắn. Ai nói gì, mặc họ. Hắn cứ làm theo ý hắn và không cần nói để tự bênh vực mình.\n\n[namcao-p011-para-003 | truoc-cach-mang/doi-mong-gio.md | page 11]\nNgay những cái ăn, cái mặt của hắn cũng khác người. Cái ăn bất tất nói làm gì. Người ta ăn ở trong nhà. Vậy thì ai muốn ăn thế nào tùy thích. Ông cũng vậy mà tôi cũng vậy. Ít ra chúng ta cũng có có một xó để tự do. Khi cửa nhà chúng ta khép kín. Ta có thể lố lăng mà không bận gì đến ai. Nhưng chúng ta mặc áo chỉnh tề để ra đường. Vậy thì quần ao sở dĩ có, một phần lớn không phải vì ta, mà lại vì những con mắt nhìn ta. Đã vì chúng, thì chiều chúng một tý kể cũng là phải lẽ. Muốn chiều chúng thật nhiều thì cũng được. Trạch Văn Đoành không thế. Nghĩ đến cách mặc của hắn bao giờ người ta cũng nghĩ đến mùa đông. Bởi mùa đông mới thật có những người mặc chẳng vì ai, nhưng chỉ vì sự dễ chịu của mình. Đoành thuộc vào hạng ấy. Suốt một mùa, hắn chỉ mặc một cái ba-đơ-xuy sắc chó gio. Hắn mua hồi đi lính sang Tây. Có bảy mươi quan. Thế mà bền. Đến nay, tất cả, có đến ngót ba chục năm rồi đấy. Lần lót rách bươm tự bao giờ. Nhưng còn cái lần ngoài. Mặc nguyên nó cũng còn ấm bằng mười áo kép.\n\n[namcao-p011-para-005 | truoc-cach-mang/doi-mong-gio.md | page 11]\nTheo lời mấy ông già bà lão trong làng thì Trạch Văn Đoành là con một ông lão dở hơi. Lão đi câu. Được đồng nào, rượu tất. Bởi vì lão không có vợ, nghĩa là có nhưng vợ chết. Vợ lão để lại cho lão một thằng con trai. Nó giống cha, nghĩa là lớn lên cũng đi câu và cũng rượu bét nhè. Hai bố con ở với nhau trong một cái lều ở bờ sông. Mỗi buổi tối, những người phải đi qua, nghe thấy chúng cười như những thằng điên. Bởi chúng say. Mà khi người ta say, người ta quên cả những sự lầm than của kiếp người, nghĩa là người ta sướng lắm.\n\nNhưng một đêm mùa đông rét mướt kia, chẳng biết run rẩy thế nào, lão già ngã xuống sông và chết ở dưới sông. Cái xác trôi theo nước. Từ hôm ấy, trong cái lều nhỏ bên sông, người ta không nghe thấy những tiếng cười như điên nữa. Thằng con sinh ra buồn.\n\nHắn bỏ làng đi đó đi đây. Đi khắp nước Nam.",
+        "context_ids": [
+          "namcao-p011-para-000",
+          "namcao-p011-para-002",
+          "namcao-p011-para-003",
+          "namcao-p011-para-005"
+        ],
+        "context_chars": 2707,
+        "n_candidates": 4,
+        "elapsed_ms": 3.4
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1407.0,
+        "prompt_tokens": 520,
+        "completion_tokens": 19
+      },
+      {
+        "ms": 1035.1,
+        "prompt_tokens": 1155,
+        "completion_tokens": 19
+      },
+      {
+        "ms": 890.9,
+        "prompt_tokens": 1196,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 1604.9,
+        "prompt_tokens": 1540,
+        "completion_tokens": 108
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 4411,
+      "completion_tokens": 168,
+      "llm_calls": 4
+    },
+    "cost_usd": 0.002033,
+    "n_searches": 3,
+    "elapsed_ms": 4944.4,
+    "split": "test",
+    "answerable": false
+  },
+  {
+    "query_id": "tn11",
+    "question": "Kiện giữ chức vụ gì trong đơn vị kháng chiến của anh?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Kiện giữ chức vụ \"đoàn thể\" trong đơn vị kháng chiến, một vị trí rất thiêng liêng mà anh sống chết với nó và không bao giờ từ chối, thể hiện sự cống hiến và hy sinh cho nước nhà trong kháng chiến [namcao-p046-para-008][namcao-p046-para-010].",
+    "citations": [
+      "namcao-p046-para-008",
+      "namcao-p046-para-010"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_ssYdZbojVRz6aoZiA7a4J9SU",
+        "method": "bm25",
+        "query": "Kiện chức vụ kháng chiến",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p046-para-010",
+            "score": 12.95689535390143,
+            "rank": 1,
+            "source": "sau-cach-mang/doi-cho.md",
+            "page": 46
+          },
+          {
+            "id": "namcao-p047-para-025",
+            "score": 12.448851793465186,
+            "rank": 2,
+            "source": "sau-cach-mang/doi-mat.md",
+            "page": 47
+          },
+          {
+            "id": "namcao-p046-para-008",
+            "score": 12.262085140402231,
+            "rank": 3,
+            "source": "sau-cach-mang/doi-cho.md",
+            "page": 46
+          }
+        ],
+        "context": "[namcao-p046-para-010 | sau-cach-mang/doi-cho.md | page 46]\nKiện rầu rầu bảo Liễu: \"Lấy tôi, mình thật khổ. Những lúc điêu đứng nguy nan nhất, những lúc mình cần đến sự giúp đỡ của tôi nhiều nhất thì tôi lại để mặc mình bơ vơ với lũ con thơ. Mình có giận tôi không?\". Liễu không nói gì, chỉ âu yếm vuốt tóc chồng. Và Kiện cười buồn, bảo tiếp: \"Kháng chiến thành công, nếu còn sống về làng này tìm nhau nhé?\". Liễu hé trông thấy cả một cảnh chia lìa tan tác. Chị lạnh người. Chị muốn khóc òa lên, nhưng cố nghiến răng không khóc. Kiện nhè nhẹ nắm lấy bàn tay chị, như những ngày mới cưới. Họ gục mặt vào nhau mà ngủ.\n\nHôm sau Kiện ra đi. Anh tránh nhìn các con. Liễu biết rằng anh sợ khóc. Liễu cũng không khóc, chị tươi cười, chế giễu chồng: \"Bộ áo rét của anh tã lắm rồi. Mặc vào trông già hẳn đi\". Nhưng chồng đi được một lúc thì chị xua lũ con đi chơi, ngồi khóc. Nhớ lại phút chia ly ấy, Liễu nghẹn ngào.\n\nNhàn càng tưởng chị uất ức vì chồng, an ủi.\n\n-- Thôi bây giờ chịu khổ, bao giờ độc lập tha hồ mà sung sướng. Độc lập thì anh ấy làm to lắm.\n\n[namcao-p047-para-025 | sau-cach-mang/doi-mat.md | page 47]\n-- Các bố lại tổ tôm. Mụ Yên Ký cũng không có nhà, phải không? Con mụ ấy cũng là đệ tử tổ tôm hạng nặng. Chắc họ tụ tập ở đây hay ở bên nhà cụ Phạm, sai người nhà gác cổng.\n\nChị Hoàng không có ý kiến gì. Anh Hoàng vỗ vai bảo tôi:\n\n-- Anh nghĩ có buồn không? Trí thức thì thế đấy. Còn dân thì... như anh đã biết.\n\nTôi thầm rủa sự tình cờ sao lại xô đẩy anh về đây cùng với bằng ấy thứ cặn bã của giới thượng lưu trí thức. Sao anh không đi theo bộ đội, đi diễn kịch tuyên truyền nhập bọn với các đoàn văn hoá kháng chiến để được thấy những sinh viên, công chức xung vào Vệ quốc quân, những bác sĩ sốt sắng làm việc trong các viện khảo cứu hay các viện quân y, những bạn văn nghệ sĩ của anh đang mê mải đi sâu vào quần chúng để học họ và dạy họ học, đồng thời tìm những cảm hứng mới cho văn nghệ?\n\nTôi cười nhạt:\n\n-- Nghe anh nói, tôi nản quá. Như vậy cuộc kháng chiến của ta có lẽ đến hỏng à?\n\nAnh chộp lấy câu của tôi, nhanh như một con mèo vồ con chuột:\n\n[namcao-p046-para-008 | sau-cach-mang/doi-cho.md | page 46]\nSúng nổ được độ một tuần, Kiện ở tỉnh về. Trái hẳn lại với mọi lần, anh trốn lủi tất cả các anh em đồng chí ở làng. Sợ họ biết anh về mà kéo đến tìm anh. Anh bảo Liễu: \"Tôi muốn dành cho chúng mình vài ngày hoàn toàn riêng của chúng mình\". Kiện sắp đi xa. Anh biết rằng kháng chiến sẽ rất gian nan. Có thể rằng giặc sẽ tràn đến làng. Giặc sẽ phá làng. Liễu sẽ phải đem con đi tản cư xa. Rời vườn ruộng, không quen buôn bán, trong tay không có một đồng vốn liếng, một thân một thân đàn bà với ba đứa con thơ, rồi Liễu sẽ ra sao? Anh trông thấy tất cả những nỗi đau đớn khổ cực, nguy nan đang chờ vợ con anh. Nhưng đoàn thể gọi anh đi. Đoàn thể - đó là một cái gì đó rất thiêng liêng đối với anh. Anh sống chết với nó. Không bao giờ anh từ chối nó một điều gì. Nước nhà đang cần đến những bàn tay, những hy sinh.",
+        "context_ids": [
+          "namcao-p046-para-010",
+          "namcao-p047-para-025",
+          "namcao-p046-para-008"
+        ],
+        "context_chars": 2936,
+        "n_candidates": 3,
+        "elapsed_ms": 0.4
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 940.4,
+        "prompt_tokens": 523,
+        "completion_tokens": 19
+      },
+      {
+        "ms": 1916.0,
+        "prompt_tokens": 1537,
+        "completion_tokens": 117
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "query_guide": "none",
+      "name": "test-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2060,
+      "completion_tokens": 136,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001042,
+    "n_searches": 1,
+    "elapsed_ms": 2857.0,
+    "split": "test",
+    "answerable": false
+  }
+]

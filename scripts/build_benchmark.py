@@ -1,4 +1,4 @@
-"""Build the Day 7 benchmark DRAFT (data/questions.json, data/agent_cases.json) and verify it.
+"""Build the Day 7 benchmark (data/questions.json, data/agent_cases.json) and verify it.
 
 Dev  = 18 Day 6 dev questions + 6 old Day 6 test questions (already seen -> demoted to dev)
        + 3 new unanswerable questions.
