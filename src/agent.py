@@ -16,6 +16,7 @@ Design (see README):
 import json
 import re
 import time
+import unicodedata
 from dataclasses import asdict, dataclass, field
 from typing import Any
 
@@ -26,7 +27,7 @@ PRICES = {"gpt-4.1-mini": (0.40, 1.60), "gpt-4.1": (2.00, 8.00), "gpt-4o-mini": 
 
 ABSTAIN_TEXT = "Không đủ bằng chứng để trả lời."
 
-SYSTEM_PROMPT = """Bạn là trợ lý tra cứu một tuyển tập truyện ngắn của Nam Cao (tiếng Việt). Bạn chỉ được trả lời dựa trên các đoạn văn tìm được bằng công cụ `search`.
+SYSTEM_PROMPT_BASE = """Bạn là trợ lý tra cứu một tuyển tập truyện ngắn của Nam Cao (tiếng Việt). Bạn chỉ được trả lời dựa trên các đoạn văn tìm được bằng công cụ `search`.
 
 Quy tắc:
 1. Luôn gọi `search` ít nhất một lần trước khi trả lời. Có thể tìm nhiều lần với truy vấn khác nhau (tên nhân vật, từ khóa đặc trưng, chi tiết cần tìm); đừng lặp lại truy vấn y hệt.
@@ -34,6 +35,30 @@ Quy tắc:
 3. Khi đã đủ bằng chứng, gọi `answer` với enough_evidence=true. Câu trả lời ngắn gọn, đúng chi tiết (số liệu, tên, điều kiện) và chèn [chunk-id] ngay sau mỗi ý dựa vào đoạn đó; citations là danh sách các chunk-id đó. Chỉ dùng chunk-id có trong kết quả.
 4. Nếu sau khi tìm vẫn không có đoạn nào nêu đúng điều được hỏi, gọi `answer` với enough_evidence=false, answer="Không đủ bằng chứng để trả lời." và citations=[]. Không suy đoán, không dùng kiến thức ngoài các đoạn văn, không trả lời một phần dựa trên đoạn chỉ gần chủ đề.
 """
+
+
+# Added by config "strict": ask the model to verify each asked detail and to retry before giving up.
+# It never contains benchmark gold; it only changes how the model checks its own context.
+STRICT_ADDON = """5. Trước khi trả lời, đối chiếu từng chi tiết được hỏi (con số, tên, đồ vật, nguyên nhân, điều kiện) với văn bản trong ngữ cảnh: phải có câu nêu đúng chi tiết đó. Nếu chỉ thấy thông tin gần chủ đề mà không có câu nêu đúng chi tiết, KHÔNG trả lời bằng thông tin gần đúng.
+6. Nếu lượt tìm trước chưa có câu nêu đúng chi tiết, hãy tìm lại bằng truy vấn khác: lấy trực tiếp các từ khóa cụ thể trong câu hỏi (tên nhân vật, danh từ then chốt, con số), có thể đổi phương pháp tìm. Chỉ gọi `answer` với enough_evidence=false sau khi đã thử ít nhất 2 truy vấn khác nhau mà vẫn không thấy."""
+
+# Added by config "quote": the model must copy ONE sentence verbatim that itself states the answer; code verifies
+# it is a substring of a cited chunk. Dev trace showed the model answering with near-topic facts (or writing
+# "truyện không nêu" inside an answer flagged enough_evidence=true); a checkable quote makes that detectable.
+QUOTE_ADDON = """7. Khi gọi `answer` với enough_evidence=true bạn PHẢI điền evidence_quote: chép NGUYÊN VĂN (không sửa, không tóm tắt) một câu hoặc đoạn ngắn từ một đoạn bạn trích dẫn mà tự nó nêu trực tiếp điều được hỏi. Có thể dùng "..." để nối các đoạn ngắn. Nếu không chép được câu nào nêu trực tiếp điều được hỏi (chỉ có thông tin gần chủ đề, hoặc văn bản không nói tới), hãy đặt enough_evidence=false thay vì trả lời; không viết kiểu "truyện không nêu" trong câu trả lời có enough_evidence=true."""
+
+# Added by config "keywords" (query_guide): dev error analysis showed BM25 missing evidence when the query copied
+# question words ("bao nhiêu", "tiền") that the story never uses. Examples below are generic, NOT taken from the
+# benchmark questions or gold.
+QUERY_ADDON = """8. Cách viết truy vấn cho `search`: đừng chép nguyên câu hỏi. Chỉ giữ 2-4 từ khóa then chốt (tên nhân vật, danh từ hoặc động từ cụ thể mà người kể có thể đã dùng), bỏ các từ để hỏi (bao nhiêu, gì, nào, vì sao...). Nếu lượt tìm đầu chưa thấy câu nêu đúng chi tiết, thử lại bằng từ đồng nghĩa hoặc cách nói văn chương khác (ví dụ: "chết" ↔ "mất", "ốm" ↔ "đau", "mua" ↔ "sắm") hoặc đổi phương pháp tìm."""
+
+# Added by config "bm25-first": tell the model what each retrieval method is good at (measured on dev only).
+METHOD_GUIDANCE = {
+    "none": "dense = tìm theo ngữ nghĩa (embedding); bm25 = tìm theo từ khóa chính xác; hybrid = kết hợp cả hai.",
+    "bm25-first": "bm25 = tìm theo từ khóa chính xác, hiệu quả nhất cho câu hỏi về chi tiết cụ thể (tên, con số, đồ vật): hãy ưu tiên dùng "
+                  "và viết truy vấn bằng các từ khóa có khả năng xuất hiện nguyên văn trong truyện; dense = tìm theo ngữ nghĩa, "
+                  "chỉ dùng khi bm25 không ra kết quả phù hợp; hybrid = kết hợp cả hai, dùng khi cần độ phủ rộng.",
+}
 
 
 @dataclass
@@ -45,26 +70,44 @@ class AgentConfig:
     max_searches: int = 3
     max_llm_turns: int = 8
     temperature: float = 0.0
+    prompt: str = "base"                        # "base" | "strict"  (adds STRICT_ADDON)
+    guidance: str = "none"                      # "none" | "bm25-first" (method descriptions in the search tool)
+    require_quote: bool = False                 # verbatim evidence_quote checked against cited chunks
+    query_guide: str = "none"                   # "none" | "keywords" (adds QUERY_ADDON)
     name: str = "baseline"
+
+
+def _norm(s: str) -> str:
+    return " ".join(unicodedata.normalize("NFC", s).casefold().split())
+
+
+def quote_in_chunks(quote: str, texts: list[str]) -> bool:
+    """Every non-trivial segment of `quote` (split on '...' / '…') must occur verbatim in a cited chunk."""
+    segs = [_norm(p) for p in re.split(r"\.\.\.|…", quote or "")]
+    segs = [p.strip(" \"'“”‘’.,;:") for p in segs if len(p.strip()) >= 8]
+    hay = [_norm(t) for t in texts]
+    return bool(segs) and all(any(p in h for h in hay) for p in segs)
 
 
 def build_tools(cfg: AgentConfig) -> list[dict[str, Any]]:
     search_props: dict[str, Any] = {"query": {"type": "string", "description": "Truy vấn tìm kiếm tiếng Việt."}}
     if len(cfg.methods) > 1:
         search_props["method"] = {"type": "string", "enum": list(cfg.methods),
-                                  "description": "dense = tìm theo ngữ nghĩa (embedding); bm25 = tìm theo từ khóa chính xác; "
-                                                 "hybrid = kết hợp cả hai."}
+                                  "description": METHOD_GUIDANCE[cfg.guidance]}
+    answer_props: dict[str, Any] = {"enough_evidence": {"type": "boolean"}, "answer": {"type": "string"},
+                                    "citations": {"type": "array", "items": {"type": "string"}}}
+    required = ["enough_evidence", "answer", "citations"]
+    if cfg.require_quote:
+        answer_props["evidence_quote"] = {"type": "string", "description":
+            "Câu/đoạn chép NGUYÊN VĂN từ đoạn được trích dẫn, tự nó nêu trực tiếp điều được hỏi; để trống nếu enough_evidence=false."}
+        required.append("evidence_quote")
     return [
         {"type": "function", "function": {
             "name": "search", "description": "Tìm các đoạn truyện liên quan; trả về ngữ cảnh gồm các đoạn kèm chunk-id.",
             "parameters": {"type": "object", "properties": search_props, "required": ["query"]}}},
         {"type": "function", "function": {
             "name": "answer", "description": "Kết thúc: đưa câu trả lời có trích dẫn hoặc báo không đủ bằng chứng.",
-            "parameters": {"type": "object", "properties": {
-                "enough_evidence": {"type": "boolean"},
-                "answer": {"type": "string"},
-                "citations": {"type": "array", "items": {"type": "string"}}},
-                "required": ["enough_evidence", "answer", "citations"]}}},
+            "parameters": {"type": "object", "properties": answer_props, "required": required}}},
     ]
 
 
@@ -99,6 +142,9 @@ class Agent:
             raise ValueError(f"no retriever registered for {missing}")
         self.client, self.retrievers, self.cfg = client, retrievers, cfg
         self.tools = build_tools(cfg)
+        self.system_prompt = (SYSTEM_PROMPT_BASE + ("\n" + STRICT_ADDON if cfg.prompt == "strict" else "")
+                              + ("\n" + QUOTE_ADDON if cfg.require_quote else "")
+                              + ("\n" + QUERY_ADDON if cfg.query_guide == "keywords" else ""))
 
     # ------------------------------------------------------------------ public
     def run(self, query_id: str, question: str, *, filters: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -122,7 +168,7 @@ class Agent:
     def _loop(self, trace: dict[str, Any], question: str, filters: dict[str, Any] | None) -> None:
         cfg = self.cfg
         scope = f"\n(Phạm vi tìm kiếm do người dùng cung cấp, hệ thống tự áp dụng: {json.dumps(filters, ensure_ascii=False)})" if filters else ""
-        messages: list[dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT},
+        messages: list[dict[str, Any]] = [{"role": "system", "content": self.system_prompt},
                                           {"role": "user", "content": question + scope}]
         calls: list[list[dict[str, Any]]] = []     # results of each search call
         context, context_ids = "", []
@@ -184,7 +230,8 @@ class Agent:
                                      "content": f"Ngữ cảnh tích lũy ({len(context_ids)} đoạn):\n\n{body}"})
                     search_msg_idx = len(messages) - 1
                 elif tc.function.name == "answer":
-                    done = self._handle_answer(trace, tc.id, args, context_ids, messages, answer_retries)
+                    texts = {r["id"]: r["text"] for c in calls for r in c}
+                    done = self._handle_answer(trace, tc.id, args, context_ids, messages, answer_retries, texts)
                     if done is True:
                         return
                     answer_retries += 1
@@ -192,7 +239,7 @@ class Agent:
                     messages.append({"role": "tool", "tool_call_id": tc.id, "content": "Công cụ không tồn tại."})
         self._abstain(trace, "max_llm_turns")
 
-    def _handle_answer(self, trace, call_id, args, context_ids, messages, retries) -> bool:
+    def _handle_answer(self, trace, call_id, args, context_ids, messages, retries, texts=None) -> bool:
         answer, cites, enough = args.get("answer"), args.get("citations"), args.get("enough_evidence")
         n_search = sum(e["event"] == "search" for e in trace["events"])
         if n_search == 0 and retries < 1:
@@ -202,6 +249,13 @@ class Agent:
             trace.update(status="abstain", answer=ABSTAIN_TEXT, citations=[], model_answer=answer)
             trace["events"].append({"event": "answer", "enough_evidence": False})
             return True
+        # Protocol fix (found on dev): the model often lists valid ids in `citations` but forgets the inline [id]
+        # marker. That is a formatting slip, not missing evidence, so append the missing markers and log it.
+        if isinstance(answer, str) and isinstance(cites, list) and cites and all(isinstance(i, str) for i in cites):
+            missing = [i for i in cites if i in context_ids and f"[{i}]" not in answer]
+            if missing:
+                answer = answer.rstrip() + " " + "".join(f"[{i}]" for i in missing)
+                trace["events"].append({"event": "citations_appended", "ids": missing})
         problems = []
         if not isinstance(answer, str) or not answer.strip():
             problems.append("answer rỗng")
@@ -210,8 +264,16 @@ class Agent:
         else:
             problems += [f"{i} không có trong ngữ cảnh" for i in cites if i not in context_ids]
             problems += [f"thiếu [{i}] trong câu trả lời" for i in cites if isinstance(answer, str) and f"[{i}]" not in answer]
+            if self.cfg.require_quote and not problems:
+                quote = args.get("evidence_quote")
+                trace["evidence_quote"] = quote
+                cited = [(texts or {}).get(i, "") for i in cites]
+                if not isinstance(quote, str) or not quote_in_chunks(quote, cited):
+                    problems.append("evidence_quote phải chép nguyên văn từ đoạn được trích dẫn và nêu trực tiếp điều được hỏi; "
+                                    "nếu không có câu như vậy hãy đặt enough_evidence=false")
         if problems:
-            trace["events"].append({"event": "invalid_answer", "problems": problems})
+            trace["events"].append({"event": "invalid_answer", "problems": problems, "attempt": {
+                "answer": answer, "citations": cites, "evidence_quote": args.get("evidence_quote")}})
             if retries < 1:
                 messages.append({"role": "tool", "tool_call_id": call_id,
                                  "content": "Câu trả lời bị từ chối: " + "; ".join(problems) + ". Gọi lại `answer` cho đúng."})

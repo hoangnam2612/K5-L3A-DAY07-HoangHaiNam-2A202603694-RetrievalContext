@@ -1,0 +1,3246 @@
+[
+  {
+    "query_id": "d01",
+    "question": "Nguyên nhân của cuộc cãi vã giữa vợ chồng anh cu là gì?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Nguyên nhân cuộc cãi vã giữa vợ chồng anh Cu là do anh quát to làm con trai họ thức giấc, khiến chị Cu bực mình trách chồng làm con dậy. Sau đó, anh Cu hất mâm cơm ra sân làm chị Cu tức giận vì mất đồ ăn và công sức, dẫn đến lời qua tiếng lại và cãi vã lớn tiếng. Cả hai đều nói những lời chua chát, không ai chịu nhường ai, khiến vợ bế con chạy vào buồng, chồng ngồi ngoài giận dữ nhưng cũng cười khanh khách vì nghĩ vợ mình nghiện cãi nhau và yêu thích điều đó [namcao-p007-para-001, namcao-p007-para-005, namcao-p008-para-015]. [namcao-p007-para-001][namcao-p007-para-005][namcao-p008-para-015]",
+    "citations": [
+      "namcao-p007-para-001",
+      "namcao-p007-para-005",
+      "namcao-p008-para-015"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_rDOr35Lzlc7c3hFWE036HRLI",
+        "method": "bm25",
+        "query": "cãi vã giữa vợ chồng anh cu",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p007-para-001",
+            "score": 13.043980258851688,
+            "rank": 1,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-005",
+            "score": 12.982489452612425,
+            "rank": 2,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p008-para-015",
+            "score": 12.881211405095907,
+            "rank": 3,
+            "source": "truoc-cach-mang/cuoi.md",
+            "page": 8
+          }
+        ],
+        "context": "[namcao-p007-para-001 | truoc-cach-mang/con-meo.md | page 7]\nAnh vừa quát vừa vỗ tay xuống hè bèn bẹt. Thằng cu giật mình, thét lên. Chị cu bực mình quá, quay ra trị chồng:\n\n-- Gớm mồm với miệng gì mà toang toang như ngỗng đực. Làm thằng bé dậy.\n\n-- Không thế để nó ăn hết, hả?\n\n-- Có mốc gì mà nó ăn? Không trách được!...\n\nChị chạy vào rước thằng cu dậy. Trong nhà nực quá, chị ẵm nó ra ngoài hè. Nó chúi đầu vào ngực, mấp lấy đầu vú, day. Day mãi. Trời này mà cứ phải ôm lấy nó thì có bực mình không chứ? Chị thấy ngứa lung tung, khắp người. Chị lẩm bẩm trách chồng:\n\n-- Cái giống người gì hơi một tí là oang oang như mõ ấy! Thằng bé đang ngủ mệt mà cũng làm nó dậy. Chỉ chết người ta thôi.\n\nAnh tức lắm. Chỉ có thế mà chị lỉa rỉa đay nghiến anh mãi được. Có thứ người gì ấy lại lắm điều đến thế? Cái đầu anh càng ngứa dữ. Anh rứt từng mảng tóc đi...Giữa lúc ấy thì chú mèo thấy tình hình như đã yên ổn lại, lại lò dò đến, trèo lên mâm. Anh cu cười đắc chí, anh bảo vợ:\n\n[namcao-p007-para-005 | truoc-cach-mang/con-meo.md | page 7]\nAnh cu biết ngay là vợ dỗi. Anh cười gằn, hỏi:\n\n-- Nào, có đứa nào ăn không nào?\n\nChị cu không thèm đáp. Cái Viển đoán là chị giận, vội lại vét nốt cơm ra bát...\n\n-- Mời chị lại xơi nốt...\n\nChị gắt:\n\n-- Đổ té nó đi! Tao đã bảo...\n\nThì \"choang\" một cái, anh cu đã hất cái mâm ra ngoài giữa sân. Chị cu gào thật to:\n\n-- Trời ơi là trời!.... Mày phá tao thế à? Từ sáng đến giờ, tao ngồi trầy trầy trên khung cửi, mới được chừng một đồng hào, mà mày phá tao một lúc một cái niêu, bốn năm cái bát...\n\nThằng cu trong nhà lại thét lên. Viền chạy vào, \"rước\" nó. Chị cu thì vừa nhảy loi choi, vừa vỗ tay đen đét, xỉa xói vào mặt chồng mà kể lể. Nhưng chị bỗng nhiên ngừng bặt...Có tiếng đấm đá nhau huỳnh huỵch. Rồi tiếng người đàn bà gào to hơn:\n\n-- Mày cứ đánh chết bà đi! Mày đánh chết bà xem nào! Mày không đánh chết được bà thì...\n\n[namcao-p008-para-015 | truoc-cach-mang/cuoi.md | page 8]\nNgười đàn bà vặn thế. Cứ vậy, tiếng bấc đưa đi, tiếng chì quăng lại, mỗi người chỉ nghĩ đến sự quá quắt của người kia mà không một chút nghĩ đến sự quá quắt của mình. Cũng không ai chịu nhớ rằng: ngoài những lúc giận nhau, họ là một cặp vợ chồng rất tốt. Chồng thương vợ, vợ thương chồng, đôi bên luôn luôn tìm cách làm cho nhau đỡ khổ. Họ chỉ còn biết nói cho thật chua chát, nói thế nào cho người nghe thật tức, thành thử cả hai cùng tức lắm. Họ đều to tiếng. Và kết cục thì người vợ hầm hầm bế con vùng vằng chạy vào buồng. Anh chồng ngồi cắm mặt ở nhà ngoài, mím chặt môi để nuốt khí giận ở trong. Giận thật, ừ, giận thật.\n\nNhưng bỗng nhiên anh cười khanh khách. Bởi vì anh chợt nghĩ rằng: vợ anh nghiện cãi nhau, nếu không được cãi nhau thì đời thị sẽ buồn lắm. Vì vậy anh yêu thị cũng nên. Ở nhà để thỉnh thoảng cãi nhau với thị. Cãi nhau hai người thì mới đúng phép và mới thích; cũng như đánh quần vợt, đánh cờ hay đấu kiếm, một người không thành cuộc...\n\nAnh cười rũ rượi, cười ngặt nghẽo.",
+        "context_ids": [
+          "namcao-p007-para-001",
+          "namcao-p007-para-005",
+          "namcao-p008-para-015"
+        ],
+        "context_chars": 2919,
+        "n_candidates": 3,
+        "elapsed_ms": 1.6
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p007-para-001",
+          "namcao-p007-para-005",
+          "namcao-p008-para-015"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1833.8,
+        "prompt_tokens": 527,
+        "completion_tokens": 23
+      },
+      {
+        "ms": 2496.4,
+        "prompt_tokens": 1585,
+        "completion_tokens": 223
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2112,
+      "completion_tokens": 246,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001238,
+    "n_searches": 1,
+    "elapsed_ms": 4332.0,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "d02",
+    "question": "Khi anh cu hất đổ mâm cơm, chị cu kể lể rằng ngồi trên khung cửi từ sáng đến giờ mới kiếm được bao nhiêu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Khi anh cu hất đổ mâm cơm, chị cu kể lể rằng từ sáng đến giờ chị ngồi trầy trầy trên khung cửi mới kiếm được chừng một đồng hào, mà anh cu phá mất một lúc một cái niêu, bốn năm cái bát [namcao-p007-para-005].",
+    "citations": [
+      "namcao-p007-para-005"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_nQRLw3VIDJMSj1oOLa0eiZjq",
+        "method": "bm25",
+        "query": "anh cu hất đổ mâm cơm chị cu kể lể khung cửi",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p007-para-005",
+            "score": 40.0506834050886,
+            "rank": 1,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-000",
+            "score": 24.86596295801114,
+            "rank": 2,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p038-para-006",
+            "score": 23.203314719278936,
+            "rank": 3,
+            "source": "truoc-cach-mang/thoi-di-ve.md",
+            "page": 38
+          }
+        ],
+        "context": "[namcao-p007-para-005 | truoc-cach-mang/con-meo.md | page 7]\nAnh cu biết ngay là vợ dỗi. Anh cười gằn, hỏi:\n\n-- Nào, có đứa nào ăn không nào?\n\nChị cu không thèm đáp. Cái Viển đoán là chị giận, vội lại vét nốt cơm ra bát...\n\n-- Mời chị lại xơi nốt...\n\nChị gắt:\n\n-- Đổ té nó đi! Tao đã bảo...\n\nThì \"choang\" một cái, anh cu đã hất cái mâm ra ngoài giữa sân. Chị cu gào thật to:\n\n-- Trời ơi là trời!.... Mày phá tao thế à? Từ sáng đến giờ, tao ngồi trầy trầy trên khung cửi, mới được chừng một đồng hào, mà mày phá tao một lúc một cái niêu, bốn năm cái bát...\n\nThằng cu trong nhà lại thét lên. Viền chạy vào, \"rước\" nó. Chị cu thì vừa nhảy loi choi, vừa vỗ tay đen đét, xỉa xói vào mặt chồng mà kể lể. Nhưng chị bỗng nhiên ngừng bặt...Có tiếng đấm đá nhau huỳnh huỵch. Rồi tiếng người đàn bà gào to hơn:\n\n-- Mày cứ đánh chết bà đi! Mày đánh chết bà xem nào! Mày không đánh chết được bà thì...\n\n[namcao-p007-para-000 | truoc-cach-mang/con-meo.md | page 7]\nĐầu đuôi tại con mèo. Nhưng cũng tại trời bức nữa. Bức không chịu được.\n\nChị cu vừa ở trên khung cửi xuống. Anh cu vừa ở ruộng về. Hai người cùng mỏi mệt. Hai người cùng bứt rứt. Một người ngồi quạt phành phạch. Một người ngồi gãi cái đầu tổ quạ đến mấy tháng nay chưa gội. Chẳng ai buồn ăn cơm. Nhưng cái Viển thì lại muốn chóng xong việc để còn đi tắm. Nó lừa thằng cu ngủ. Nó bưng mâm cơm ra hè, đặt đấy. Rồi nó chạy vào mắc, rút một cái quần, một cái yếm, vắt lên vai, mải mốt đi ra ngoài cầu ao. Nồng nực thế này thì ăn không bằng tắm. Cứ để cho vợ chồng người ta ăn trước. Tí nữa về, có còn thì nó ăn, hết thì thôi. Cái bữa tối họa hoằn mới có. Ấy là khi nào cơm trưa chưa ăn hết, còn thừa lại. Đủ chia, thì mỗi người làm một vực. Chẳng đủ chia thì nhịn, cũng chẳng chết gì.\n\nLúc ấy chú mèo mới ở đâu lò dò đến. Chú lại gần mâm. Chú kêu meo meo. Chú lượn vòng quanh mâm một lát. Rồi chú trèo lên mâm. Anh cu trông thấy quát:\n\n-- Mèo! Đuổi nó đi! Con mèo!\n\n[namcao-p038-para-006 | truoc-cach-mang/thoi-di-ve.md | page 38]\nHai vợ chồng cười với nhau. Chị chạy lại, đỡ một đầu cái khung cửi, cho anh bỏ xuống. Chồng vừa cười vừa thở, họ khiêng cái khung vào nhà. Anh cu Thiêm lăn ra giường thở. Chị cu nhìn chồng, ái ngại. Chị vừa toan hỏi xem: mượn ở đâu được thế thì bỗng thấy bốn năm người hàng xóm, mặt hoảng hốt, tuôn vào và bâu tất cả chung quanh cái giường anh cu nằm....\n\n-- Tôi lạy bác!...\n\n-- Tôi cắn cỏ tôi lạy bác!...\n\n-- Bác giùm chúng tôi không chúng tôi chết mất!..\n\nHọ cũng bán mất khung cửi như anh vậy. Có người bán không được, lại phá ra làm củi bán. Bây giờ mới quýnh. Họ van lạy anh cu, nhờ anh xem có còn thuê đâu được, thì thuê giúp mỗi người một cái. Bao nhiêu tiền cũng được. Họ lại xin trả công vác của anh mỗi khung ba hào....Anh Thiêm vội đứng lên:\n\n-- Đồng bạc, cứ đồng bạc một khung, bằng nào cũng có.\n\n-- Vâng, thì đồng bạc.\n\n-- Với ba hào vác là đồng ba đấy.\n\n-- Vâng, thì đồng ba. Bác giúp chúng tôi, làm phúc.",
+        "context_ids": [
+          "namcao-p007-para-005",
+          "namcao-p007-para-000",
+          "namcao-p038-para-006"
+        ],
+        "context_chars": 2897,
+        "n_candidates": 3,
+        "elapsed_ms": 2.1
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1028.6,
+        "prompt_tokens": 545,
+        "completion_tokens": 31
+      },
+      {
+        "ms": 1702.7,
+        "prompt_tokens": 1617,
+        "completion_tokens": 105
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2162,
+      "completion_tokens": 136,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001082,
+    "n_searches": 1,
+    "elapsed_ms": 2733.6,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d03",
+    "question": "Cả mâm cơm tối nhà anh cu chỉ có món gì ăn kèm?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Cả mâm cơm tối nhà anh cu chỉ có một bát muối vừng ăn kèm, không có món gì khác. Con mèo cũng không ăn vì không thích muối vừng, và niêu cơm nguội còn đậy vung nên không ăn được [namcao-p007-para-003].",
+    "citations": [
+      "namcao-p007-para-003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_fzNPJi8S4IQUeOx8Ft2Sloa9",
+        "method": "bm25",
+        "query": "mâm cơm tối nhà anh cu chỉ có món gì ăn kèm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p007-para-000",
+            "score": 19.593611841217154,
+            "rank": 1,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-004",
+            "score": 16.388689917067,
+            "rank": 2,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-003",
+            "score": 15.44763147794848,
+            "rank": 3,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          }
+        ],
+        "context": "[namcao-p007-para-000 | truoc-cach-mang/con-meo.md | page 7]\nĐầu đuôi tại con mèo. Nhưng cũng tại trời bức nữa. Bức không chịu được.\n\nChị cu vừa ở trên khung cửi xuống. Anh cu vừa ở ruộng về. Hai người cùng mỏi mệt. Hai người cùng bứt rứt. Một người ngồi quạt phành phạch. Một người ngồi gãi cái đầu tổ quạ đến mấy tháng nay chưa gội. Chẳng ai buồn ăn cơm. Nhưng cái Viển thì lại muốn chóng xong việc để còn đi tắm. Nó lừa thằng cu ngủ. Nó bưng mâm cơm ra hè, đặt đấy. Rồi nó chạy vào mắc, rút một cái quần, một cái yếm, vắt lên vai, mải mốt đi ra ngoài cầu ao. Nồng nực thế này thì ăn không bằng tắm. Cứ để cho vợ chồng người ta ăn trước. Tí nữa về, có còn thì nó ăn, hết thì thôi. Cái bữa tối họa hoằn mới có. Ấy là khi nào cơm trưa chưa ăn hết, còn thừa lại. Đủ chia, thì mỗi người làm một vực. Chẳng đủ chia thì nhịn, cũng chẳng chết gì.\n\nLúc ấy chú mèo mới ở đâu lò dò đến. Chú lại gần mâm. Chú kêu meo meo. Chú lượn vòng quanh mâm một lát. Rồi chú trèo lên mâm. Anh cu trông thấy quát:\n\n-- Mèo! Đuổi nó đi! Con mèo!\n\n[namcao-p007-para-004 | truoc-cach-mang/con-meo.md | page 7]\nĐích là nó cố ý trêu tức chị. Chị uất người, cổ chị có cái gì lấp hẳn. Thật ra thì nó chẳng động chạm gì đến thị. Nó đi ăn cơm kia mà!.... Chị trút giận vào đàn muỗi. Chị vừa chửi vừa phát vào bắp chân đen đét. Chị trút giận vào thằng cu...\n\nThằng cu lại ngủ rồi. Chị đem nó lừa vào võng. Cái Viển cũng tắm xong rồi nữa. Nó đang phơi quần. Anh cu thì quẳng cái bát, đôi đũa xuống mâm từ lúc nãy kia rồi. Bây giờ anh đang ngồi bắt tréo kheo, hất hàm lên, nghênh trời.\n\nChị cu lại lên mâm. Chị nhắc cái niêu nhẹ nhõm. Chị nghiêng nó ra ánh trăng, nhìn. Còn ba hột cơm ranh! Ăn chẳng bõ dính răng. Chị nguây nguẩy đứng lên, bảo Viển:\n\n-- Viển! Mày vét nốt mà ăn đi.\n\nViển tưởng chị nhường cho nó. Nó là con ở nhưng cũng ra phết lắm, không tẹp nhẹp, nhất là cái miếng ăn, miếng uống, dù trong bụng đói đến chết, ngoài mặt nó cũng làm ra không cần. Nó bảo:\n\n-- Chị ăn đi. Tôi không đói.\n\n-- Mày ăn đi.\n\n-- Tôi không ăn ạ.\n\n-- Không ăn thì đem trút xuống ao cho cá!\n\n[namcao-p007-para-003 | truoc-cach-mang/con-meo.md | page 7]\nAnh nhìn con mèo, đợi. Nhưng cáu thật, con mèo không ăn gì thật. Thì có gì mà nó ăn? Cả mâm có một bát muối vừng. Nó ngửi một chút rồi lại lảng. Mèo không ưa muối vừng. Anh thầm mong cho nó đút đầu vào nồi cơm nguội. Nhưng niêu cơm nguội còn đậy vung. Mèo thất vọng, meo meo một lúc rồi buồn rầu lảng đi...Anh bẽ lắm. Anh nhìn trộm vợ. Chị không thèm nói nữa, nhưng vác cái mặt lên khinh bỉ chồng. Trông đã ghét, anh muốn tát vào cái mặt cong cớn của vợ anh vài cái. Nhưng lấy cớ gì mà tát nó? Nó đã câm họng rồi. Anh quả quyết lại mâm cơm. Anh hất con mèo một cái, nẩy ra tận đằng xa. Rồi anh xúc cơm, rắc muối vừng ăn. Anh cúi đầu ăn, mặt hầm hầm. Bởi vì anh còn tức lắm. Nhưng càng tức càng ăn khỏe. Tính anh thế. Không ăn, lấy sức đâu mà tức được? Đã tức thì phải ăn. Anh ăn ngoàm ngoàm. Trông thô bỉ quá. Rõ thật là cái vẻ của một người cục súc. Chị cu làm như không thèm nhìn đến, nhưng trông thấy tất cả. Chị lộn máu lên. Chị giận chồng chị quá. Cái anh chồng động lòng hả hê.",
+        "context_ids": [
+          "namcao-p007-para-000",
+          "namcao-p007-para-004",
+          "namcao-p007-para-003"
+        ],
+        "context_chars": 3089,
+        "n_candidates": 3,
+        "elapsed_ms": 15.2
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1206.5,
+        "prompt_tokens": 526,
+        "completion_tokens": 27
+      },
+      {
+        "ms": 1689.8,
+        "prompt_tokens": 1692,
+        "completion_tokens": 101
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2218,
+      "completion_tokens": 128,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001092,
+    "n_searches": 1,
+    "elapsed_ms": 2911.9,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d04",
+    "question": "Khi chị cu nhấc niêu cơm lên xem thì còn lại bao nhiêu hạt cơm?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Khi chị cu nhấc niêu cơm lên xem thì còn lại ba hột cơm ranh [namcao-p007-para-004].",
+    "citations": [
+      "namcao-p007-para-004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_Q7Mjgd7JHWCpE9A1MFtMTmvF",
+        "method": "bm25",
+        "query": "chị cu nhấc niêu cơm lên xem còn lại bao nhiêu hạt cơm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p007-para-005",
+            "score": 19.459690280435417,
+            "rank": 1,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-004",
+            "score": 18.0988360063025,
+            "rank": 2,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p038-para-006",
+            "score": 16.147309880188352,
+            "rank": 3,
+            "source": "truoc-cach-mang/thoi-di-ve.md",
+            "page": 38
+          }
+        ],
+        "context": "[namcao-p007-para-005 | truoc-cach-mang/con-meo.md | page 7]\nAnh cu biết ngay là vợ dỗi. Anh cười gằn, hỏi:\n\n-- Nào, có đứa nào ăn không nào?\n\nChị cu không thèm đáp. Cái Viển đoán là chị giận, vội lại vét nốt cơm ra bát...\n\n-- Mời chị lại xơi nốt...\n\nChị gắt:\n\n-- Đổ té nó đi! Tao đã bảo...\n\nThì \"choang\" một cái, anh cu đã hất cái mâm ra ngoài giữa sân. Chị cu gào thật to:\n\n-- Trời ơi là trời!.... Mày phá tao thế à? Từ sáng đến giờ, tao ngồi trầy trầy trên khung cửi, mới được chừng một đồng hào, mà mày phá tao một lúc một cái niêu, bốn năm cái bát...\n\nThằng cu trong nhà lại thét lên. Viền chạy vào, \"rước\" nó. Chị cu thì vừa nhảy loi choi, vừa vỗ tay đen đét, xỉa xói vào mặt chồng mà kể lể. Nhưng chị bỗng nhiên ngừng bặt...Có tiếng đấm đá nhau huỳnh huỵch. Rồi tiếng người đàn bà gào to hơn:\n\n-- Mày cứ đánh chết bà đi! Mày đánh chết bà xem nào! Mày không đánh chết được bà thì...\n\n[namcao-p007-para-004 | truoc-cach-mang/con-meo.md | page 7]\nĐích là nó cố ý trêu tức chị. Chị uất người, cổ chị có cái gì lấp hẳn. Thật ra thì nó chẳng động chạm gì đến thị. Nó đi ăn cơm kia mà!.... Chị trút giận vào đàn muỗi. Chị vừa chửi vừa phát vào bắp chân đen đét. Chị trút giận vào thằng cu...\n\nThằng cu lại ngủ rồi. Chị đem nó lừa vào võng. Cái Viển cũng tắm xong rồi nữa. Nó đang phơi quần. Anh cu thì quẳng cái bát, đôi đũa xuống mâm từ lúc nãy kia rồi. Bây giờ anh đang ngồi bắt tréo kheo, hất hàm lên, nghênh trời.\n\nChị cu lại lên mâm. Chị nhắc cái niêu nhẹ nhõm. Chị nghiêng nó ra ánh trăng, nhìn. Còn ba hột cơm ranh! Ăn chẳng bõ dính răng. Chị nguây nguẩy đứng lên, bảo Viển:\n\n-- Viển! Mày vét nốt mà ăn đi.\n\nViển tưởng chị nhường cho nó. Nó là con ở nhưng cũng ra phết lắm, không tẹp nhẹp, nhất là cái miếng ăn, miếng uống, dù trong bụng đói đến chết, ngoài mặt nó cũng làm ra không cần. Nó bảo:\n\n-- Chị ăn đi. Tôi không đói.\n\n-- Mày ăn đi.\n\n-- Tôi không ăn ạ.\n\n-- Không ăn thì đem trút xuống ao cho cá!\n\n[namcao-p038-para-006 | truoc-cach-mang/thoi-di-ve.md | page 38]\nHai vợ chồng cười với nhau. Chị chạy lại, đỡ một đầu cái khung cửi, cho anh bỏ xuống. Chồng vừa cười vừa thở, họ khiêng cái khung vào nhà. Anh cu Thiêm lăn ra giường thở. Chị cu nhìn chồng, ái ngại. Chị vừa toan hỏi xem: mượn ở đâu được thế thì bỗng thấy bốn năm người hàng xóm, mặt hoảng hốt, tuôn vào và bâu tất cả chung quanh cái giường anh cu nằm....\n\n-- Tôi lạy bác!...\n\n-- Tôi cắn cỏ tôi lạy bác!...\n\n-- Bác giùm chúng tôi không chúng tôi chết mất!..\n\nHọ cũng bán mất khung cửi như anh vậy. Có người bán không được, lại phá ra làm củi bán. Bây giờ mới quýnh. Họ van lạy anh cu, nhờ anh xem có còn thuê đâu được, thì thuê giúp mỗi người một cái. Bao nhiêu tiền cũng được. Họ lại xin trả công vác của anh mỗi khung ba hào....Anh Thiêm vội đứng lên:\n\n-- Đồng bạc, cứ đồng bạc một khung, bằng nào cũng có.\n\n-- Vâng, thì đồng bạc.\n\n-- Với ba hào vác là đồng ba đấy.\n\n-- Vâng, thì đồng ba. Bác giúp chúng tôi, làm phúc.",
+        "context_ids": [
+          "namcao-p007-para-005",
+          "namcao-p007-para-004",
+          "namcao-p038-para-006"
+        ],
+        "context_chars": 2896,
+        "n_candidates": 3,
+        "elapsed_ms": 2.8
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1160.1,
+        "prompt_tokens": 532,
+        "completion_tokens": 32
+      },
+      {
+        "ms": 1318.5,
+        "prompt_tokens": 1605,
+        "completion_tokens": 65
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2137,
+      "completion_tokens": 97,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.00101,
+    "n_searches": 1,
+    "elapsed_ms": 2481.4,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d05",
+    "question": "Người ta định giết con Mực lần đầu vào dịp nào, và vì sao nó thoát nạn?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Người ta định giết con Mực lần đầu vào dịp Thanh Minh, nhưng nó thoát nạn vì hôm ấy bà chủ nhà bị ốm. Sau đó, người ta lại định giết nó vào Tết tháng năm nhưng cũng không thực hiện được vì đứa con út của bà ươn mình, bà phải kiêng để lấy sữa lành cho con bú. Cuối cùng, người ta nhất định thịt nó vào rằm tháng bảy, nhưng lần này Mực vẫn thoát nạn nhờ có Du, người con cả xa xôi vừa viết thư báo sẽ về, khiến bà mẹ mừng và lùi ngày xử con Mực lại. [namcao-p003-para-000]",
+    "citations": [
+      "namcao-p003-para-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_dk2JVltZtQkXhcb5iytiCuct",
+        "method": "bm25",
+        "query": "giết con Mực",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p003-para-006",
+            "score": 12.184594218314958,
+            "rank": 1,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p003-para-000",
+            "score": 10.740796348173717,
+            "rank": 2,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p003-para-007",
+            "score": 7.386612407994662,
+            "rank": 3,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          }
+        ],
+        "context": "[namcao-p003-para-006 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nSau cùng thì chàng bực mình: chàng nhận ra rằng một con chó đã làm mất sự bình tĩnh của tâm hồn chàng. Và đột nhiên chàng muốn giết con Mực lắm. Chàng muốn có đủ can đảm để giết người. Phải dám giết mà không run tay khi cần phải giết. Còn làm được trò gì nữa nếu chỉ giết mọt con chó mà tim cũng đập?\n\n[namcao-p003-para-000 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nNgười ta định giết Mực đã lâu rồi. Mực là con già hơn trong hai con chó của nhà. Nhưng cũng là con nhiều nết xấu. Nó tục ăn: đó là thường. Nó nhiều vắt: cái ấy đủ khổ cho nó. Nó cắn càn ấy là cái khổ của bọn ăn mày. Nhưng nó lại sủa như một con gà gáy: cái này thì không thể nào tha thứ được. Thoạt tiên người ta định ngày chết cho nó vào dịp Thanh Minh. May cho nó hôm ấy bà chủ nhà bị ốm. Rồi thì là Tết tháng năm. Bỗng nhiên đứa con út của bà ươn mình: bà phải kiêng để lấy sữa lành cho con bú. Sau cùng người ta nhất định thịt nó vào rằm tháng bảy ai ốm mặc. Nhưng lần nầy Mực vẫn còn thoát nạn là vì nhờ có Du. Người con cả xa xôi ấy vừa viết thư báo chẳng bao lâu sẽ về. Bà mẹ mừng như tìm được một vật quý bị rơi và bà nhất định lùi ngày xử con Mực lại.\n\n[namcao-p003-para-007 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nSự do dự đã hết rồi. Khi có một ý định thì ý định ấy chóng thành mạnh mẽ. Du thấy lòng cứng cỏi. Ðã có lúc chàng tưởng đến cái thú dí con dao vào súc thịt giẫy lên đành đạch để máu ấm phọt vào tay. Và chiều hôm ấy khi thấy con chó ở vườn thì chàng gần như mừng rỡ. Con vật khốn nạn đói và sợ đã mệt lử đi rồi. Nó hiện ngủ bên bờ giậu. Du cầm cái gậy to rón rén lại gần. Nhưng giơ gậy lên chàng bỗng thấy tim run một cái. Chàng tưởng như ngạt thở và ngừng lại một giây để nhìn con chó. Giấc ngủ của nó có lẽ đầy ác mộng vì thỉnh thoảng khắp mình nó lại giật lên. Du thấy lòng quả quyết tiêu tán hết. Nhưng con chó bỗng giật mình. Du hoảng hốt thẳng cánh vụt mạnh trên mình nó, bụng nó thót hẳn vào rồi lại phình ra như một khối cao su. Nó rống lên gượng dậy loạng choạng mấy vòng rồi chui bừa qua giậu trong khi Du vụt cuống cuồng theo xuống đất...\n\nÐêm đã khuya. Du lại nghe tiếng Mực rống lên. Chàng thấy toát mồ hôi và nhất định không giết con chó nữa.",
+        "context_ids": [
+          "namcao-p003-para-006",
+          "namcao-p003-para-000",
+          "namcao-p003-para-007"
+        ],
+        "context_chars": 2240,
+        "n_candidates": 3,
+        "elapsed_ms": 3.4
+      },
+      {
+        "event": "invalid_answer",
+        "problems": [
+          "citations phải là danh sách chunk-id không rỗng"
+        ],
+        "attempt": {
+          "answer": "Người ta định giết con Mực lần đầu vào dịp Thanh Minh, nhưng nó thoát nạn vì hôm ấy bà chủ nhà bị ốm. Sau đó, người ta lại định giết nó vào Tết tháng năm nhưng cũng không thực hiện được vì đứa con út của bà ươn mình, bà phải kiêng để lấy sữa lành cho con bú. Cuối cùng, người ta nhất định thịt nó vào rằm tháng bảy, nhưng lần này Mực vẫn thoát nạn nhờ có Du, người con cả xa xôi vừa viết thư báo sẽ về, khiến bà mẹ mừng và lùi ngày xử con Mực lại [namcao-p003-para-000].",
+          "citations": null,
+          "evidence_quote": null
+        }
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p003-para-000"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1043.6,
+        "prompt_tokens": 533,
+        "completion_tokens": 17
+      },
+      {
+        "ms": 1823.7,
+        "prompt_tokens": 1330,
+        "completion_tokens": 170
+      },
+      {
+        "ms": 1824.1,
+        "prompt_tokens": 1537,
+        "completion_tokens": 173
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 3400,
+      "completion_tokens": 360,
+      "llm_calls": 3
+    },
+    "cost_usd": 0.001936,
+    "n_searches": 1,
+    "elapsed_ms": 4695.0,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d06",
+    "question": "Tật xấu nào của con Mực khiến người trong nhà không thể tha thứ được?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Con Mực có nhiều tật xấu như ăn tục, nhiều vắt, cắn càn, nhưng tật xấu không thể tha thứ được là nó sủa như một con gà gáy. Người trong nhà định giết nó vì tật này nhưng vì một số lý do mà chưa thực hiện được. [namcao-p003-para-000]",
+    "citations": [
+      "namcao-p003-para-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_DDtnFMReNXiKfjfFOnwr5ueN",
+        "method": "bm25",
+        "query": "con Mực tật xấu không thể tha thứ",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p003-para-000",
+            "score": 17.604289999576814,
+            "rank": 1,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p039-para-008",
+            "score": 11.56974542925009,
+            "rank": 2,
+            "source": "truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md",
+            "page": 39
+          },
+          {
+            "id": "namcao-p006-para-002",
+            "score": 10.545443833647326,
+            "rank": 3,
+            "source": "truoc-cach-mang/con-meo-mat-ngoc.md",
+            "page": 6
+          }
+        ],
+        "context": "[namcao-p003-para-000 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nNgười ta định giết Mực đã lâu rồi. Mực là con già hơn trong hai con chó của nhà. Nhưng cũng là con nhiều nết xấu. Nó tục ăn: đó là thường. Nó nhiều vắt: cái ấy đủ khổ cho nó. Nó cắn càn ấy là cái khổ của bọn ăn mày. Nhưng nó lại sủa như một con gà gáy: cái này thì không thể nào tha thứ được. Thoạt tiên người ta định ngày chết cho nó vào dịp Thanh Minh. May cho nó hôm ấy bà chủ nhà bị ốm. Rồi thì là Tết tháng năm. Bỗng nhiên đứa con út của bà ươn mình: bà phải kiêng để lấy sữa lành cho con bú. Sau cùng người ta nhất định thịt nó vào rằm tháng bảy ai ốm mặc. Nhưng lần nầy Mực vẫn còn thoát nạn là vì nhờ có Du. Người con cả xa xôi ấy vừa viết thư báo chẳng bao lâu sẽ về. Bà mẹ mừng như tìm được một vật quý bị rơi và bà nhất định lùi ngày xử con Mực lại.\n\n[namcao-p039-para-008 | truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md | page 39]\nẤy là lúc hắn lò dò về đến sân. Hắn đang đi bỗng giật mình. Một con chó đang thiu thiu trong một bụi dong ở đầu sân nhảy choàng ra. Một tí nữa thì nó đớp vào chân hắn, hắn nhẩy cẫng lên một cái. Và hắn sực nhớ ra rằng: nhà hắn có một con chó vện, con chó vện ấy hay trông gà hóa cuốc, nên lắm khi chực đớp cả chân người nhà. Đó là một cái tật không thể tha thứ được. Bởi không ai nuôi chó để nó cắn què chân bao giờ. Ờ, mà lại còn điều này nữa: nuôi mèo hay nuôi chó thì cũng phải tùy gia cảnh; nhà giàu nuôi là phải, bởi nhà giàu sợ trộm mà lại nhiều cơm hớt; còn nghèo rớt mùng tơi như nhà hắn, nuôi làm gì? Giá thử nhà còn trẻ nhỏ, thì nuôi chó cũng còn được việc. Nhưng nhà không còn trẻ nhỏ. Thằng cu con đã lên ba. Nó đã có thể ra vườn được. Hạt gạo năm nay khó chuốc như hạt ngọc. Đến bữa ăn phải tính đầu để chia cơm. Cứ tình hình ấy thì phải dở đời lắm lắm mới nuôi một con chó để chẳng có việc gì cho nó làm...Thế là đủ lắm. Hắn sung sướng vì đã nghĩ ra điều ấy. Hắn gật đầu luôn mấy cái.\n\n[namcao-p006-para-002 | truoc-cach-mang/con-meo-mat-ngoc.md | page 6]\nVà cũng như con ở, nàng ăn, cơm thừa, mặc quần áo rách, đầu bù tóc rối, và đêm đêm ngủ một mình trong bếp. Mùa bức, nàng giải một manh chiếu rách nằm ngay trên mặt đất. Mùa rét nàng rúc vào chuồng rơm. Tuy vậy, nàng không hề oán hận ai. Người vú nuôi nàng hồi nàng còn nhỏ vẫn nhắc cho nàng những lời của bà mẹ nàng: thù ghét là sâu mọt đục người ta làm người ta chóng già, chóng xấu và chóng chết; yêu thương và tha thứ là nước xuối tiên tưới vào lòng người, làm người sung sướng, xinh đẹp và trẻ giai. Vả lại sự làm việc chẳng giết chết người đâu. Trái lại, nó mài giũa cho người thành cao qúy. Nàng cứ làm lụng, cứ đầu tắt mặt tối, mà cứ tươi cười luôn luôn. Mẹ ghẻ và em, thấy thế tưởng nàng chọc tức, lại càng sinh ghét. Hai người không bỏ phí một dịp nào có thể xui Phú-Ông đánh đập nàng mà không xui.",
+        "context_ids": [
+          "namcao-p003-para-000",
+          "namcao-p039-para-008",
+          "namcao-p006-para-002"
+        ],
+        "context_chars": 2798,
+        "n_candidates": 3,
+        "elapsed_ms": 5.1
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p003-para-000"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1130.0,
+        "prompt_tokens": 527,
+        "completion_tokens": 23
+      },
+      {
+        "ms": 1643.5,
+        "prompt_tokens": 1518,
+        "completion_tokens": 99
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2045,
+      "completion_tokens": 122,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001013,
+    "n_searches": 1,
+    "elapsed_ms": 2778.8,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d07",
+    "question": "Lần cuối cùng con Mực thoát nạn là nhờ ai, và người đó đã báo tin gì?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Lần cuối cùng con Mực thoát nạn là nhờ có Du, người con cả xa xôi vừa viết thư báo sẽ về, khiến bà mẹ mừng và nhất định lùi ngày xử con Mực lại. Người đó đã báo tin rằng sẽ về nhà sớm, điều này làm bà mẹ trì hoãn việc giết con Mực [namcao-p003-para-000].",
+    "citations": [
+      "namcao-p003-para-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_6yyxVfejcb7M2nN6FuHxCFyR",
+        "method": "bm25",
+        "query": "con Mực thoát nạn",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p003-para-000",
+            "score": 15.118670456076112,
+            "rank": 1,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p003-para-008",
+            "score": 14.01314176861765,
+            "rank": 2,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p050-para-010",
+            "score": 12.763496198058045,
+            "rank": 3,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          }
+        ],
+        "context": "[namcao-p003-para-000 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nNgười ta định giết Mực đã lâu rồi. Mực là con già hơn trong hai con chó của nhà. Nhưng cũng là con nhiều nết xấu. Nó tục ăn: đó là thường. Nó nhiều vắt: cái ấy đủ khổ cho nó. Nó cắn càn ấy là cái khổ của bọn ăn mày. Nhưng nó lại sủa như một con gà gáy: cái này thì không thể nào tha thứ được. Thoạt tiên người ta định ngày chết cho nó vào dịp Thanh Minh. May cho nó hôm ấy bà chủ nhà bị ốm. Rồi thì là Tết tháng năm. Bỗng nhiên đứa con út của bà ươn mình: bà phải kiêng để lấy sữa lành cho con bú. Sau cùng người ta nhất định thịt nó vào rằm tháng bảy ai ốm mặc. Nhưng lần nầy Mực vẫn còn thoát nạn là vì nhờ có Du. Người con cả xa xôi ấy vừa viết thư báo chẳng bao lâu sẽ về. Bà mẹ mừng như tìm được một vật quý bị rơi và bà nhất định lùi ngày xử con Mực lại.\n\n[namcao-p003-para-008 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nNhưng trời gần sáng chàng còn đương mơ mộng, thì đã nghe tiếng Hoa gọi cuống cuồng lên. Con vật khốn nạn không biết mỏi mệt thé nào mà ngủ quên đi ngay ở giữa sân để đến nỗi bị Hoa úp được. Lần này thì người ta cẩn thận hơn. Hai ba người nắm vào hai đầu gậy tre ngáng sẵn bên cạnh thúng rồi Hoa mới hơi hé miệng thúng lên. Thấy sáng con Mực nhô ra ngoài cái mõm ướt phì phì. Hoa nhích lên tí nữa nhưng một cái gối đã tì sẵn trên thúng. Mực lách cả cái đầu ra. Cái gậy đè mạnh xuống. Con vật khốn nạn không còn kịp kêu.\n\n-- Ðè chặt, thật chặt, đừng buông nó ra nó cắn đấy!\n\nDu kêu lên như thế nhưng tiếng chàng đã hơi run run. Con chó phì một cái nữa: hơi thở mới thoát ra một nửa bị tắc. Cái gậy đè sát đất, mắt nó trợn lên. Lòng đen ươn ướt cứ đờ dần rồi ngược lên lần một nửa vào mí trên. Lòng trắng đã hơi đục. Lúc Hoa trói xong cả chân trước, chân sau và buộc mõm rồi thì con chó đã mềm ra không còn cựa quậy nữa.\n\nDu nghẹn ngào nén khóc...\n\nXuân Du\n\nHà Nội Tân Văn\n\nSố ra ngày 14-4-1940\n\n[namcao-p050-para-010 | sau-cach-mang/mo-sam-banh.md | page 50]\n-- Xa (Ca)\n\nVà ông nhún vai, mỉm cười. Thoát nạn! Bác bếp Tư nhẹ lâng cả người. Một tảng đá lớn tưởng đè trên người bác vừa trút đi. Bác chạy xuống cầu thang, bước hai bậc một. Y như một hòn đá lăn trên sườn núi. Bác chạy thẳng lại cái bể. Nhìn trước nhìn sau một thoáng rồi bác mở nắp ra, cúi đầu xuống. Tối om om. Một mảng nước loang loáng như nước mực. Bác gọi con:\n\n-- Tề! Tề con!\n\nIm lặng. Một nỗi nghi vụt đến. Tim bác nhảy lên một cái. Tiếng khàn khàn, bác gọi:\n\n-- Tề ơi! Ra đây thầy kéo lên.\n\nChẳng có gì đáp lại. Những đốm sáng lăn tăn nhảy nhót trong bóng tối. Ấy là bác bếp Tư hoa mắt, bởi vì đầu bác đã nặng trĩu, quay quay, choáng váng.\n\nNgười thì bủn rủn. Bác nhoai lưng vào trong bể, vừa mếu máo vừa rên rỉ.\n\n-- Con ơi! Tề, con ơi!...",
+        "context_ids": [
+          "namcao-p003-para-000",
+          "namcao-p003-para-008",
+          "namcao-p050-para-010"
+        ],
+        "context_chars": 2717,
+        "n_candidates": 3,
+        "elapsed_ms": 2.3
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 915.7,
+        "prompt_tokens": 532,
+        "completion_tokens": 19
+      },
+      {
+        "ms": 1627.7,
+        "prompt_tokens": 1544,
+        "completion_tokens": 115
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2076,
+      "completion_tokens": 134,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001045,
+    "n_searches": 1,
+    "elapsed_ms": 2545.9,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d08",
+    "question": "Người nhà dùng vật gì úp lên con Mực khi nó đang ăn cơm để bắt nó?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Người nhà đã úp cái thúng lên con Mực khi nó đang ăn cơm để bắt nó. Cái thúng được úp quanh con Mực vừa vặn đến nỗi nó không còn giẫy và kêu được [namcao-p003-para-004].",
+    "citations": [
+      "namcao-p003-para-004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_L3b6FNrSimc1Fi8jCShCAsvG",
+        "method": "bm25",
+        "query": "úp vật lên con Mực khi nó đang ăn cơm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p003-para-004",
+            "score": 19.05338896803285,
+            "rank": 1,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p003-para-008",
+            "score": 16.98749155645337,
+            "rank": 2,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p028-para-053",
+            "score": 14.393923649380174,
+            "rank": 3,
+            "source": "truoc-cach-mang/nhung-tre-khon-nan.md",
+            "page": 28
+          }
+        ],
+        "context": "[namcao-p003-para-004 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nBữa ăn xong, con Hoa cầm bát cơm ra: một tay nó xách cái thúng như để rồi xếp bát. Thấy được ăn, tất cả thú tính của con Mực hoàn toàn nổi dậy. Nó nhảy tới vẫy đuôi hếch mõm nhìn và đợi. Cơm vừa đổ xuống nó vội vàng chúi mõm ăn ngay. Miếng chưa qua cổ thì cái thúng đã chụp quanh trên mình. Nó rít lên, vùng mạnh; nhưng Hoa đã tì cả người lên cái thúng rồi, và con Mực bị thu gọn ở trong vừa vặn đến nỗi không còn giẫy và kêu được. Lũ trẻ con réo ầm lên. Người ta lấy sẵn dao thớt và dây để trói. Phần mở thúng đã đành phải về Du: ông chủ đi vắng, cả nhà chỉ có chàng là đàn ông, mà không lẽ đi mượn hàng xóm trói giùm một con chó đã úp gọn gàng chỉ việc hơi hé cạp thúng lên, hễ chó thò đầu ra thì một đứa em đặt gậy lên cổ nó để chân chàng dận xuống. Nhưng tay chàng thấy run run. Và khi con chó vừa thò đầu ra thì nó quẫy luôn một cái mạnh, vùng ra được.\n\n[namcao-p003-para-008 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nNhưng trời gần sáng chàng còn đương mơ mộng, thì đã nghe tiếng Hoa gọi cuống cuồng lên. Con vật khốn nạn không biết mỏi mệt thé nào mà ngủ quên đi ngay ở giữa sân để đến nỗi bị Hoa úp được. Lần này thì người ta cẩn thận hơn. Hai ba người nắm vào hai đầu gậy tre ngáng sẵn bên cạnh thúng rồi Hoa mới hơi hé miệng thúng lên. Thấy sáng con Mực nhô ra ngoài cái mõm ướt phì phì. Hoa nhích lên tí nữa nhưng một cái gối đã tì sẵn trên thúng. Mực lách cả cái đầu ra. Cái gậy đè mạnh xuống. Con vật khốn nạn không còn kịp kêu.\n\n-- Ðè chặt, thật chặt, đừng buông nó ra nó cắn đấy!\n\nDu kêu lên như thế nhưng tiếng chàng đã hơi run run. Con chó phì một cái nữa: hơi thở mới thoát ra một nửa bị tắc. Cái gậy đè sát đất, mắt nó trợn lên. Lòng đen ươn ướt cứ đờ dần rồi ngược lên lần một nửa vào mí trên. Lòng trắng đã hơi đục. Lúc Hoa trói xong cả chân trước, chân sau và buộc mõm rồi thì con chó đã mềm ra không còn cựa quậy nữa.\n\nDu nghẹn ngào nén khóc...\n\nXuân Du\n\nHà Nội Tân Văn\n\nSố ra ngày 14-4-1940\n\n[namcao-p028-para-053 | truoc-cach-mang/nhung-tre-khon-nan.md | page 28]\nMèo đang lim-rim mắt trong xó bếp. Bởi nó chưa bao giờ bị đánh nên trông thấy roi cũng không biết sợ. Nó không nhúc-nhích. Đôi mắt vàng loè của nó mở ra rồi lại nhắm vào. Nó bình tĩnh lắm. Thế cho nên mới khổ! Âu lại gần, tóm được. Âu ôm nó lên nhà. Con vật quá tin cẩn, chỉ rù rù, không hề phản-đối. Giống báo này hiền thật! không khó bảo như anh gấu... chó! Âu định rằng: con mực đã chạy trốn, thì trưa nay đừng ăn cơm. Chỉ có con mèo ăn thôi. Mèo nó ngoan.\n\nÂu thả mèo xuống đất. Rồi cầm ngang cây roi điện, Âu mỉm cười cúi chào những khán-giả vô hình. Rồi Au ưỡn ngực ra. Hai mắt Âu quắc lên. Mồm Âu ra lệnh cho con báo:\n\n— A-lê! hấp! Ấu thúc ba bốn lượt. Mèo, không thèm để ý. Nó điềm-nhiên ngồi liếm chân. Au tưởng mèo không hiểu tiếng tây. Au đành dùng tiếng ta cho nó hiểu:\n\n— Đi! đi ngay, không chết giờ! Đi!\n\nMèo vẫn không vâng lệnh. Nó chậm dãi nhắm mắt vào rồi lại mở ra meo-meo khẽ như bảo Au:\n\n— Làm trò gì thế? Buồn cười lắm!",
+        "context_ids": [
+          "namcao-p003-para-004",
+          "namcao-p003-para-008",
+          "namcao-p028-para-053"
+        ],
+        "context_chars": 3013,
+        "n_candidates": 3,
+        "elapsed_ms": 3.7
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1045.8,
+        "prompt_tokens": 530,
+        "completion_tokens": 24
+      },
+      {
+        "ms": 1546.9,
+        "prompt_tokens": 1664,
+        "completion_tokens": 92
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2194,
+      "completion_tokens": 116,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001063,
+    "n_searches": 1,
+    "elapsed_ms": 2596.6,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d09",
+    "question": "Chị hàng bánh dầy tố cáo vợ Lúng đã làm gì với số bánh để chỉ phải trả một xu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Vợ Lúng bị chị hàng bánh dầy tố cáo đã giả vờ ăn một tấm bánh dầy đậu, ngậm một lúc rồi nuốt nốt nửa tấm bánh còn lại, sau đó đưa đồng xu ra trả chỉ một xu, khiến chị hàng bánh nghi ngờ và bắt giữ để kiểm tra. Chị hàng bánh tố cáo hành động này là giả đòn để chỉ phải trả một xu cho số bánh ăn, nhằm lừa đảo và khiến mọi người biết mặt để tránh xa nhà chị ấy sau này [namcao-p012-para-002][namcao-p012-para-004].",
+    "citations": [
+      "namcao-p012-para-002",
+      "namcao-p012-para-004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_rZsQwBqgJhR2Kvz2eBYt4RWj",
+        "method": "bm25",
+        "query": "Chị hàng bánh dầy tố cáo vợ Lúng làm gì với số bánh để chỉ phải trả một xu",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p012-para-002",
+            "score": 34.87162204982205,
+            "rank": 1,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-004",
+            "score": 17.44255432387192,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p009-para-000",
+            "score": 15.51295893036804,
+            "rank": 3,
+            "source": "truoc-cach-mang/di-hao.md",
+            "page": 9
+          }
+        ],
+        "context": "[namcao-p012-para-002 | truoc-cach-mang/don-chong.md | page 12]\nTiền hắn làm, uống rượu chưa chắc đủ. Huống chi lại còn đánh bạc.\n\nVậy đồng xu của vợ Lúng, không nhặt được hay ăn cắp, thì chắc là y xin. Y buộc vào dải yếm, trông chặt lắm. Lại hàng bánh dày, y hí hoáy cởi một lúc lâu mới được. Hay là y giả đận làm như thế thì chẳng biết. Làm thế, để đợi lúc có thật nhiều người ăn. Bởi vì lúc y ngồi xuống thì đã có bốn năm bà đang ăn rồi. Chị hàng bánh tới ta tới tấp. Vợ Lúng mân mê một lát, rồi nhặt lấy một tấm bánh dầy đậu, đưa lên ngoạm một miếng hết già nửa tấm. Còn non nửa tấm. Còn non nửa tấm nữa, y ném tọt vào miệng nốt. Y đưa đồng xu ra, chị hàng bánh dầy trợn mắt:\n\n-- Sao lại có một xu?\n\n-- Tôi ăn một tấm.\n\nThế là chẳng nói thêm một tiếng, chị hàng bánh nhảy ra bóp cổ y. Y giãy giụa, nhưng cái cổ y ngẳng quá, chỉ vừa một chét. Y lại mếu. Mà con mẹ hàng bánh sao mà khỏe thế. Nó dúi đầu y xuống, mắt y trợn ngược. Y kêu ằng ặc. Miệng y há hốc. Miếng bánh dầy nhả ra. Bây giờ chị hàng bánh mới chịu buông cổ y, và reo lên:\n\n-- Xem nào!\n\n[namcao-p012-para-004 | truoc-cach-mang/don-chong.md | page 12]\nCái mặt bủng beo của y xám như chàm. Nó không còn đỏ được, bởi y làm gì có máu. Cái miệng y há ra như chực nói, nhưng nói thế nào? Chứng cớ trờ trờ ra đấy. Y cứng hàm. Những tiếng ấp úng trong cổ họng, một lúc lâu mới bật ra thành lời được:\n\n-- Thì tôi giả...., tôi giả hai xu....\n\nNhưng y làm gì còn xu! Y cúi mặt, nước mắt ra ròng ròng. Chị hàng bánh lộn tiết lên. Chị xỉa tay vào tận mặt y:\n\n-- Thôi! Tôi cũng thí cho nhà chị. Tôi chỉ lu loa lên thế để cho cả chợ người ta biết; rồi giờ người ta vạch vôi lấy mặt chị, để thấy cái mặt nhà chị ở đâu thì người ta kiềng nó ra.\n\n[namcao-p009-para-000 | truoc-cach-mang/di-hao.md | page 9]\nDì Hảo là con nuôi của bà tôi. Bố đẻ gì chết đã lâu. Mẹ đẻ gì là bà xã Vận, một người đàn bà bán bánh đúc xay, ngon có tiếng khắp làng Vũ Đại. Tôi biết bà là vì hồi còn bé tôi rất ưa ăn bánh đúc. Có lẽ lúc sinh tôi ra, ông trời đã định cho tôi một số kiếp chẳng giàu sang, nên phú sẵn cho tôi cái tính thích những món ăn rẻ tiền của những người nghèo túng. Lúc có tôi thì nhà tôi chẳng còn nghèo. Thế mà tôi cứ thay ăn cơm gạo đỏ, thổi khô khô, với rau muống luộc chấm tương, ngon hơn cơm tám với thịt đông; mà cái bánh đúc xay nấu khéo còn đậm vị gấp nghìn lần cái bún tuy trắng, tuy mềm nhưng nhạt bép. Mỗi sáng, tôi cầm hai xu mẹ phát cho, theo con ở đi ra hàng; - hàng là một cái chợ nhỏ của làng tôi, họp ngay ở mặt đường, mỗi sáng chỉ họp độ một giờ đã tan -- từ đằng xa, tôi đã trông thấy những người đàn bà váy bạc phếch xúm xít quanh mẹt bánh đúc của bà xã Vận. Bà thái không kịp bán.",
+        "context_ids": [
+          "namcao-p012-para-002",
+          "namcao-p012-para-004",
+          "namcao-p009-para-000"
+        ],
+        "context_chars": 2649,
+        "n_candidates": 3,
+        "elapsed_ms": 4.2
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1303.0,
+        "prompt_tokens": 533,
+        "completion_tokens": 35
+      },
+      {
+        "ms": 2092.9,
+        "prompt_tokens": 1511,
+        "completion_tokens": 170
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2044,
+      "completion_tokens": 205,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001146,
+    "n_searches": 1,
+    "elapsed_ms": 3400.2,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "d10",
+    "question": "Vợ Lúng đi dệt cửi thuê mỗi ngày được bao nhiêu tiền, và người chồng lấy đi bao nhiêu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Vợ Lúng đi dệt cửi thuê mỗi ngày được một hào tiền, và người chồng lấy hết một hào đó, thiếu một đồng xèng thì bị đánh gãy gối [namcao-p012-para-001].",
+    "citations": [
+      "namcao-p012-para-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_Sf0T1l2XH7BZbnSlnUqMoGYD",
+        "method": "bm25",
+        "query": "Vợ Lúng đi dệt cửi thuê mỗi ngày được bao nhiêu tiền",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p012-para-005",
+            "score": 21.621498452855676,
+            "rank": 1,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-001",
+            "score": 20.334352788218272,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p038-para-006",
+            "score": 19.888028523564227,
+            "rank": 3,
+            "source": "truoc-cach-mang/thoi-di-ve.md",
+            "page": 38
+          }
+        ],
+        "context": "[namcao-p012-para-005 | truoc-cach-mang/don-chong.md | page 12]\nCâu chuyện đến tai Lúng. Lúng thâm tím mặt. Giá lúc ấy vợ hắn có nhà thì có lẽ hắn đã đâm chết vợ. Nhưng vợ hắn còn đi dệt cửi. Hắn đành nén giận, để đi làm trai đã. Hôm ấy hắn dận được nhiều trai lắm. Toàn những con to cả. Trai, chỉ ăn thua cái vỏ, bán cho người ta làm cúc hay khảm xà cừ chẳng hiểu. Chỉ biết người ta mua nhiều lắm. Lần này, tính nguyên vỏ đã được năm, sau hào. Ruột chỉ được hơn hào chỉ. Hắn không thèm bán nữa. Hắn đem nấu một nồi cháo ăn.\n\n[namcao-p012-para-001 | truoc-cach-mang/don-chong.md | page 12]\nCố nhiên là câu chuyện đồn đi. Thoạt tiên là các bà vợ về kể lại với chồng. Rồi các ông chồng đem kể lại với nhau. Bây giờ thì cả làng ai cũng biết. Ai cũng biết: con vợ thằng Lùng, mặt mũi như thế ấy, mà gian vô cùng. Chẳng gian mà lại làm cái trò nhập nhòa như thế này...Chẳng biết y xin ai hay là nhặt ở đâu được có mỗi một đồng xu. Nếu không xin, không nhặt được thì hẳn là ăn cắp. Bởi y làm gì mà có xu! Vườn có ba sào, chồng thua bạc cố rồi. Đồ bòn, thức bán không. Đi dệt cửi thuê cho người ta ngày được một hào thì chồng lấy cả một hào, thiếu một đồng xèng nó đánh cho gãy gối. Vả nó chẳng đánh thì cũng không dám thiếu: thiếu lấy gì mà đổ vào mồm? Gạo nước năm nay...Có một hào mà những hai cái miệng ăn, mà lại còn chực thiếu nữa thì có lẽ đến phải đếm mà chia nhau từng hạt. Bởi vì hai vợ chồng chỉ trông vào tiền của vợ để mà ăn gạo. Chồng chẳng chịu bỏ ra một đồng trinh. Hắn dận trai mỗi ngày cũng được vài hào. Có ngày bốn năm hào. Nhưng bốn năm hào thì cũng hết.\n\n[namcao-p038-para-006 | truoc-cach-mang/thoi-di-ve.md | page 38]\nHai vợ chồng cười với nhau. Chị chạy lại, đỡ một đầu cái khung cửi, cho anh bỏ xuống. Chồng vừa cười vừa thở, họ khiêng cái khung vào nhà. Anh cu Thiêm lăn ra giường thở. Chị cu nhìn chồng, ái ngại. Chị vừa toan hỏi xem: mượn ở đâu được thế thì bỗng thấy bốn năm người hàng xóm, mặt hoảng hốt, tuôn vào và bâu tất cả chung quanh cái giường anh cu nằm....\n\n-- Tôi lạy bác!...\n\n-- Tôi cắn cỏ tôi lạy bác!...\n\n-- Bác giùm chúng tôi không chúng tôi chết mất!..\n\nHọ cũng bán mất khung cửi như anh vậy. Có người bán không được, lại phá ra làm củi bán. Bây giờ mới quýnh. Họ van lạy anh cu, nhờ anh xem có còn thuê đâu được, thì thuê giúp mỗi người một cái. Bao nhiêu tiền cũng được. Họ lại xin trả công vác của anh mỗi khung ba hào....Anh Thiêm vội đứng lên:\n\n-- Đồng bạc, cứ đồng bạc một khung, bằng nào cũng có.\n\n-- Vâng, thì đồng bạc.\n\n-- Với ba hào vác là đồng ba đấy.\n\n-- Vâng, thì đồng ba. Bác giúp chúng tôi, làm phúc.",
+        "context_ids": [
+          "namcao-p012-para-005",
+          "namcao-p012-para-001",
+          "namcao-p038-para-006"
+        ],
+        "context_chars": 2554,
+        "n_candidates": 3,
+        "elapsed_ms": 6.2
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 936.7,
+        "prompt_tokens": 536,
+        "completion_tokens": 29
+      },
+      {
+        "ms": 2391.3,
+        "prompt_tokens": 1451,
+        "completion_tokens": 84
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1987,
+      "completion_tokens": 113,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000976,
+    "n_searches": 1,
+    "elapsed_ms": 3334.4,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d11",
+    "question": "Lúng đã mua những thứ gì để uống rượu trước khi trừng phạt vợ?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_WayrTQVsnbK0VjDvUrETyHhr",
+        "method": "bm25",
+        "query": "Lúng mua gì để uống rượu",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p035-para-004",
+            "score": 12.978781345257628,
+            "rank": 1,
+            "source": "truoc-cach-mang/rinh-trom.md",
+            "page": 35
+          },
+          {
+            "id": "namcao-p012-para-009",
+            "score": 10.759831729751326,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-002",
+            "score": 10.718994471088397,
+            "rank": 3,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          }
+        ],
+        "context": "[namcao-p035-para-004 | truoc-cach-mang/rinh-trom.md | page 35]\nVợ chồng Tẻ, trái lại, rất quý nhau. Chồng hiền, vợ cũng hiền. Cả hai đều chăm chỉ làm ăn. Vợ sẻn so. Chồng không đánh bạc, không nghiện ngập, không hay họp hành, đánh bạc. Nói cho thật, thì một đôi khi anh Tẻ cũng thèm uống rượu. Uống rượu rồi nói khoác là thú nhất. Còn gì khoái cho bằng giết con gà nấu cháo rồi mua độ nửa cây Văn-Điển? Cháo được rồi, gà gỡ ra bỏ vào một cái đĩa tây to. Rót rượu ra! Múc cháo ra. Bê cái mâm hẳn lên giường. Chồng ngồi xếp bằng, uống rượu, rung đùi. Vợ ngồi tiếp một bên. Uống được độ ba chén rồi bắt đầu vừa uống vừa nói chuyện cổ kim để vợ nghe. Vợ nghe và tủm tỉm cười. Lúc bấy giờ thì...ôi thôi! Ông tiên chỉ là ta! Ông trời cũng là ta! Đứa nào bảo một miếng giữa làng, bằng một sáng xó bếp, dốt như bò. Vất ra ba trăm đồng bạc làm một ông quan viên, thà để mua một trăm rưởi con gà. Tiên chỉ mình, rồi thứ chỉ vợ mình; việc gì đem tiền cho chúng nó ăn? Nghĩa là anh Tẻ đá lắm, đá ghê gớm lắm, và khôn róc, sống theo cái kiểu cơm nhà ma vợ.\n\n[namcao-p012-para-009 | truoc-cach-mang/don-chong.md | page 12]\nVợ Lúng thấy người đau ê ẩm. Hai cánh tay dừng máu tím bầm. Mông xót như mất hẩn một lần da. Y khệnh khạng đi xuống bếp. Nồi cháo sôi lúc búc. Úi chà! Thơm quá! Mà đặc sệt rồi. Giá y không xuống thì khê mất. Y tra muối. Y múc một bát ăn. Ôi chao ôi! Cái cháo trai sao mà ngon đến thế. Y làm luôn bát nữa, rồi bát nữa, rồi bát nữa... Nồi cháo cạn. Chó! Cứ ăn hết đi cũng được. Không cho thằng quan ôn vật ấy ăn nữa. Tài đánh lắm! Vả lại nó cũng uống bao nhiêu rượu. Ăn một mình cả một cái đùi vịt. Ăn lắm, uống lắm rồi. Thì bây giờ đừng ăn... Y vét nồi sồn sột. Chị hàng xóm bảo:\n\n-- Khe khẽ chứ!... Anh ấy dậy bây giờ thì được chết.\n\n-- Cho chết! Đói bỏ cha đi ấy, hãy ăn cho sướng đã.\n\nNói xong, y nghiêng cái nồi ra ánh sáng. Còn cái gì đây nữa? Ô! Miếng trai! Còn sót một miếng trai trong góc nồi. Làm nốt đi!\n\nTiểu thuyết thứ Bảy.\n\nSố 437, ngày 30-10-1942\n\n[namcao-p012-para-002 | truoc-cach-mang/don-chong.md | page 12]\nTiền hắn làm, uống rượu chưa chắc đủ. Huống chi lại còn đánh bạc.\n\nVậy đồng xu của vợ Lúng, không nhặt được hay ăn cắp, thì chắc là y xin. Y buộc vào dải yếm, trông chặt lắm. Lại hàng bánh dày, y hí hoáy cởi một lúc lâu mới được. Hay là y giả đận làm như thế thì chẳng biết. Làm thế, để đợi lúc có thật nhiều người ăn. Bởi vì lúc y ngồi xuống thì đã có bốn năm bà đang ăn rồi. Chị hàng bánh tới ta tới tấp. Vợ Lúng mân mê một lát, rồi nhặt lấy một tấm bánh dầy đậu, đưa lên ngoạm một miếng hết già nửa tấm. Còn non nửa tấm. Còn non nửa tấm nữa, y ném tọt vào miệng nốt. Y đưa đồng xu ra, chị hàng bánh dầy trợn mắt:\n\n-- Sao lại có một xu?\n\n-- Tôi ăn một tấm.\n\nThế là chẳng nói thêm một tiếng, chị hàng bánh nhảy ra bóp cổ y. Y giãy giụa, nhưng cái cổ y ngẳng quá, chỉ vừa một chét. Y lại mếu. Mà con mẹ hàng bánh sao mà khỏe thế. Nó dúi đầu y xuống, mắt y trợn ngược. Y kêu ằng ặc. Miệng y há hốc. Miếng bánh dầy nhả ra. Bây giờ chị hàng bánh mới chịu buông cổ y, và reo lên:\n\n-- Xem nào!",
+        "context_ids": [
+          "namcao-p035-para-004",
+          "namcao-p012-para-009",
+          "namcao-p012-para-002"
+        ],
+        "context_chars": 3023,
+        "n_candidates": 3,
+        "elapsed_ms": 2.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_b1h0aTqElLjZkUQ88KNVP4HC",
+        "method": "bm25",
+        "query": "Lúng mua gì để uống rượu",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p035-para-004",
+            "score": 12.978781345257628,
+            "rank": 1,
+            "source": "truoc-cach-mang/rinh-trom.md",
+            "page": 35
+          },
+          {
+            "id": "namcao-p012-para-009",
+            "score": 10.759831729751326,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-002",
+            "score": 10.718994471088397,
+            "rank": 3,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          }
+        ],
+        "context": "[namcao-p035-para-004 | truoc-cach-mang/rinh-trom.md | page 35]\nVợ chồng Tẻ, trái lại, rất quý nhau. Chồng hiền, vợ cũng hiền. Cả hai đều chăm chỉ làm ăn. Vợ sẻn so. Chồng không đánh bạc, không nghiện ngập, không hay họp hành, đánh bạc. Nói cho thật, thì một đôi khi anh Tẻ cũng thèm uống rượu. Uống rượu rồi nói khoác là thú nhất. Còn gì khoái cho bằng giết con gà nấu cháo rồi mua độ nửa cây Văn-Điển? Cháo được rồi, gà gỡ ra bỏ vào một cái đĩa tây to. Rót rượu ra! Múc cháo ra. Bê cái mâm hẳn lên giường. Chồng ngồi xếp bằng, uống rượu, rung đùi. Vợ ngồi tiếp một bên. Uống được độ ba chén rồi bắt đầu vừa uống vừa nói chuyện cổ kim để vợ nghe. Vợ nghe và tủm tỉm cười. Lúc bấy giờ thì...ôi thôi! Ông tiên chỉ là ta! Ông trời cũng là ta! Đứa nào bảo một miếng giữa làng, bằng một sáng xó bếp, dốt như bò. Vất ra ba trăm đồng bạc làm một ông quan viên, thà để mua một trăm rưởi con gà. Tiên chỉ mình, rồi thứ chỉ vợ mình; việc gì đem tiền cho chúng nó ăn? Nghĩa là anh Tẻ đá lắm, đá ghê gớm lắm, và khôn róc, sống theo cái kiểu cơm nhà ma vợ.\n\n[namcao-p012-para-009 | truoc-cach-mang/don-chong.md | page 12]\nVợ Lúng thấy người đau ê ẩm. Hai cánh tay dừng máu tím bầm. Mông xót như mất hẩn một lần da. Y khệnh khạng đi xuống bếp. Nồi cháo sôi lúc búc. Úi chà! Thơm quá! Mà đặc sệt rồi. Giá y không xuống thì khê mất. Y tra muối. Y múc một bát ăn. Ôi chao ôi! Cái cháo trai sao mà ngon đến thế. Y làm luôn bát nữa, rồi bát nữa, rồi bát nữa... Nồi cháo cạn. Chó! Cứ ăn hết đi cũng được. Không cho thằng quan ôn vật ấy ăn nữa. Tài đánh lắm! Vả lại nó cũng uống bao nhiêu rượu. Ăn một mình cả một cái đùi vịt. Ăn lắm, uống lắm rồi. Thì bây giờ đừng ăn... Y vét nồi sồn sột. Chị hàng xóm bảo:\n\n-- Khe khẽ chứ!... Anh ấy dậy bây giờ thì được chết.\n\n-- Cho chết! Đói bỏ cha đi ấy, hãy ăn cho sướng đã.\n\nNói xong, y nghiêng cái nồi ra ánh sáng. Còn cái gì đây nữa? Ô! Miếng trai! Còn sót một miếng trai trong góc nồi. Làm nốt đi!\n\nTiểu thuyết thứ Bảy.\n\nSố 437, ngày 30-10-1942\n\n[namcao-p012-para-002 | truoc-cach-mang/don-chong.md | page 12]\nTiền hắn làm, uống rượu chưa chắc đủ. Huống chi lại còn đánh bạc.\n\nVậy đồng xu của vợ Lúng, không nhặt được hay ăn cắp, thì chắc là y xin. Y buộc vào dải yếm, trông chặt lắm. Lại hàng bánh dày, y hí hoáy cởi một lúc lâu mới được. Hay là y giả đận làm như thế thì chẳng biết. Làm thế, để đợi lúc có thật nhiều người ăn. Bởi vì lúc y ngồi xuống thì đã có bốn năm bà đang ăn rồi. Chị hàng bánh tới ta tới tấp. Vợ Lúng mân mê một lát, rồi nhặt lấy một tấm bánh dầy đậu, đưa lên ngoạm một miếng hết già nửa tấm. Còn non nửa tấm. Còn non nửa tấm nữa, y ném tọt vào miệng nốt. Y đưa đồng xu ra, chị hàng bánh dầy trợn mắt:\n\n-- Sao lại có một xu?\n\n-- Tôi ăn một tấm.\n\nThế là chẳng nói thêm một tiếng, chị hàng bánh nhảy ra bóp cổ y. Y giãy giụa, nhưng cái cổ y ngẳng quá, chỉ vừa một chét. Y lại mếu. Mà con mẹ hàng bánh sao mà khỏe thế. Nó dúi đầu y xuống, mắt y trợn ngược. Y kêu ằng ặc. Miệng y há hốc. Miếng bánh dầy nhả ra. Bây giờ chị hàng bánh mới chịu buông cổ y, và reo lên:\n\n-- Xem nào!",
+        "context_ids": [
+          "namcao-p035-para-004",
+          "namcao-p012-para-009",
+          "namcao-p012-para-002"
+        ],
+        "context_chars": 3023,
+        "n_candidates": 3,
+        "elapsed_ms": 2.6
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_CFPDB9OhTIIyHNC26jW9Fh3l",
+        "method": "bm25",
+        "query": "Lúng mua gì để uống rượu",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p035-para-004",
+            "score": 12.978781345257628,
+            "rank": 1,
+            "source": "truoc-cach-mang/rinh-trom.md",
+            "page": 35
+          },
+          {
+            "id": "namcao-p012-para-009",
+            "score": 10.759831729751326,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-002",
+            "score": 10.718994471088397,
+            "rank": 3,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          }
+        ],
+        "context": "[namcao-p035-para-004 | truoc-cach-mang/rinh-trom.md | page 35]\nVợ chồng Tẻ, trái lại, rất quý nhau. Chồng hiền, vợ cũng hiền. Cả hai đều chăm chỉ làm ăn. Vợ sẻn so. Chồng không đánh bạc, không nghiện ngập, không hay họp hành, đánh bạc. Nói cho thật, thì một đôi khi anh Tẻ cũng thèm uống rượu. Uống rượu rồi nói khoác là thú nhất. Còn gì khoái cho bằng giết con gà nấu cháo rồi mua độ nửa cây Văn-Điển? Cháo được rồi, gà gỡ ra bỏ vào một cái đĩa tây to. Rót rượu ra! Múc cháo ra. Bê cái mâm hẳn lên giường. Chồng ngồi xếp bằng, uống rượu, rung đùi. Vợ ngồi tiếp một bên. Uống được độ ba chén rồi bắt đầu vừa uống vừa nói chuyện cổ kim để vợ nghe. Vợ nghe và tủm tỉm cười. Lúc bấy giờ thì...ôi thôi! Ông tiên chỉ là ta! Ông trời cũng là ta! Đứa nào bảo một miếng giữa làng, bằng một sáng xó bếp, dốt như bò. Vất ra ba trăm đồng bạc làm một ông quan viên, thà để mua một trăm rưởi con gà. Tiên chỉ mình, rồi thứ chỉ vợ mình; việc gì đem tiền cho chúng nó ăn? Nghĩa là anh Tẻ đá lắm, đá ghê gớm lắm, và khôn róc, sống theo cái kiểu cơm nhà ma vợ.\n\n[namcao-p012-para-009 | truoc-cach-mang/don-chong.md | page 12]\nVợ Lúng thấy người đau ê ẩm. Hai cánh tay dừng máu tím bầm. Mông xót như mất hẩn một lần da. Y khệnh khạng đi xuống bếp. Nồi cháo sôi lúc búc. Úi chà! Thơm quá! Mà đặc sệt rồi. Giá y không xuống thì khê mất. Y tra muối. Y múc một bát ăn. Ôi chao ôi! Cái cháo trai sao mà ngon đến thế. Y làm luôn bát nữa, rồi bát nữa, rồi bát nữa... Nồi cháo cạn. Chó! Cứ ăn hết đi cũng được. Không cho thằng quan ôn vật ấy ăn nữa. Tài đánh lắm! Vả lại nó cũng uống bao nhiêu rượu. Ăn một mình cả một cái đùi vịt. Ăn lắm, uống lắm rồi. Thì bây giờ đừng ăn... Y vét nồi sồn sột. Chị hàng xóm bảo:\n\n-- Khe khẽ chứ!... Anh ấy dậy bây giờ thì được chết.\n\n-- Cho chết! Đói bỏ cha đi ấy, hãy ăn cho sướng đã.\n\nNói xong, y nghiêng cái nồi ra ánh sáng. Còn cái gì đây nữa? Ô! Miếng trai! Còn sót một miếng trai trong góc nồi. Làm nốt đi!\n\nTiểu thuyết thứ Bảy.\n\nSố 437, ngày 30-10-1942\n\n[namcao-p012-para-002 | truoc-cach-mang/don-chong.md | page 12]\nTiền hắn làm, uống rượu chưa chắc đủ. Huống chi lại còn đánh bạc.\n\nVậy đồng xu của vợ Lúng, không nhặt được hay ăn cắp, thì chắc là y xin. Y buộc vào dải yếm, trông chặt lắm. Lại hàng bánh dày, y hí hoáy cởi một lúc lâu mới được. Hay là y giả đận làm như thế thì chẳng biết. Làm thế, để đợi lúc có thật nhiều người ăn. Bởi vì lúc y ngồi xuống thì đã có bốn năm bà đang ăn rồi. Chị hàng bánh tới ta tới tấp. Vợ Lúng mân mê một lát, rồi nhặt lấy một tấm bánh dầy đậu, đưa lên ngoạm một miếng hết già nửa tấm. Còn non nửa tấm. Còn non nửa tấm nữa, y ném tọt vào miệng nốt. Y đưa đồng xu ra, chị hàng bánh dầy trợn mắt:\n\n-- Sao lại có một xu?\n\n-- Tôi ăn một tấm.\n\nThế là chẳng nói thêm một tiếng, chị hàng bánh nhảy ra bóp cổ y. Y giãy giụa, nhưng cái cổ y ngẳng quá, chỉ vừa một chét. Y lại mếu. Mà con mẹ hàng bánh sao mà khỏe thế. Nó dúi đầu y xuống, mắt y trợn ngược. Y kêu ằng ặc. Miệng y há hốc. Miếng bánh dầy nhả ra. Bây giờ chị hàng bánh mới chịu buông cổ y, và reo lên:\n\n-- Xem nào!",
+        "context_ids": [
+          "namcao-p035-para-004",
+          "namcao-p012-para-009",
+          "namcao-p012-para-002"
+        ],
+        "context_chars": 3023,
+        "n_candidates": 3,
+        "elapsed_ms": 4.4
+      },
+      {
+        "event": "search_limit",
+        "tool_call_id": "call_5MMRkdOU8zwMZDiZRd5nHSZr"
+      },
+      {
+        "event": "answer",
+        "enough_evidence": false
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1953.0,
+        "prompt_tokens": 529,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 2208.8,
+        "prompt_tokens": 1692,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 1164.8,
+        "prompt_tokens": 1735,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 1006.2,
+        "prompt_tokens": 1778,
+        "completion_tokens": 29
+      },
+      {
+        "ms": 1142.3,
+        "prompt_tokens": 1834,
+        "completion_tokens": 30
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "model_answer": "Không đủ bằng chứng để trả lời.",
+    "usage": {
+      "prompt_tokens": 7568,
+      "completion_tokens": 122,
+      "llm_calls": 5
+    },
+    "cost_usd": 0.003222,
+    "n_searches": 3,
+    "elapsed_ms": 7484.6,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "d12",
+    "question": "Ngoài chiếc roi mây, Lúng còn đi tìm hai thứ gì nữa để trói vợ?",
+    "filter": {
+      "period": "truoc-cach-mang"
+    },
+    "status": "answered",
+    "answer": "Ngoài chiếc roi mây, Lúng còn đi tìm hai thứ nữa để trói vợ là cái đòn gánh và sợi dây thừng [namcao-p012-para-006].",
+    "citations": [
+      "namcao-p012-para-006"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_LXbdb3IDT4UAJjCd9r7BUYQd",
+        "method": "bm25",
+        "query": "Lúng tìm hai thứ để trói vợ",
+        "filter": {
+          "period": "truoc-cach-mang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p012-para-008",
+            "score": 11.611631811102686,
+            "rank": 1,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p020-para-002",
+            "score": 10.854311114295324,
+            "rank": 2,
+            "source": "truoc-cach-mang/mot-dam-cuoi.md",
+            "page": 20
+          },
+          {
+            "id": "namcao-p012-para-005",
+            "score": 9.944755866384725,
+            "rank": 3,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          }
+        ],
+        "context": "[namcao-p012-para-008 | truoc-cach-mang/don-chong.md | page 12]\nHắn bỗng nhiên vùng dậy, cầm cái roi mây chạy lại, nghiến răng vụt đen đét vào mông y. Y đau quắn đít. Y nhăn mặt lại. Y van lạy. Y gào. Trời ơi! Y gào!...\n\nHắn vụt xong một chập rồi, nghỉ tay. Lại uống, lại nhồm nhoàm vừa nhai vừa kể tội. Kể tội xong lại đánh. Đánh một chập rồi lại uống. Uống rồi lại đánh, cứ như thế mãi. Đến nỗi vợ hắn tê mông, không còn thấy đau.\n\nBấy giờ hắn mới thôi. Thôi bởi vì hắn líu lưỡi lại rồi. Mắt trông cái gì cũng chập chờn, cũng quay quay. Chân nọ cứ vướng vào chân kia, không đứng lên được nữa. Hắn lăn khoèo ra giường, mồm ú ớ. Rồi hắn ngủ. Hắn ngáy thật to, nghe khò khò...\n\nMột người hàng xóm thấy im ắng rồi mới dám sang. Y rón rén vào nhà. Lúng vẫn ngủ mê, ngủ mệt. Có mà vần xuống sông cũng được! Người hàng xóm lại gần cột, cởi trói cho vợ hắn.\n\n[namcao-p020-para-002 | truoc-cach-mang/mot-dam-cuoi.md | page 20]\nDần đi ở từ năm chửa mười hai. Khi ấy, đầu nó còn để hai cái trái đào. Nó mới biết cầm vững cái chổi để quét nhà và thổi một niêu cơm con con không sống, không khê. Mẹ nó vốn nghèo từ trong trứng nghèo ra, nên hay liệu, hay lo. Thị nghĩ rằng: Con mình đã lớn rồi, phải uốn nắn ngay đi; nhà mình vườn ít, ruộng không, cửi vải cũng không, nghĩa là công việc chẳng có gì; nó ở nhà cũng chỉ chơi; để mặc nó lêu lổng chạy ra ngoài đường, đánh chắt, đánh ô, rồi nó hư thân; chi bằng cho nó đi ăn đi ở với người ta, để người ta bắt nó cất nhắc việc nọ, việc kia cho nó quen tay; có việc làm rồi mới biết việc mà làm, chỉ nhông nhổng chơi quen, đến lúc phải làm tất gờ guộng chân tay, chẳng đánh đổ cái này cũng đánh vỡ cái kia, cái thứ con gái mà cầm đến cái gầu không biết tát làm sao, đưa cho đám mạ không biết cấy thế nào, bảo ngồi lên khung cửi nhắc lấy cái thoi thì lúng ta lúng túng, là thứ con gái đáng cho hùm ăn thịt.\n\n[namcao-p012-para-005 | truoc-cach-mang/don-chong.md | page 12]\nCâu chuyện đến tai Lúng. Lúng thâm tím mặt. Giá lúc ấy vợ hắn có nhà thì có lẽ hắn đã đâm chết vợ. Nhưng vợ hắn còn đi dệt cửi. Hắn đành nén giận, để đi làm trai đã. Hôm ấy hắn dận được nhiều trai lắm. Toàn những con to cả. Trai, chỉ ăn thua cái vỏ, bán cho người ta làm cúc hay khảm xà cừ chẳng hiểu. Chỉ biết người ta mua nhiều lắm. Lần này, tính nguyên vỏ đã được năm, sau hào. Ruột chỉ được hơn hào chỉ. Hắn không thèm bán nữa. Hắn đem nấu một nồi cháo ăn.",
+        "context_ids": [
+          "namcao-p012-para-008",
+          "namcao-p020-para-002",
+          "namcao-p012-para-005"
+        ],
+        "context_chars": 2365,
+        "n_candidates": 3,
+        "elapsed_ms": 2.1
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_k0XFIE1dzRYj5cLFBJPIocqh",
+        "method": "bm25",
+        "query": "Lúng tìm hai thứ để trói vợ ngoài roi mây",
+        "filter": {
+          "period": "truoc-cach-mang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p012-para-008",
+            "score": 19.646292091419728,
+            "rank": 1,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-006",
+            "score": 14.47034515734309,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p020-para-002",
+            "score": 12.677732699602062,
+            "rank": 3,
+            "source": "truoc-cach-mang/mot-dam-cuoi.md",
+            "page": 20
+          }
+        ],
+        "context": "[namcao-p012-para-008 | truoc-cach-mang/don-chong.md | page 12]\nHắn bỗng nhiên vùng dậy, cầm cái roi mây chạy lại, nghiến răng vụt đen đét vào mông y. Y đau quắn đít. Y nhăn mặt lại. Y van lạy. Y gào. Trời ơi! Y gào!...\n\nHắn vụt xong một chập rồi, nghỉ tay. Lại uống, lại nhồm nhoàm vừa nhai vừa kể tội. Kể tội xong lại đánh. Đánh một chập rồi lại uống. Uống rồi lại đánh, cứ như thế mãi. Đến nỗi vợ hắn tê mông, không còn thấy đau.\n\nBấy giờ hắn mới thôi. Thôi bởi vì hắn líu lưỡi lại rồi. Mắt trông cái gì cũng chập chờn, cũng quay quay. Chân nọ cứ vướng vào chân kia, không đứng lên được nữa. Hắn lăn khoèo ra giường, mồm ú ớ. Rồi hắn ngủ. Hắn ngáy thật to, nghe khò khò...\n\nMột người hàng xóm thấy im ắng rồi mới dám sang. Y rón rén vào nhà. Lúng vẫn ngủ mê, ngủ mệt. Có mà vần xuống sông cũng được! Người hàng xóm lại gần cột, cởi trói cho vợ hắn.\n\n[namcao-p020-para-002 | truoc-cach-mang/mot-dam-cuoi.md | page 20]\nDần đi ở từ năm chửa mười hai. Khi ấy, đầu nó còn để hai cái trái đào. Nó mới biết cầm vững cái chổi để quét nhà và thổi một niêu cơm con con không sống, không khê. Mẹ nó vốn nghèo từ trong trứng nghèo ra, nên hay liệu, hay lo. Thị nghĩ rằng: Con mình đã lớn rồi, phải uốn nắn ngay đi; nhà mình vườn ít, ruộng không, cửi vải cũng không, nghĩa là công việc chẳng có gì; nó ở nhà cũng chỉ chơi; để mặc nó lêu lổng chạy ra ngoài đường, đánh chắt, đánh ô, rồi nó hư thân; chi bằng cho nó đi ăn đi ở với người ta, để người ta bắt nó cất nhắc việc nọ, việc kia cho nó quen tay; có việc làm rồi mới biết việc mà làm, chỉ nhông nhổng chơi quen, đến lúc phải làm tất gờ guộng chân tay, chẳng đánh đổ cái này cũng đánh vỡ cái kia, cái thứ con gái mà cầm đến cái gầu không biết tát làm sao, đưa cho đám mạ không biết cấy thế nào, bảo ngồi lên khung cửi nhắc lấy cái thoi thì lúng ta lúng túng, là thứ con gái đáng cho hùm ăn thịt.\n\n[namcao-p012-para-006 | truoc-cach-mang/don-chong.md | page 12]\nCháo bắc lên bếp rồi, hắn chạy đi mua rượu. Cả chai. Với một cái đùi vịt hai hào nữa. Phải uống thật say mới được! Rượu có rồi. Cái nhắm có rồi. Nồi cháo đã gầy mấy cái nhẵng tre thật chắc, chỉ lát nữa sẽ sôi lúc búc. Nhưng hắn chưa uống vội. Hắn đi chặt một đoạn mây to. Một đầu khoanh lại thành cái vòng để xỏ tay vào, cầm cho dễ. Vả lại, kiểu roi mây phải thế. Hắn vụt thử lên không khí kêu vun vút. À! Tốt tệ! Hắn nhếch môi cười một tiếng ngắn. Còn phải đi tìm cái đòn gánh và sợi dây thừng nữa. Có cả rồi. Hắn xếp cả lên cái giường độc nhất trong nhà hắn. Hắn xếp cả hắn lên đấy nữa. Hắn ngồi xếp bằng, hai tay hắn chống xuống hai đùi. Hai đui hắn rung rung. Hắn nhìn chằm chặp vào cái đùi vịt và chai rượu. Nước dãi hắn chảy ra. Hắn thèm uống lắm, nhưng chưa uống vội. Còn đợi vợ.\n\nĐây! Y đã về. Nhẹ và mạnh như con báo, hắn nhảy vọt từ trên giường xuống đất, chưa kịp trông rõ hắn, y đã bị tay hắn chộp. Y kinh ngạc:\n\n-- Ô hay!\n\n-- Mày lại đây!\n\n[namcao-p012-para-005 | truoc-cach-mang/don-chong.md | page 12]\nCâu chuyện đến tai Lúng. Lúng thâm tím mặt. Giá lúc ấy vợ hắn có nhà thì có lẽ hắn đã đâm chết vợ. Nhưng vợ hắn còn đi dệt cửi. Hắn đành nén giận, để đi làm trai đã. Hôm ấy hắn dận được nhiều trai lắm. Toàn những con to cả. Trai, chỉ ăn thua cái vỏ, bán cho người ta làm cúc hay khảm xà cừ chẳng hiểu. Chỉ biết người ta mua nhiều lắm. Lần này, tính nguyên vỏ đã được năm, sau hào. Ruột chỉ được hơn hào chỉ. Hắn không thèm bán nữa. Hắn đem nấu một nồi cháo ăn.",
+        "context_ids": [
+          "namcao-p012-para-008",
+          "namcao-p020-para-002",
+          "namcao-p012-para-006",
+          "namcao-p012-para-005"
+        ],
+        "context_chars": 3382,
+        "n_candidates": 4,
+        "elapsed_ms": 2.1
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1149.9,
+        "prompt_tokens": 559,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 1162.0,
+        "prompt_tokens": 1431,
+        "completion_tokens": 26
+      },
+      {
+        "ms": 1713.2,
+        "prompt_tokens": 1850,
+        "completion_tokens": 74
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 3840,
+      "completion_tokens": 122,
+      "llm_calls": 3
+    },
+    "cost_usd": 0.001731,
+    "n_searches": 2,
+    "elapsed_ms": 4029.5,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d13",
+    "question": "Hùng cho bạn biết mình đã bỏ Nga từ bao giờ?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Hùng cho biết mình đã bỏ Nga từ năm tháng trước đó rồi, khi nói chuyện với người bạn tại bàn ăn, và anh ta diễn tả việc bỏ Nga là một việc đau đớn và bất ngờ dù trước đó rất yêu Nga [namcao-p014-para-000].",
+    "citations": [
+      "namcao-p014-para-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_DZkwJ2RDfds5PwT1DsO3q2f2",
+        "method": "bm25",
+        "query": "Hùng bỏ Nga từ bao giờ",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p014-para-000",
+            "score": 18.086104996849176,
+            "rank": 1,
+            "source": "truoc-cach-mang/dui-mu.md",
+            "page": 14
+          },
+          {
+            "id": "namcao-p014-para-001",
+            "score": 11.618327600813169,
+            "rank": 2,
+            "source": "truoc-cach-mang/dui-mu.md",
+            "page": 14
+          },
+          {
+            "id": "namcao-p014-para-010",
+            "score": 10.700195934497248,
+            "rank": 3,
+            "source": "truoc-cach-mang/dui-mu.md",
+            "page": 14
+          }
+        ],
+        "context": "[namcao-p014-para-000 | truoc-cach-mang/dui-mu.md | page 14]\nVào bàn ăn, thấy chỉ có mỗi mình bạn với tôi, tôi không sao giấu nổi sự ngạc nhiên. Hùng như cũng đoán ra điều ấy, mỉm cười hỏi tôi:\n\n-- Chắc anh lấy làm lạ vì không có Nga cùng ngồi ăn với chúng ta như năm trước?\n\n-- Quả có thế. Ý hẳn chị đi chơi đâu?\n\nHùng lắc đầu cười gượng:\n\n-- Tôi bỏ Nga từ năm tháng trước kia rồi!\n\nTôi sửng sốt như bị điện giật, mắt mở to, miệng há hốc. Vẫn với nụ cười chua chát, Hùng bảo tôi:\n\n-- Anh không tin? Anh không tin là phải, vì tôi yêu Nga lắm, yêu hơn tất cả những tình nhân say đắm khác trên đời. Hồi ấy giá có ai bảo tôi rằng một ngày kia có thể bỏ Nga, thì tôi đã không ngần ngại gì mà cho người ấy là loạn óc? Ấy thế mà cái việc bất ngờ ấy đã xảy ra...xảy ra một cách đau đớn lắm...Nhưng anh cầm đũa đi đã chứ. Ta vừa ăn vừa nói chuyện...\n\n[namcao-p014-para-001 | truoc-cach-mang/dui-mu.md | page 14]\nThường thường năm nào cũng vậy, mấy tháng nắng chúng tôi vẫn dọn ra \"Ô Cấp\" ở. Một ông bác tôi có một cái nhà ở ngoài đó bao giờ cũng sẵn lòng cho chúng tôi mượn không lấy tiền. Nhưng năm nay tôi đang soạn dở một cuốn tiểu thuyết để kịp cho đăng vào tờ tạp chí của anh Quang mới được phép ra, nên cần phải ở nán lại Sài - Gòn vài tuần nữa. Dù thế, tôi cố ép Nga đi ra \"Cấp\" trước, vì ở Châu thành bấy giờ nóng nực, khó chịu lắm, và nhất là vì tôi sợ bận rộn không săn sóc tới Nga luôn luôn được để Nga buồn. Mà chẳng nói tới anh cũng biết, tôi muốn Nga sung sướng luôn luôn, tôi không thể thấy nàng buồn nản, dù chỉ trong vài phút. Bởi vậy cho nên dù Nga năn nỉ đòi ở lại, đợi tôi và nói chỉ có thể sung sướng khi thấy tôi luôn luôn bên cạnh, tôi cũng nhất quyết nài Nga thu xếp ra đi. Tôi phải nói với Nga rằng tôi muốn Nga ra Cấp sửa sang chỗ ở trước, và hứa với nàng rằng sẽ ráng làm xong công việc cho mau chóng để ra với nàng ngay, nàng mới chịu nghe theo.\n\n[namcao-p014-para-010 | truoc-cach-mang/dui-mu.md | page 14]\nVà tôi đã biết! Phải anh ạ, tôi đã biết!.... Trí sáng suốt, sự tò mò lòng tự ái tôi đều được thỏa....nhưng trái tim tôi thì tan nát mất rồi!... Tôi đã nói dối Nga rằng tôi phải về Sài -- Gòn có việc cần. Nhưng đi được một quãng, tôi bắt dừng xe lộn lại, và lần ra chỗ \"thiên thai\" nấp vào trong bụi rậm. Sự nghi ngờ của tôi không đến nỗi vô lý. Quả nhiên chiều hôm ấy tôi được thấy Nga nũng nịu đu lấy cổ một chàng trai trẻ, như đã đu lấy cổ tôi cũng ở tảng đá cũ.\n\n-- Thế rồi anh ly dị?\n\nHùng không đáp. Anh ngồi cúi mặt, mắt đăm đăm nhìn xuống bàn, lộ một vẻ đau đớn lắm. Một lúc anh khẽ nói, giọng chán nản của một anh chàng bị đánh cắp ái tình:\n\n-- Tôi hối hận. Thà rằng tôi cứ ở chúi xó thôn quê ấy để thầm ca tụng lòng chung thủy của Nga, thà rằng tôi cứ đui mù như anh lính nọ lại được hoàn toàn sung sướng hơn là tìm đến sự thực để rồi thất vọng vì sự thực.\n\nThúy Rư\n\nTiểu thuyết thứ bẩy\n\nSố 160 Ngày 19-6-1937",
+        "context_ids": [
+          "namcao-p014-para-000",
+          "namcao-p014-para-001",
+          "namcao-p014-para-010"
+        ],
+        "context_chars": 2846,
+        "n_candidates": 3,
+        "elapsed_ms": 3.6
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1081.9,
+        "prompt_tokens": 521,
+        "completion_tokens": 19
+      },
+      {
+        "ms": 1434.8,
+        "prompt_tokens": 1510,
+        "completion_tokens": 93
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2031,
+      "completion_tokens": 112,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000992,
+    "n_searches": 1,
+    "elapsed_ms": 2520.4,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d14",
+    "question": "Người kể chuyện thuê chỗ trọ ở xóm lao động Thị Nghè với giá bao nhiêu một tháng?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Người kể chuyện thuê chỗ trọ ở xóm lao động Thị Nghè với giá năm đồng một tháng. [namcao-p014-para-002]",
+    "citations": [
+      "namcao-p014-para-002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_JCVth1ycl9XtOMzYOQBeWekz",
+        "method": "bm25",
+        "query": "giá thuê chỗ trọ xóm lao động Thị Nghè",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p014-para-002",
+            "score": 22.496130731615583,
+            "rank": 1,
+            "source": "truoc-cach-mang/dui-mu.md",
+            "page": 14
+          },
+          {
+            "id": "namcao-p015-para-020",
+            "score": 11.485847229054265,
+            "rank": 2,
+            "source": "truoc-cach-mang/giang-sang.md",
+            "page": 15
+          },
+          {
+            "id": "namcao-p059-para-017",
+            "score": 10.480145483052624,
+            "rank": 3,
+            "source": "sau-cach-mang/vui-dan-cong.md",
+            "page": 59
+          }
+        ],
+        "context": "[namcao-p014-para-002 | truoc-cach-mang/dui-mu.md | page 14]\nNhưng chúng tôi vẫn cứ còn dùng dằng mà không nỡ dứt. Nàng thì lúc chực ra đi, lúc lại đòi ở lại, có lúc hai con mắt van vỉ nhìn tôi như cầu xin, oán trách khiến tôi cảm động đến đáy lòng, và không bao giờ hiểu một cách sâu xa cái tình yêu tha thiết của nàng đối với tôi bằng lúc ấy. Nhưng rồi nàng cũng chịu ra xe. Còn tôi, sau khi đã cố gạt hết những nỗi buồn ly biệt, bèn lập tức quay vào công việc để làm khuây, và nhất là để mau hết, để có thể ra Cấp với người yêu được. Ngay chiều hôm ấy, tôi thu xếp sang Thị - Nghè: tôi cần ở cái xóm làm nơi trú ngụ cho một phần đông dân lao động ấy ít lâu để thu cóp tài liệu cần đến trong cuốn tiểu thuyết tôi đang viết, với cái giá tiền năm đồng một tháng. Vợ một bác thợ may nấu cơm tháng cho năm, sáu người lao động, cho tôi mỗi ngày hai bữa cơm thanh đạm và một cái bàn đã mọt kê ở sát cửa sau, cạnh bức tường làm bằng ván mỏng ghép lại với nhau. Cái bàn ấy mỗi ngày hai lần dùng làm bàn ăn cho cả nhà.\n\n[namcao-p015-para-020 | truoc-cach-mang/giang-sang.md | page 15]\nNghệ thuật không cần là ánh trăng lừa dối, nghệ thuật có thể chỉ là tiếng đau khổ kia, thoát ra từ những kiếp lầm than, vang dội lên mạnh mẽ trong lòng Ðiền. Ðiền chẳng cần đi đâu cả. Ðiền chẳng cần trốn tránh, Ðiền cứ đứng trong lao khổ, mở hồn ra đón lấy tất cả những vang động của đời...\n\n... Sáng hôm sau, Ðiền ngồi viết. Giữa tiếng con khóc, tiếng vợ gắt gỏng, tiếng léo xéo đòi nợ ngoài đầu xóm. Và cả tiếng chửi bới của một người láng giềng ban đêm mất gà.\n\nTiểu thuyết thứ Bảy.\n\nSố 439, ngày 14-11-1942\n\n[namcao-p059-para-017 | sau-cach-mang/vui-dan-cong.md | page 59]\nChính vì các cán bộ đã kiên nhẫn giải thích được cho mọi người đều hiểu thế, đã chịu khó đến từng xóm, từng nhà, cho nên họ đã huy động được toàn thể nhân dân phục vụ cho chiến dịch. Cuộc huy động thật lớn lao. Cao Bằng có 18 vạn dân: ba vạn đã vào bộ đội hoặc đi làm cán bộ rồi. Trừ người già, trẻ con, phụ nữ có mang hoặc chưa thể rời con, những người ốm yếu... chỉ còn 6 vạn nhân công, 5 vạn 6000 người đã tham gia chiến dịch này và đã góp hơn một triệu ngày công vào đấy. Tôi chưa kịp hỏi rõ những con số của Lạng Sơn. Một anh quê ở Bắc Sơn cùng đi với tôi trên một con đường mới đắp vào khoảng giữa Đông Khê với Thất Khê đã bảo tôi: \"Khi tôi đến đây con đường này chưa có, những cánh đồng ruộng này vừa mới cấy. Bây giờ lúa đã vàng. Tôi vẫn chưa về. Đợi bộ đội đánh xong Thất Khê đã vớ!\".",
+        "context_ids": [
+          "namcao-p014-para-002",
+          "namcao-p015-para-020",
+          "namcao-p059-para-017"
+        ],
+        "context_chars": 2448,
+        "n_candidates": 3,
+        "elapsed_ms": 1.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p014-para-002"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 975.7,
+        "prompt_tokens": 534,
+        "completion_tokens": 27
+      },
+      {
+        "ms": 1277.9,
+        "prompt_tokens": 1376,
+        "completion_tokens": 56
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1910,
+      "completion_tokens": 83,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000897,
+    "n_searches": 1,
+    "elapsed_ms": 2255.5,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d15",
+    "question": "Người kể chuyện nhìn qua khe ván nhà bên cạnh và thấy điều gì khiến ông run lên?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Người kể chuyện nhìn qua khe ván nhà bên cạnh và thấy người thiếu phụ có con mắt ngây thơ trong trẻo đang nũng nịu trên giường với một chàng trai trẻ không phải là anh lính. Mặt nàng đỏ bừng, đầu hơi ngả về đằng sau, khoe cái cổ tròn trĩnh và cái ngực nở đang hồi hộp, hai làn môi đỏ ướt hé mở như chờ một cái hôn. Cảnh tượng này khiến người kể chuyện run lên, trái tim như ngừng đập, người run rẩy, cổ khô, đầu choáng váng như chính Nga đang quằn quại trên giường với người khác vậy. [namcao-p014-para-006]",
+    "citations": [
+      "namcao-p014-para-006"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_gMJl2JH6DRbxv114p1ydZjKt",
+        "method": "bm25",
+        "query": "khe ván nhà bên cạnh run",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p014-para-006",
+            "score": 18.215612835166297,
+            "rank": 1,
+            "source": "truoc-cach-mang/dui-mu.md",
+            "page": 14
+          },
+          {
+            "id": "namcao-p014-para-004",
+            "score": 13.648270453257924,
+            "rank": 2,
+            "source": "truoc-cach-mang/dui-mu.md",
+            "page": 14
+          },
+          {
+            "id": "namcao-p028-para-004",
+            "score": 9.446385806654988,
+            "rank": 3,
+            "source": "truoc-cach-mang/nhung-tre-khon-nan.md",
+            "page": 28
+          }
+        ],
+        "context": "[namcao-p014-para-006 | truoc-cach-mang/dui-mu.md | page 14]\nVà tôi bỗng rầu rầu tưởng đến nỗi nhớ mong của Nga mỏi mắt đợi người yêu ngoài Cấp. Tôi lại vội vàng lấy bút mực cắm đầu viết cho mau xong cuốn truyện. Mới viết được chừng một trang thì tiếng cười rúc rích ở nhà bên cạnh làm tôi ngừng viết. Tôi mỉm cười, nghĩ bụng: \"Chắc anh chồng ra đi một quãng, suy nghĩ thế nào lại còn muốn về hôn vợ thêm cái nữa!\". Rồi tôi cúi đầu nhìn trộm qua khe ván xem điều dự đoán của mình có đúng không. Nhưng người tôi bỗng run lên một cái. Cấy viết rơi xuống đất. Tôi giụi mắt lại ba cái và bàng hoàng không tin ở mắt mình. Người thiếu phụ có con mắt ngây thơ trong trẻo kia đang nũng nịu trên giường, cánh tay trần đu lấy cổ một chàng trai trẻ mà tôi nhận ra không phải là anh lính. Mặt nàng đỏ bừng bừng, đầu hơi ngả về đằng sau, khoe cái cổ tròn trĩnh và cái ngực nở đang hồi hộp, hai làn môi đỏ ướt hé mở như chờ một cái hôn. Tôi bỗng thấy trái tim như ngừng đập, người run rẩy, cổ khô, đầu choáng váng như chính Nga đang quằn quại trên giường với người khác vậy.\n\n[namcao-p014-para-004 | truoc-cach-mang/dui-mu.md | page 14]\nNgười con gái đứng sau lưng tôi giống Nga như đúc: cũng đôi mắt trong trẻo ngây thơ, cũng cái miệng nhỏ xinh xinh với làn môi hơi mỏng và nếu không có nước da hơi sạm nắng, bàn tay hơi lớn và thô, với dáng người nặng nề vì quen khó nhọc thì tôi đã tưởng đó chính là Nga, mặc bộ đồ mộc mạc ấy trở lại để làm tôi sửng sốt. Sự giống nhau ấy làm tôi có cảm tình với chị ta mà sau hỏi ra tôi mới biết là vợ một người lính ở ngay nhà bên cạnh. Tôi càng có cảm tình với chị ta khi tôi biết chị thật là cái hạnh phúc vô song của người chồng sung sướng nọ. Đã bao lần tôi nhìn qua khe những tấm ván ghép làm tường, sống cái cảnh êm đềm, vui vẻ của đôi vợ chồng trẻ quyến luyến nhau và phải mỉm cười mơ màng nhớ lại những phút say sưa của tôi với Nga trong những lúc nhìn nhau bằng con mắt đầy âu yếm. Nhưng tôi cảm động nhất khi một buổi sáng vô tình dự vào cuộc tạm biệt của đôi uyên ương ấy. Tôi nhận lại hết những dáng điệu quyến luyến, dùng dằng buồn rầu không nỡ dứt của Nga và tôi hôm nọ.\n\n[namcao-p028-para-004 | truoc-cach-mang/nhung-tre-khon-nan.md | page 28]\nBây giờ nhớ lại cảnh đưa chân ấy, Tích vẫn còn thấy lòng nao-nao thương mẹ. Một giọt nước mắt đã đeo lủng-lẳng trên mi nó tự lúc nào. Tích lấy cùi tay chùi mắt. Vừa buông tay ra Tích bỗng giật mình. Mẹ Tích đã đứng sừng-sững ngay trước mặt. Tích nhếch môi cười. Nhưng cái cười chợt biến ngay. Tích mở to đôi mắt ngạc-nhiên. Tích mơ chăng? Đôi mắt mẹ Tích đỏ và dàn-dụa nước, y như vào cái buổi ra ga mà Tích vừa ngồi nhớ lại. Mẹ Tích quay mặt đi như muốn giấu con. Chậm quá rồi. Tích nắm chặt lấy tay mẹ, ngước mắt nhìn lên mặt mẹ, cố nuốt nghẹn run-run hỏi:\n\n— Bu ơi bu! Bu làm sao thế?\n\nMẹ Tích ngồi xụp xuống, ôm lấy Tích...\n\n— Tích ơi!... Thầy con gần chết... Con ơi! Biết làm sao bây giờ? Mẹ khổ vô chừng con ơi!\n\nThế là cả Tích và mẹ Tích đều khóc to.\n\nThằng Cu giật mình thức dậy. Nó dẫy dụa trên võng và thét lên.\n\nChị cu Vít nhà ở liền bên cạnh, nghe tiếng mẹ con Tích khóc bù-lu, bù-loa, ẵm đứa con gái nhỏ chạy sang.\n\n— Ô hay! Làm sao mà làm ầm-ỹ lên thế này?",
+        "context_ids": [
+          "namcao-p014-para-006",
+          "namcao-p014-para-004",
+          "namcao-p028-para-004"
+        ],
+        "context_chars": 3153,
+        "n_candidates": 3,
+        "elapsed_ms": 1.6
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p014-para-006"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 870.4,
+        "prompt_tokens": 529,
+        "completion_tokens": 20
+      },
+      {
+        "ms": 1959.2,
+        "prompt_tokens": 1637,
+        "completion_tokens": 182
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2166,
+      "completion_tokens": 202,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.00119,
+    "n_searches": 1,
+    "elapsed_ms": 2831.4,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d16",
+    "question": "Vì sao Tảo xộc vào nhà Bình trong cơn giận dữ?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Tảo xộc vào nhà Bình trong cơn giận dữ vì anh rất tức giận khi biết có người lén lút đem thịt bán cho bọn Pháp, điều đó đối với anh là bán nước, phản nước, là quốc sỉ và Việt gian. Anh giận đến mức rít lên như một bà vợ cả ghen, thể hiện sự căm phẫn sâu sắc với hành động đó và không thể chịu nổi việc đó xảy ra trong lúc bạn Bình lại tỏ ra bình tĩnh và đùa cợt về chuyện này. [namcao-p051-para-000][namcao-p051-para-001]",
+    "citations": [
+      "namcao-p051-para-000",
+      "namcao-p051-para-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_RAfXdnt6vWdbj2p7xcyw6e9e",
+        "method": "bm25",
+        "query": "Tảo xộc vào nhà Bình giận dữ",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p051-para-000",
+            "score": 24.99652692571299,
+            "rank": 1,
+            "source": "sau-cach-mang/nam-anh-hang-thit.md",
+            "page": 51
+          },
+          {
+            "id": "namcao-p051-para-001",
+            "score": 13.0901815060854,
+            "rank": 2,
+            "source": "sau-cach-mang/nam-anh-hang-thit.md",
+            "page": 51
+          },
+          {
+            "id": "namcao-p051-para-006",
+            "score": 11.845242350098836,
+            "rank": 3,
+            "source": "sau-cach-mang/nam-anh-hang-thit.md",
+            "page": 51
+          }
+        ],
+        "context": "[namcao-p051-para-000 | sau-cach-mang/nam-anh-hang-thit.md | page 51]\nBình vừa mới kéo cái then ra, hai cánh cửa đã bật tung; anh không vội tránh thì đã được gẫy một vài cái răng cửa hay bẹp mũi. Tảo xộc vào như một luồng gió mạnh.\n\n— Trời ơi! chi mà dữ vậy? Bộ lính chà nó đuổi anh hay sao mà anh thở hung quá vậy?\n\nBình hỏi đùa bạn thế. Tảo vò đầu, rứt tóc, nghiến răng, dậm cẳng như một người hóa dại:\n\n— Chà! giận quá! giận muốn trào máu họng! Anh không làm sao được thì tôi chết mất! Chết thiệt ạ! Không thể sống một ngày nào nổi.\n\nBình trố đôi mắt thật to, dáng khôi hài:\n\n— Ủa! chi mà dữ vậy?\n\n— Vẫn còn có đứa lẻn lút đem thịt bán cho bọn Pháp!\n\nAnh rít lên như một bà vợ cả ghen, bắt được chồng đi với gái. Tính anh vẫn Trương-Phi như vậy. Muốn trêu tức bạn, Bình mỉm cười bình tĩnh:\n\n— Ồ! tưởng là chi... Có vậy mà anh làm như chúng nó cướp vợ anh đi rồi vậy.\n\nTảo chém bàn tay phầm phập lên không khí, nhịp cho tiếng nói gầm lên như sấm:\n\n[namcao-p051-para-001 | sau-cach-mang/nam-anh-hang-thit.md | page 51]\n— À! nó cướp vợ tôi, tôi còn nhịn được, nhưng bán thịt cho bọn Pháp! cấp lương cho giặc! nuôi sống giặc! như vậy là bán nước, như vậy là phản nước, anh có hiểu không? Quốc sỉ! Những quân khốn nạn! Việt gian! Như vậy mà anh dong túng cho chúng được!\n\n— Nhưng tôi có dong túng cho chúng nó đâu? Anh làm như chính tôi cấp vốn cho chúng nó.\n\nBình cười khành khạch. Tảo bấy giờ mới kịp nhận ra rằng bạn diễu mình, ngồi phịch xuống ghế, hơi bẽn lẽn. Mặc dầu vậy, anh vẫn còn hậm hực, mặt cúi gầm, không nói. Bình rót nước, đưa cho bạn:\n\n— Bà tiên dạy rằng: mỗi lần ta muốn giận, chỉ việc rót đầy ba chén nước, uống mỗi chén một hơi cho hết. Vậy anh hãy cạn chén nước này đi đã, rồi ta nói chuyện.\n\nTảo bật cười. Anh cầm lấy chén nước, nhắp một ngụm và dịu dàng trách bạn:\n\n— Lạ cho anh quá! Lúc này mà còn đùa cười được!\n\n[namcao-p051-para-006 | sau-cach-mang/nam-anh-hang-thit.md | page 51]\nKhông đợi Bình nói hết, ba người đứng phát cả lên. Ba cái miệng súng sáu cùng được dí vào sát mặt Bình và Tảo. Trinh mai mỉa:\n\n— Một thằng đã từng làm giám đốc Quốc-gia Tự vệ cục mà lại chực tiếp tế lương thực cho giặc Pháp! Bình ạ, tao không ngờ mày đến nỗi đốn mạt như vậy.\n\nLộc dằn từng tiếng, bảo:\n\n— Tôi thì tôi không tin anh Bình của chúng ta hèn đến thế. Vậy một là anh nói ngay rằng: câu nói của anh chỉ là một câu đùa; hai là anh sẽ nhận được ngay tức khắc ba viên đạn của chúng tôi vào sọ.\n\nTảo bật lên như một cái lò xo, ôm lấy Lộc:\n\n— Hay lắm! hay lắm! có vậy mới thật là người Việt-nam.\n\nBa cái tay cầm súng cùng buông xuôi cả xuống. Chiến cười:\n\n— Tôi biết ngay là anh Bình dỡn chơi, chứ đời nào!... Tụi mình bảo đi mua thịt tụi Ru-băng thì được, chứ bảo đi bán thịt cho chúng nó thì không bao giờ cả!\n\nBình có vẻ bằng lòng lắm. Anh âu yếm nhìn các bạn một lúc, cười tủm tỉm. Rồi đột nhiên, anh hỏi:\n\n— Vậy các chú có muốn đi mua thịt bọn Ru-băng không nào?\n\n— Muốn lắm! Muốn lắm!...",
+        "context_ids": [
+          "namcao-p051-para-000",
+          "namcao-p051-para-001",
+          "namcao-p051-para-006"
+        ],
+        "context_chars": 2903,
+        "n_candidates": 3,
+        "elapsed_ms": 1.9
+      },
+      {
+        "event": "invalid_answer",
+        "problems": [
+          "citations phải là danh sách chunk-id không rỗng"
+        ],
+        "attempt": {
+          "answer": "Tảo xộc vào nhà Bình trong cơn giận dữ vì anh rất tức giận khi biết có người lén lút đem thịt bán cho bọn Pháp, điều đó đối với anh là bán nước, phản nước, là quốc sỉ và Việt gian. Anh giận đến mức rít lên như một bà vợ cả ghen, thể hiện sự căm phẫn sâu sắc với hành động đó và không thể chịu nổi việc đó xảy ra trong lúc bạn Bình lại tỏ ra bình tĩnh và đùa cợt về chuyện này [namcao-p051-para-000][namcao-p051-para-001].",
+          "citations": null,
+          "evidence_quote": null
+        }
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p051-para-000",
+          "namcao-p051-para-001"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 998.4,
+        "prompt_tokens": 525,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 2226.0,
+        "prompt_tokens": 1576,
+        "completion_tokens": 154
+      },
+      {
+        "ms": 2825.3,
+        "prompt_tokens": 1767,
+        "completion_tokens": 157
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 3868,
+      "completion_tokens": 333,
+      "llm_calls": 3
+    },
+    "cost_usd": 0.00208,
+    "n_searches": 1,
+    "elapsed_ms": 6051.8,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d17",
+    "question": "Theo Tảo, việc đem thịt bán cho quân Pháp là tội gì?",
+    "filter": {
+      "period": "sau-cach-mang"
+    },
+    "status": "answered",
+    "answer": "Theo Tảo, việc đem thịt bán cho quân Pháp là tội phản nước, là bán nước, là quốc sỉ, là Việt gian, tức là cấp lương, nuôi sống giặc. Anh xem đó như một tội rất nặng nề, không thể tha thứ được [namcao-p051-para-001].",
+    "citations": [
+      "namcao-p051-para-001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_d3094zCIfs3mobxry3Q6ndp9",
+        "method": "bm25",
+        "query": "Tảo đem thịt bán cho quân Pháp tội",
+        "filter": {
+          "period": "sau-cach-mang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p051-para-001",
+            "score": 18.97614044163343,
+            "rank": 1,
+            "source": "sau-cach-mang/nam-anh-hang-thit.md",
+            "page": 51
+          },
+          {
+            "id": "namcao-p051-para-009",
+            "score": 18.264780928908863,
+            "rank": 2,
+            "source": "sau-cach-mang/nam-anh-hang-thit.md",
+            "page": 51
+          },
+          {
+            "id": "namcao-p051-para-000",
+            "score": 17.554177262316408,
+            "rank": 3,
+            "source": "sau-cach-mang/nam-anh-hang-thit.md",
+            "page": 51
+          }
+        ],
+        "context": "[namcao-p051-para-001 | sau-cach-mang/nam-anh-hang-thit.md | page 51]\n— À! nó cướp vợ tôi, tôi còn nhịn được, nhưng bán thịt cho bọn Pháp! cấp lương cho giặc! nuôi sống giặc! như vậy là bán nước, như vậy là phản nước, anh có hiểu không? Quốc sỉ! Những quân khốn nạn! Việt gian! Như vậy mà anh dong túng cho chúng được!\n\n— Nhưng tôi có dong túng cho chúng nó đâu? Anh làm như chính tôi cấp vốn cho chúng nó.\n\nBình cười khành khạch. Tảo bấy giờ mới kịp nhận ra rằng bạn diễu mình, ngồi phịch xuống ghế, hơi bẽn lẽn. Mặc dầu vậy, anh vẫn còn hậm hực, mặt cúi gầm, không nói. Bình rót nước, đưa cho bạn:\n\n— Bà tiên dạy rằng: mỗi lần ta muốn giận, chỉ việc rót đầy ba chén nước, uống mỗi chén một hơi cho hết. Vậy anh hãy cạn chén nước này đi đã, rồi ta nói chuyện.\n\nTảo bật cười. Anh cầm lấy chén nước, nhắp một ngụm và dịu dàng trách bạn:\n\n— Lạ cho anh quá! Lúc này mà còn đùa cười được!\n\n[namcao-p051-para-009 | sau-cach-mang/nam-anh-hang-thit.md | page 51]\n— Các anh muốn xin giấy phép bán thịt cho quân đội Pháp, có phải không? Tốt lắm. Chúng tôi rất vui lòng. Các anh cứ cố đem thịt đến cho chúng tôi. Không những chúng tôi sẽ trả tiền một cách xứng đáng, mà sau này, sau này, — các anh có hiểu không? — khi nào chúng tôi đã lấy lại xong cả xứ Đông-dương, chúng tôi sẽ đề nghị với quan toàn quyền bổ các anh làm quan tất, các anh hiểu chứ? Các anh trung thành với nước Pháp thế là phải lắm. Đừng bắt chước những quân rồ dại. Chúng tôi sẽ giết hết chúng nó, không để một mống nào sống sót... Nhưng mà thôi!.. để tôi viết giấy phép cho các anh nhé?..\n\n[namcao-p051-para-000 | sau-cach-mang/nam-anh-hang-thit.md | page 51]\nBình vừa mới kéo cái then ra, hai cánh cửa đã bật tung; anh không vội tránh thì đã được gẫy một vài cái răng cửa hay bẹp mũi. Tảo xộc vào như một luồng gió mạnh.\n\n— Trời ơi! chi mà dữ vậy? Bộ lính chà nó đuổi anh hay sao mà anh thở hung quá vậy?\n\nBình hỏi đùa bạn thế. Tảo vò đầu, rứt tóc, nghiến răng, dậm cẳng như một người hóa dại:\n\n— Chà! giận quá! giận muốn trào máu họng! Anh không làm sao được thì tôi chết mất! Chết thiệt ạ! Không thể sống một ngày nào nổi.\n\nBình trố đôi mắt thật to, dáng khôi hài:\n\n— Ủa! chi mà dữ vậy?\n\n— Vẫn còn có đứa lẻn lút đem thịt bán cho bọn Pháp!\n\nAnh rít lên như một bà vợ cả ghen, bắt được chồng đi với gái. Tính anh vẫn Trương-Phi như vậy. Muốn trêu tức bạn, Bình mỉm cười bình tĩnh:\n\n— Ồ! tưởng là chi... Có vậy mà anh làm như chúng nó cướp vợ anh đi rồi vậy.\n\nTảo chém bàn tay phầm phập lên không khí, nhịp cho tiếng nói gầm lên như sấm:",
+        "context_ids": [
+          "namcao-p051-para-001",
+          "namcao-p051-para-009",
+          "namcao-p051-para-000"
+        ],
+        "context_chars": 2499,
+        "n_candidates": 3,
+        "elapsed_ms": 2.4
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 2138.0,
+        "prompt_tokens": 555,
+        "completion_tokens": 24
+      },
+      {
+        "ms": 1990.1,
+        "prompt_tokens": 1444,
+        "completion_tokens": 104
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1999,
+      "completion_tokens": 128,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001004,
+    "n_searches": 1,
+    "elapsed_ms": 4130.7,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d18",
+    "question": "Theo lời 'bà tiên' mà Bình nhắc, mỗi lần muốn giận thì nên làm gì để nguôi?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_bGbgxt8LCd1ItFLUlKxWaErE",
+        "method": "bm25",
+        "query": "bà tiên giận nguôi",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p042-para-003",
+            "score": 8.13769160789593,
+            "rank": 1,
+            "source": "truoc-cach-mang/tu-ngay-me-chet.md",
+            "page": 42
+          },
+          {
+            "id": "namcao-p030-para-047",
+            "score": 7.8107221407791965,
+            "rank": 2,
+            "source": "truoc-cach-mang/nua-dem.md",
+            "page": 30
+          },
+          {
+            "id": "namcao-p029-para-004",
+            "score": 7.718187124945166,
+            "rank": 3,
+            "source": "truoc-cach-mang/nu-cuoi.md",
+            "page": 29
+          }
+        ],
+        "context": "[namcao-p042-para-003 | truoc-cach-mang/tu-ngay-me-chet.md | page 42]\nBu chết đã ngót ba năm. Thầy bảo thế. Thì ra ba năm cũng dài lắm nhỉ. Ninh cứ tưởng bu Ninh chết đã lâu lắm. Nhưng trách gì!... Xưa kia, những ngày bu đi chợ tỉnh, độ gần tối chưa về Ninh đã thấy mong. Ấy là mới vắng bu có một ngày. Mà nào đã hết cả ngày. Bây giờ vắng bu bằn bặt những ba năm. Bao nhiêu ngày tháng! Ninh thấy lâu là phải. Biết bao giờ mẹ lại về với con? Ninh bâng khuâng cả người. Y như là nằm mơ. Ấy là Ninh đã nguôi nguôi đấy. Hồi mẹ Ninh mới chết, cứ nghĩ đến mẹ là Ninh khóc. Ninh khóc ằng ặc như người nuốt phải ngụm gì đắng quá, nó quánh vào cổ họng. Khóc đến lặng hẳn người đi, không còn ra tiếng nữa. Chẳng ngày nào không thế. Mỗi ngày hai, ba lần.\n\n[namcao-p030-para-047 | truoc-cach-mang/nua-dem.md | page 30]\nBây giờ bà quản Thích cũng biết nguyên do cái buồn của cháu bà rồi. Bà giận thiên hạ lắm. Cái thiên hạ rỗi mồm, và cứ hay húc đầu vào những việc chẳng liên can gì tới họ. Bà nghĩ đến ngày con nuôi bà còn sống. Hàng xóm cứ là len lét, hơi hé mồm nói lôi thôi là gãy răng. Nó xấu xí như ma, xấu đủ mọi nết, thế mà hai lần lấy hai con vợ cứ gọi là như hoa. Chẳng đứa nào ngoác mồm ra mà chê đi. Bà muốn cháu bà cũng hung ác được như bố nó, rồi mà xem: dù đứa nào có đẹp đến như tiên, hỏi đến mà không lấy thì cứ gọi là mượn cổ. Ở đời này, không tranh cướp thì nhiều khi đành tay không; giật lấy thì lắm người chịu đấy chứ xòe tay ra xin thì mấy người thí cho? Bà bảo Đức:\n\n-- Có phải con muốn lấy vợ thì để bà liệu cho. Gần không được thì xa...\n\nHắn không cho bà nói hết, hắn trợn mắt gắt lên với bà:\n\n-- Im đi! Đừng lôi thôi.\n\n[namcao-p029-para-004 | truoc-cach-mang/nu-cuoi.md | page 29]\n— Hoạt ạ, sao chưa bao giờ tôi thấy Hoạt tức-tối, chán nản, hoặc buồn rầu?\n\n— Thì Nam tính: tức-tối, chán nản, buồn rầu có được ích gì đâu? Hồi thầy tôi còn sống thầy tôi bắt tôi viết câu này gián lên tường ngay trước chỗ tôi ngồi: « Gặp những cái khó chịu, những điều trái ý, những nỗi đau khổ ở đời, ta phải tìm cách mà chống lại; nhưng khi chống lại cũng không xong, thì chỉ còn một cách là mỉm cười mà nhận lấy ».\n\nHoạt để tôi ngẫm-nghĩ một phút, rồi nói tiếp:\n\n— Thí dụ như hôm nay trời mưa, ta không đi chơi được, Nam có cáu kỉnh thì trời cũng cứ mưa. Còn tôi, tôi mỉm cười, đã đành tôi mỉm cười, thì trời cũng chẳng tạnh mưa đâu, nhưng mỉm cười dẫu sao cũng còn dễ chịu hơn cau mặt chứ?\n\nThấy tôi có vẻ nguôi giận rồi, anh lại bảo:\n\n— Bây giờ Nam hãy tưởng-tượng ra cái bộ mặt của Phương. Anh Phương của chúng ta đang đứng dí mũi vào cửa kính nhìn mưa, phụng-phịu giỗi với trời... và trời tinh-nghịch cứ mưa, mưa mãi như trêu cho anh ấy tức... Buồn cười biết bao!\n\nChúng tôi khanh-khách cười.",
+        "context_ids": [
+          "namcao-p042-para-003",
+          "namcao-p030-para-047",
+          "namcao-p029-para-004"
+        ],
+        "context_chars": 2693,
+        "n_candidates": 3,
+        "elapsed_ms": 1.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_83kBlVqrPgTfsP0C0MjAdqQW",
+        "method": "bm25",
+        "query": "bà tiên giận nguôi làm gì",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p042-para-003",
+            "score": 9.057128312898534,
+            "rank": 1,
+            "source": "truoc-cach-mang/tu-ngay-me-chet.md",
+            "page": 42
+          },
+          {
+            "id": "namcao-p039-para-016",
+            "score": 8.928984067689173,
+            "rank": 2,
+            "source": "truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md",
+            "page": 39
+          },
+          {
+            "id": "namcao-p030-para-041",
+            "score": 8.588112284450196,
+            "rank": 3,
+            "source": "truoc-cach-mang/nua-dem.md",
+            "page": 30
+          }
+        ],
+        "context": "[namcao-p042-para-003 | truoc-cach-mang/tu-ngay-me-chet.md | page 42]\nBu chết đã ngót ba năm. Thầy bảo thế. Thì ra ba năm cũng dài lắm nhỉ. Ninh cứ tưởng bu Ninh chết đã lâu lắm. Nhưng trách gì!... Xưa kia, những ngày bu đi chợ tỉnh, độ gần tối chưa về Ninh đã thấy mong. Ấy là mới vắng bu có một ngày. Mà nào đã hết cả ngày. Bây giờ vắng bu bằn bặt những ba năm. Bao nhiêu ngày tháng! Ninh thấy lâu là phải. Biết bao giờ mẹ lại về với con? Ninh bâng khuâng cả người. Y như là nằm mơ. Ấy là Ninh đã nguôi nguôi đấy. Hồi mẹ Ninh mới chết, cứ nghĩ đến mẹ là Ninh khóc. Ninh khóc ằng ặc như người nuốt phải ngụm gì đắng quá, nó quánh vào cổ họng. Khóc đến lặng hẳn người đi, không còn ra tiếng nữa. Chẳng ngày nào không thế. Mỗi ngày hai, ba lần.\n\n[namcao-p030-para-047 | truoc-cach-mang/nua-dem.md | page 30]\nBây giờ bà quản Thích cũng biết nguyên do cái buồn của cháu bà rồi. Bà giận thiên hạ lắm. Cái thiên hạ rỗi mồm, và cứ hay húc đầu vào những việc chẳng liên can gì tới họ. Bà nghĩ đến ngày con nuôi bà còn sống. Hàng xóm cứ là len lét, hơi hé mồm nói lôi thôi là gãy răng. Nó xấu xí như ma, xấu đủ mọi nết, thế mà hai lần lấy hai con vợ cứ gọi là như hoa. Chẳng đứa nào ngoác mồm ra mà chê đi. Bà muốn cháu bà cũng hung ác được như bố nó, rồi mà xem: dù đứa nào có đẹp đến như tiên, hỏi đến mà không lấy thì cứ gọi là mượn cổ. Ở đời này, không tranh cướp thì nhiều khi đành tay không; giật lấy thì lắm người chịu đấy chứ xòe tay ra xin thì mấy người thí cho? Bà bảo Đức:\n\n-- Có phải con muốn lấy vợ thì để bà liệu cho. Gần không được thì xa...\n\nHắn không cho bà nói hết, hắn trợn mắt gắt lên với bà:\n\n-- Im đi! Đừng lôi thôi.\n\n[namcao-p039-para-016 | truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md | page 39]\nMắt người vợ đã rân rấn nước. Hắn biết là hắn thắng. Chỉ cần khéo léo hơn một chút. Hắn lại xoay ra đấu dịu:\n\n-- Cái thứ người đâu mà ngang như cua vậy! Phải biết: tao muốn mất tiền làm gì chứ? Nhưng chết cái ăn của người ta mãi, chẳng lẽ không mời lại người ta một bữa thì cái mặt mình còn ra mặt gì? Nhân tiện con chó nó ăn phải bả hay sao chẳng biết, sáng hôm nay cứ rú lên rồi giãy chết...\n\nÀ, ra thế...thị hơi nguôi lòng một chút. Thật ra thì thị biết không nguôi, không được. Nó cục như chó vậy. Ương với nó, nó thượng cẳng chân, hạ cẳng tay là thường. Thiệt thân, mà kết cục cũng vẫn phải đủ gạo cho nó thổi. Thị đứng lên, vừa nguýt hắn vừa lạu bạu:\n\n-- Đong mấy hào?\n\nThế là hắn lại đổi mặt ra tươi cười:\n\n-- Thì bu mày liệu đấy. Có ba người khách với tôi là bốn. Với lại mẹ con nhà mày nữa.\n\n-- Mẹ con chúng tôi thì nhịn. Đong chịu chỉ có thể đong đến năm hào là hết đất. Ai bán cho mình hơn?",
+        "context_ids": [
+          "namcao-p042-para-003",
+          "namcao-p030-para-047",
+          "namcao-p039-para-016"
+        ],
+        "context_chars": 2618,
+        "n_candidates": 5,
+        "elapsed_ms": 5.4
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_S5oCslVDFgWacAbyza1PV63h",
+        "method": "bm25",
+        "query": "bà tiên giận nguôi làm gì",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p042-para-003",
+            "score": 9.057128312898534,
+            "rank": 1,
+            "source": "truoc-cach-mang/tu-ngay-me-chet.md",
+            "page": 42
+          },
+          {
+            "id": "namcao-p039-para-016",
+            "score": 8.928984067689173,
+            "rank": 2,
+            "source": "truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md",
+            "page": 39
+          },
+          {
+            "id": "namcao-p030-para-041",
+            "score": 8.588112284450196,
+            "rank": 3,
+            "source": "truoc-cach-mang/nua-dem.md",
+            "page": 30
+          }
+        ],
+        "context": "[namcao-p042-para-003 | truoc-cach-mang/tu-ngay-me-chet.md | page 42]\nBu chết đã ngót ba năm. Thầy bảo thế. Thì ra ba năm cũng dài lắm nhỉ. Ninh cứ tưởng bu Ninh chết đã lâu lắm. Nhưng trách gì!... Xưa kia, những ngày bu đi chợ tỉnh, độ gần tối chưa về Ninh đã thấy mong. Ấy là mới vắng bu có một ngày. Mà nào đã hết cả ngày. Bây giờ vắng bu bằn bặt những ba năm. Bao nhiêu ngày tháng! Ninh thấy lâu là phải. Biết bao giờ mẹ lại về với con? Ninh bâng khuâng cả người. Y như là nằm mơ. Ấy là Ninh đã nguôi nguôi đấy. Hồi mẹ Ninh mới chết, cứ nghĩ đến mẹ là Ninh khóc. Ninh khóc ằng ặc như người nuốt phải ngụm gì đắng quá, nó quánh vào cổ họng. Khóc đến lặng hẳn người đi, không còn ra tiếng nữa. Chẳng ngày nào không thế. Mỗi ngày hai, ba lần.\n\n[namcao-p030-para-047 | truoc-cach-mang/nua-dem.md | page 30]\nBây giờ bà quản Thích cũng biết nguyên do cái buồn của cháu bà rồi. Bà giận thiên hạ lắm. Cái thiên hạ rỗi mồm, và cứ hay húc đầu vào những việc chẳng liên can gì tới họ. Bà nghĩ đến ngày con nuôi bà còn sống. Hàng xóm cứ là len lét, hơi hé mồm nói lôi thôi là gãy răng. Nó xấu xí như ma, xấu đủ mọi nết, thế mà hai lần lấy hai con vợ cứ gọi là như hoa. Chẳng đứa nào ngoác mồm ra mà chê đi. Bà muốn cháu bà cũng hung ác được như bố nó, rồi mà xem: dù đứa nào có đẹp đến như tiên, hỏi đến mà không lấy thì cứ gọi là mượn cổ. Ở đời này, không tranh cướp thì nhiều khi đành tay không; giật lấy thì lắm người chịu đấy chứ xòe tay ra xin thì mấy người thí cho? Bà bảo Đức:\n\n-- Có phải con muốn lấy vợ thì để bà liệu cho. Gần không được thì xa...\n\nHắn không cho bà nói hết, hắn trợn mắt gắt lên với bà:\n\n-- Im đi! Đừng lôi thôi.\n\n[namcao-p039-para-016 | truoc-cach-mang/tre-con-khong-duoc-an-thit-cho.md | page 39]\nMắt người vợ đã rân rấn nước. Hắn biết là hắn thắng. Chỉ cần khéo léo hơn một chút. Hắn lại xoay ra đấu dịu:\n\n-- Cái thứ người đâu mà ngang như cua vậy! Phải biết: tao muốn mất tiền làm gì chứ? Nhưng chết cái ăn của người ta mãi, chẳng lẽ không mời lại người ta một bữa thì cái mặt mình còn ra mặt gì? Nhân tiện con chó nó ăn phải bả hay sao chẳng biết, sáng hôm nay cứ rú lên rồi giãy chết...\n\nÀ, ra thế...thị hơi nguôi lòng một chút. Thật ra thì thị biết không nguôi, không được. Nó cục như chó vậy. Ương với nó, nó thượng cẳng chân, hạ cẳng tay là thường. Thiệt thân, mà kết cục cũng vẫn phải đủ gạo cho nó thổi. Thị đứng lên, vừa nguýt hắn vừa lạu bạu:\n\n-- Đong mấy hào?\n\nThế là hắn lại đổi mặt ra tươi cười:\n\n-- Thì bu mày liệu đấy. Có ba người khách với tôi là bốn. Với lại mẹ con nhà mày nữa.\n\n-- Mẹ con chúng tôi thì nhịn. Đong chịu chỉ có thể đong đến năm hào là hết đất. Ai bán cho mình hơn?",
+        "context_ids": [
+          "namcao-p042-para-003",
+          "namcao-p030-para-047",
+          "namcao-p039-para-016"
+        ],
+        "context_chars": 2618,
+        "n_candidates": 5,
+        "elapsed_ms": 2.7
+      },
+      {
+        "event": "search_limit",
+        "tool_call_id": "call_ljrUN0WbfgSvQTCXznqc353I"
+      },
+      {
+        "event": "answer",
+        "enough_evidence": false
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1049.9,
+        "prompt_tokens": 533,
+        "completion_tokens": 19
+      },
+      {
+        "ms": 1015.3,
+        "prompt_tokens": 1493,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 1054.5,
+        "prompt_tokens": 1506,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 1047.6,
+        "prompt_tokens": 1549,
+        "completion_tokens": 21
+      },
+      {
+        "ms": 1054.1,
+        "prompt_tokens": 1597,
+        "completion_tokens": 30
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "model_answer": "Không đủ bằng chứng để trả lời.",
+    "usage": {
+      "prompt_tokens": 6678,
+      "completion_tokens": 112,
+      "llm_calls": 5
+    },
+    "cost_usd": 0.00285,
+    "n_searches": 3,
+    "elapsed_ms": 5231.5,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "d19",
+    "question": "Thứ mà chị Chuột nấu rồi bảo các con là chè thật ra là gì?",
+    "filter": {
+      "period": "truoc-cach-mang"
+    },
+    "status": "answered",
+    "answer": "Thứ mà chị Chuột nấu rồi bảo các con là chè thật ra là cám nấu, chị Chuột gọi là \"cám nấu mà bảo chè\" để che giấu sự nghèo đói và không muốn chồng nghe thấy vì ông đang ốm nằm đấy và không có thuốc chữa [namcao-p024-para-001][namcao-p024-para-003][namcao-p024-para-000].",
+    "citations": [
+      "namcao-p024-para-001",
+      "namcao-p024-para-003",
+      "namcao-p024-para-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_JYQ3Lk5MCvpOUZVXXVEdKq6t",
+        "method": "bm25",
+        "query": "chị Chuột nấu chè",
+        "filter": {
+          "period": "truoc-cach-mang"
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p024-para-001",
+            "score": 18.096835640779947,
+            "rank": 1,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          },
+          {
+            "id": "namcao-p024-para-003",
+            "score": 16.87558738239835,
+            "rank": 2,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          },
+          {
+            "id": "namcao-p024-para-000",
+            "score": 15.118360399663297,
+            "rank": 3,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          }
+        ],
+        "context": "[namcao-p024-para-001 | truoc-cach-mang/ngheo.md | page 24]\nChị vừa lẩm bẩm, vừa dập lửa, rồi bắc cái nồi ở trên bếp xuống, lấy một cái vỏ trai múc vào mấy cái bát sành sứt mẻ tứ tung, đặt ngay trên mặt đất. Thằng cu bé vội vàng lê xích lại gần, hai mắt lóng láng đổ dồn cả vào mấy bát \"chè\" màu nâu đục, khói bốc lên nghi ngút. Mồm nó nuốt nước bọt ừng ực, mũi nó như nở hẳn ra để hít lấy hương vị của khói chè ngon ngọt. Chị đĩ Chuột phải đưa tay cản nó lại, sợ nó sà vào mà bị bỏng. Chị bảo nó:\n\n-- Còn nóng lắm, chưa ăn được. Con ra vườn gọi chị về cho chị ăn với không thì phải tội chết, nó làm quần quật từ sáng đến giờ mà chưa được tí gì vào bụng.\n\nKhông đợi gọi đến hai tiếng, cái Gái hớn hở chạy về, lôi thôi lếch thếch trong mấy manh dẻ rách tả tơi. Vừa đến bếp, nó đã reo lên:\n\n-- Sướng quá! Lại được ăn chè kia chứ, có ngọt không bu? Bu lấy đâu được mà nấu chè thế?\n\nChị Chuột mắng yêu con:\n\n-- Úi chà! Tíu tít như con mẹ dại ấy! Tha hồ mà ăn đến chán chê, chỉ sợ không sao nuốt được thôi, con ạ.\n\nRồi chị bảo thằng cu bé:\n\n[namcao-p024-para-003 | truoc-cach-mang/ngheo.md | page 24]\n-- À! Con biết rồi! Không phải chè, cám mà! Cám nấu mà bu bảo chè! Nhưng mẹ nó lại đưa mắt lườm nó, lấy ngón tay chỉ ra phía nhà ngoài nói khẽ, nhưng hơi gắt:\n\n-- Khe khẽ cái mồm một tí! Réo mãi lên, thằng bố mày nó nghe thấy thì nó chết. Nó đã ốm nằm đấy, thuốc không có, mà còn bực mình thì nó chết.\n\nRồi hai mẹ con lại lẳng lặng ăn, cố nuốt những bát cám đặc khè cho đỡ đói. Thằng cu nhất định không ăn, ngồi khóc tỉ ti đòi cơm. Chị đĩ Chuột đành dỗ nó:\n\n-- Thôi nín ngay, bu ăn xong bu xin thầy một miếng cho mà ăn.\n\n[namcao-p024-para-000 | truoc-cach-mang/ngheo.md | page 24]\n-- Bu ơi con đói!...\n\nLần này có lẽ là lần thứ mười, thằng cu bé chạy về đòi ăn, chị đĩ Chuột đang quấy một nồi gì trong bếp, cáu tiết quay ra mắng át nó đi:\n\n-- Đã bảo hết cơm rồi, tí nữa chè chín thì ăn chè mà!....\n\nThấy mẹ gắt, thằng cu không dám đòi ăn nữa, nhưng mặt nhăn nhó bịu xịu như muốn khóc. Chị đĩ Chuột thương hại, dịu dàng bảo:\n\n-- Con chạy ra vườn xem chị Gái làm cỏ, lúc nào chè chín bu gọi về cho mà ăn...chóng ngoan rồi bu thương.\n\nNhưng nó không nhúc nhích, mà nó còn nhúc nhích làm sao được: một nắm cơm nhỏ ăn từ sáng đã bị cái dạ dày chăm chỉ của con nhà nghèo tiêu hết đến phèo một cái rồi, còn chi. Nó ngồi phịch xuống đất, gục đầu vào ngưỡng cửa, ngáp....\n\n-- Sắp chín chưa, bu?\n\nQuay ra vẫn còn thấy con nằm phục đấy, mắt lờ đờ như sắp lả, chị Chuột chép miệng:\n\n-- Thôi đây! Chín chả chín thì đừng, bắc mẹ nó ra cho chúng mày ăn không có chúng mày làm tội cũng chết. Chốc lại nheo nhéo, chốc lại nheo nhéo....",
+        "context_ids": [
+          "namcao-p024-para-001",
+          "namcao-p024-para-003",
+          "namcao-p024-para-000"
+        ],
+        "context_chars": 2614,
+        "n_candidates": 3,
+        "elapsed_ms": 1.3
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 946.8,
+        "prompt_tokens": 556,
+        "completion_tokens": 18
+      },
+      {
+        "ms": 1669.9,
+        "prompt_tokens": 1546,
+        "completion_tokens": 144
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2102,
+      "completion_tokens": 162,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.0011,
+    "n_searches": 1,
+    "elapsed_ms": 2618.2,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d20",
+    "question": "Chị Chuột nói mình vừa bán những thứ gì, và được bao nhiêu tiền?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_6B4qQ6vyIsrXLgeiK0l30B6K",
+        "method": "bm25",
+        "query": "Chị Chuột bán được bao nhiêu tiền",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p024-para-004",
+            "score": 12.968651928688859,
+            "rank": 1,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          },
+          {
+            "id": "namcao-p016-para-018",
+            "score": 12.90200299100054,
+            "rank": 2,
+            "source": "truoc-cach-mang/lam-to.md",
+            "page": 16
+          },
+          {
+            "id": "namcao-p038-para-006",
+            "score": 12.014799033300728,
+            "rank": 3,
+            "source": "truoc-cach-mang/thoi-di-ve.md",
+            "page": 38
+          }
+        ],
+        "context": "[namcao-p024-para-004 | truoc-cach-mang/ngheo.md | page 24]\nChị bế con rón rén bước vào chỗ chồng nằm. Thằng bé vẫn sụt sịt. Anh đĩ Chuột giở mình, hơi nghiêng mặt quay ra. Một làn ánh sáng mờ lướt qua làm cái mặt hốc hác và màu da đã xanh lại xanh thêm. Mái tóc dài quá xòa xuống tai và cổ, hai con mắt ngơ ngác và lờ đờ, những chiếc răng dài và thưa ở cái mồm hé ra để cho dễ thở khiến anh có cái vẻ đáng sợ của con ma đói. Thấy vợ con, anh nhếch miệng cố gượng một cái cười méo xệch và vừa thở phều phào vừa hỏi bằng một thứ tiếng yếu ớt như từ thế giới bên kia đưa lại:\n\n-- Nó làm sao thế?\n\nChị đĩ Chuột xốc con lên một cái:\n\n-- Nó vòi đấy chứ có làm sao? Cơm gạo đỏ không chịu ăn, đòi ăn cơm trắng của thầy cơ.\n\n-- Thì lấy cho nó ăn, tôi ăn làm sao hết?\n\nChị đĩ Chuột lấy liễn cơm chực moi cho con một ít, nhưng anh bảo:\n\n-- Mang cả ra cho nó ăn, tôi không ăn nữa đâu. Còn bao nhiêu vét cho cái gái với bu em ăn hết đi, để nó thiu ra đấy.\n\nChị đĩ Chuột cười, bảo chồng:\n\n[namcao-p016-para-018 | truoc-cach-mang/lam-to.md | page 16]\nMột hôm người chủ lấy cố vườn trông thấy, và bỗng nghĩ ra một việc. Gặp vợ Thai, y bảo:\n\n-- Thôi, chị ạ! Cái lều của anh chị không dùng nữa, có dỡ đi bán củi cũng chẳng được bao nhiêu. Tôi trả hai đồng đấy; chị có bán thì để lại cho tôi, tôi trả tiền.\n\nNài thêm được năm hào nữa, thị bằng lòng bán. Người chủ vườn sai đầy tớ buộc dừng, trát vách. Rồi ít lâu sau, đêm nào cũng vậy, người ta thấy thằng ở nhóc con nhà ông ta nằm trong lều hát toáng lên như để bảo trộm rằng \"có ta đây\", rồi một lúc sau đã lăn ra ngủ khì khì, giá trộm có vào vần xuống sông cũng chưa tỉnh hẳn. Ấy là hắn ta coi vườn.\n\nTiểu thuyết thứ Bảy.\n\nSố 455, ngày 3-4-1943\n\n[namcao-p038-para-006 | truoc-cach-mang/thoi-di-ve.md | page 38]\nHai vợ chồng cười với nhau. Chị chạy lại, đỡ một đầu cái khung cửi, cho anh bỏ xuống. Chồng vừa cười vừa thở, họ khiêng cái khung vào nhà. Anh cu Thiêm lăn ra giường thở. Chị cu nhìn chồng, ái ngại. Chị vừa toan hỏi xem: mượn ở đâu được thế thì bỗng thấy bốn năm người hàng xóm, mặt hoảng hốt, tuôn vào và bâu tất cả chung quanh cái giường anh cu nằm....\n\n-- Tôi lạy bác!...\n\n-- Tôi cắn cỏ tôi lạy bác!...\n\n-- Bác giùm chúng tôi không chúng tôi chết mất!..\n\nHọ cũng bán mất khung cửi như anh vậy. Có người bán không được, lại phá ra làm củi bán. Bây giờ mới quýnh. Họ van lạy anh cu, nhờ anh xem có còn thuê đâu được, thì thuê giúp mỗi người một cái. Bao nhiêu tiền cũng được. Họ lại xin trả công vác của anh mỗi khung ba hào....Anh Thiêm vội đứng lên:\n\n-- Đồng bạc, cứ đồng bạc một khung, bằng nào cũng có.\n\n-- Vâng, thì đồng bạc.\n\n-- Với ba hào vác là đồng ba đấy.\n\n-- Vâng, thì đồng ba. Bác giúp chúng tôi, làm phúc.",
+        "context_ids": [
+          "namcao-p024-para-004",
+          "namcao-p016-para-018",
+          "namcao-p038-para-006"
+        ],
+        "context_chars": 2665,
+        "n_candidates": 3,
+        "elapsed_ms": 4.0
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_qJ4WxYSXFCZEtqWZWDf7BCgK",
+        "method": "bm25",
+        "query": "Chị Chuột bán gì",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p024-para-008",
+            "score": 9.672075973179426,
+            "rank": 1,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          },
+          {
+            "id": "namcao-p024-para-000",
+            "score": 9.662236945121256,
+            "rank": 2,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          },
+          {
+            "id": "namcao-p024-para-004",
+            "score": 9.477242753810103,
+            "rank": 3,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          }
+        ],
+        "context": "[namcao-p024-para-004 | truoc-cach-mang/ngheo.md | page 24]\nChị bế con rón rén bước vào chỗ chồng nằm. Thằng bé vẫn sụt sịt. Anh đĩ Chuột giở mình, hơi nghiêng mặt quay ra. Một làn ánh sáng mờ lướt qua làm cái mặt hốc hác và màu da đã xanh lại xanh thêm. Mái tóc dài quá xòa xuống tai và cổ, hai con mắt ngơ ngác và lờ đờ, những chiếc răng dài và thưa ở cái mồm hé ra để cho dễ thở khiến anh có cái vẻ đáng sợ của con ma đói. Thấy vợ con, anh nhếch miệng cố gượng một cái cười méo xệch và vừa thở phều phào vừa hỏi bằng một thứ tiếng yếu ớt như từ thế giới bên kia đưa lại:\n\n-- Nó làm sao thế?\n\nChị đĩ Chuột xốc con lên một cái:\n\n-- Nó vòi đấy chứ có làm sao? Cơm gạo đỏ không chịu ăn, đòi ăn cơm trắng của thầy cơ.\n\n-- Thì lấy cho nó ăn, tôi ăn làm sao hết?\n\nChị đĩ Chuột lấy liễn cơm chực moi cho con một ít, nhưng anh bảo:\n\n-- Mang cả ra cho nó ăn, tôi không ăn nữa đâu. Còn bao nhiêu vét cho cái gái với bu em ăn hết đi, để nó thiu ra đấy.\n\nChị đĩ Chuột cười, bảo chồng:\n\n[namcao-p024-para-008 | truoc-cach-mang/ngheo.md | page 24]\nAnh đĩ Chuột rít hai hàm răng lại. Hai chân giận giữ đạp phắt cái ghế đổ văng xuống đất. Cái tròng rút mạnh lại. Cái bộ xương bọc trong da giãy giụa như một con gà bị bẫy, sau cùng, nó chỉ còn giật từng cái chậm dưới sợi dây thừng lủng lẳng.\n\nỞ ngoài ngõ, mẹ con chị Chuột vừa kêu khóc vừa van lạy. Bà Huyện nhất định bắt mẻ gạo mới đong để trừ sáu hào nợ chị Chuột vay từ hai tháng trước cho chồng uống thuốc....\n\nThúy Rư\n\nTiểu thuyết thứ bảy\n\nSố 158 Ngày 5-6-1937\n\n[namcao-p016-para-018 | truoc-cach-mang/lam-to.md | page 16]\nMột hôm người chủ lấy cố vườn trông thấy, và bỗng nghĩ ra một việc. Gặp vợ Thai, y bảo:\n\n-- Thôi, chị ạ! Cái lều của anh chị không dùng nữa, có dỡ đi bán củi cũng chẳng được bao nhiêu. Tôi trả hai đồng đấy; chị có bán thì để lại cho tôi, tôi trả tiền.\n\nNài thêm được năm hào nữa, thị bằng lòng bán. Người chủ vườn sai đầy tớ buộc dừng, trát vách. Rồi ít lâu sau, đêm nào cũng vậy, người ta thấy thằng ở nhóc con nhà ông ta nằm trong lều hát toáng lên như để bảo trộm rằng \"có ta đây\", rồi một lúc sau đã lăn ra ngủ khì khì, giá trộm có vào vần xuống sông cũng chưa tỉnh hẳn. Ấy là hắn ta coi vườn.\n\nTiểu thuyết thứ Bảy.\n\nSố 455, ngày 3-4-1943\n\n[namcao-p024-para-000 | truoc-cach-mang/ngheo.md | page 24]\n-- Bu ơi con đói!...\n\nLần này có lẽ là lần thứ mười, thằng cu bé chạy về đòi ăn, chị đĩ Chuột đang quấy một nồi gì trong bếp, cáu tiết quay ra mắng át nó đi:\n\n-- Đã bảo hết cơm rồi, tí nữa chè chín thì ăn chè mà!....\n\nThấy mẹ gắt, thằng cu không dám đòi ăn nữa, nhưng mặt nhăn nhó bịu xịu như muốn khóc. Chị đĩ Chuột thương hại, dịu dàng bảo:\n\n-- Con chạy ra vườn xem chị Gái làm cỏ, lúc nào chè chín bu gọi về cho mà ăn...chóng ngoan rồi bu thương.\n\nNhưng nó không nhúc nhích, mà nó còn nhúc nhích làm sao được: một nắm cơm nhỏ ăn từ sáng đã bị cái dạ dày chăm chỉ của con nhà nghèo tiêu hết đến phèo một cái rồi, còn chi. Nó ngồi phịch xuống đất, gục đầu vào ngưỡng cửa, ngáp....\n\n-- Sắp chín chưa, bu?\n\nQuay ra vẫn còn thấy con nằm phục đấy, mắt lờ đờ như sắp lả, chị Chuột chép miệng:\n\n-- Thôi đây! Chín chả chín thì đừng, bắc mẹ nó ra cho chúng mày ăn không có chúng mày làm tội cũng chết. Chốc lại nheo nhéo, chốc lại nheo nhéo....",
+        "context_ids": [
+          "namcao-p024-para-004",
+          "namcao-p024-para-008",
+          "namcao-p016-para-018",
+          "namcao-p024-para-000"
+        ],
+        "context_chars": 3205,
+        "n_candidates": 5,
+        "elapsed_ms": 1.6
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_JlSvvexPRVDyjBpujRqpmVKw",
+        "method": "bm25",
+        "query": "Chị Chuột bán được bao nhiêu tiền",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p024-para-004",
+            "score": 12.968651928688859,
+            "rank": 1,
+            "source": "truoc-cach-mang/ngheo.md",
+            "page": 24
+          },
+          {
+            "id": "namcao-p016-para-018",
+            "score": 12.90200299100054,
+            "rank": 2,
+            "source": "truoc-cach-mang/lam-to.md",
+            "page": 16
+          },
+          {
+            "id": "namcao-p038-para-006",
+            "score": 12.014799033300728,
+            "rank": 3,
+            "source": "truoc-cach-mang/thoi-di-ve.md",
+            "page": 38
+          }
+        ],
+        "context": "[namcao-p024-para-004 | truoc-cach-mang/ngheo.md | page 24]\nChị bế con rón rén bước vào chỗ chồng nằm. Thằng bé vẫn sụt sịt. Anh đĩ Chuột giở mình, hơi nghiêng mặt quay ra. Một làn ánh sáng mờ lướt qua làm cái mặt hốc hác và màu da đã xanh lại xanh thêm. Mái tóc dài quá xòa xuống tai và cổ, hai con mắt ngơ ngác và lờ đờ, những chiếc răng dài và thưa ở cái mồm hé ra để cho dễ thở khiến anh có cái vẻ đáng sợ của con ma đói. Thấy vợ con, anh nhếch miệng cố gượng một cái cười méo xệch và vừa thở phều phào vừa hỏi bằng một thứ tiếng yếu ớt như từ thế giới bên kia đưa lại:\n\n-- Nó làm sao thế?\n\nChị đĩ Chuột xốc con lên một cái:\n\n-- Nó vòi đấy chứ có làm sao? Cơm gạo đỏ không chịu ăn, đòi ăn cơm trắng của thầy cơ.\n\n-- Thì lấy cho nó ăn, tôi ăn làm sao hết?\n\nChị đĩ Chuột lấy liễn cơm chực moi cho con một ít, nhưng anh bảo:\n\n-- Mang cả ra cho nó ăn, tôi không ăn nữa đâu. Còn bao nhiêu vét cho cái gái với bu em ăn hết đi, để nó thiu ra đấy.\n\nChị đĩ Chuột cười, bảo chồng:\n\n[namcao-p024-para-008 | truoc-cach-mang/ngheo.md | page 24]\nAnh đĩ Chuột rít hai hàm răng lại. Hai chân giận giữ đạp phắt cái ghế đổ văng xuống đất. Cái tròng rút mạnh lại. Cái bộ xương bọc trong da giãy giụa như một con gà bị bẫy, sau cùng, nó chỉ còn giật từng cái chậm dưới sợi dây thừng lủng lẳng.\n\nỞ ngoài ngõ, mẹ con chị Chuột vừa kêu khóc vừa van lạy. Bà Huyện nhất định bắt mẻ gạo mới đong để trừ sáu hào nợ chị Chuột vay từ hai tháng trước cho chồng uống thuốc....\n\nThúy Rư\n\nTiểu thuyết thứ bảy\n\nSố 158 Ngày 5-6-1937\n\n[namcao-p016-para-018 | truoc-cach-mang/lam-to.md | page 16]\nMột hôm người chủ lấy cố vườn trông thấy, và bỗng nghĩ ra một việc. Gặp vợ Thai, y bảo:\n\n-- Thôi, chị ạ! Cái lều của anh chị không dùng nữa, có dỡ đi bán củi cũng chẳng được bao nhiêu. Tôi trả hai đồng đấy; chị có bán thì để lại cho tôi, tôi trả tiền.\n\nNài thêm được năm hào nữa, thị bằng lòng bán. Người chủ vườn sai đầy tớ buộc dừng, trát vách. Rồi ít lâu sau, đêm nào cũng vậy, người ta thấy thằng ở nhóc con nhà ông ta nằm trong lều hát toáng lên như để bảo trộm rằng \"có ta đây\", rồi một lúc sau đã lăn ra ngủ khì khì, giá trộm có vào vần xuống sông cũng chưa tỉnh hẳn. Ấy là hắn ta coi vườn.\n\nTiểu thuyết thứ Bảy.\n\nSố 455, ngày 3-4-1943\n\n[namcao-p024-para-000 | truoc-cach-mang/ngheo.md | page 24]\n-- Bu ơi con đói!...\n\nLần này có lẽ là lần thứ mười, thằng cu bé chạy về đòi ăn, chị đĩ Chuột đang quấy một nồi gì trong bếp, cáu tiết quay ra mắng át nó đi:\n\n-- Đã bảo hết cơm rồi, tí nữa chè chín thì ăn chè mà!....\n\nThấy mẹ gắt, thằng cu không dám đòi ăn nữa, nhưng mặt nhăn nhó bịu xịu như muốn khóc. Chị đĩ Chuột thương hại, dịu dàng bảo:\n\n-- Con chạy ra vườn xem chị Gái làm cỏ, lúc nào chè chín bu gọi về cho mà ăn...chóng ngoan rồi bu thương.\n\nNhưng nó không nhúc nhích, mà nó còn nhúc nhích làm sao được: một nắm cơm nhỏ ăn từ sáng đã bị cái dạ dày chăm chỉ của con nhà nghèo tiêu hết đến phèo một cái rồi, còn chi. Nó ngồi phịch xuống đất, gục đầu vào ngưỡng cửa, ngáp....\n\n-- Sắp chín chưa, bu?\n\nQuay ra vẫn còn thấy con nằm phục đấy, mắt lờ đờ như sắp lả, chị Chuột chép miệng:\n\n-- Thôi đây! Chín chả chín thì đừng, bắc mẹ nó ra cho chúng mày ăn không có chúng mày làm tội cũng chết. Chốc lại nheo nhéo, chốc lại nheo nhéo....",
+        "context_ids": [
+          "namcao-p024-para-004",
+          "namcao-p024-para-008",
+          "namcao-p016-para-018",
+          "namcao-p024-para-000"
+        ],
+        "context_chars": 3205,
+        "n_candidates": 5,
+        "elapsed_ms": 2.7
+      },
+      {
+        "event": "search_limit",
+        "tool_call_id": "call_nXN76rf8TY8KNCm0TIoSTrut"
+      },
+      {
+        "event": "answer",
+        "enough_evidence": false
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1119.6,
+        "prompt_tokens": 527,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 888.1,
+        "prompt_tokens": 1495,
+        "completion_tokens": 18
+      },
+      {
+        "ms": 1209.2,
+        "prompt_tokens": 1760,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 1149.8,
+        "prompt_tokens": 1804,
+        "completion_tokens": 22
+      },
+      {
+        "ms": 1250.1,
+        "prompt_tokens": 1853,
+        "completion_tokens": 30
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "model_answer": "Không đủ bằng chứng để trả lời.",
+    "usage": {
+      "prompt_tokens": 7439,
+      "completion_tokens": 114,
+      "llm_calls": 5
+    },
+    "cost_usd": 0.003158,
+    "n_searches": 3,
+    "elapsed_ms": 5625.4,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "d21",
+    "question": "Bác Tư làm rơi vật gì xuống bể nước khiến cậu con trai phải lội xuống tìm?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_1pBJirMPdRqFp64Cmh65rkYs",
+        "method": "bm25",
+        "query": "Bác Tư làm rơi vật gì xuống bể nước",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p050-para-012",
+            "score": 21.467695497378458,
+            "rank": 1,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-010",
+            "score": 20.703451221191393,
+            "rank": 2,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-001",
+            "score": 19.451471741257453,
+            "rank": 3,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          }
+        ],
+        "context": "[namcao-p050-para-012 | sau-cach-mang/mo-sam-banh.md | page 50]\nÔng xua tay bác Tư, như xua đuổi một thằng hủi. Mũi ông chun lại. Ra khỏi cửa, bác Tư nhẹ hẳn người. Bác lấy làm may. Nếu ông chủ xuống xem? Ông chủ biết thằng bé đã ngâm mấy giờ trong bể nước!...\n\nTiền phong (12-1945)\n\n[namcao-p050-para-010 | sau-cach-mang/mo-sam-banh.md | page 50]\n-- Xa (Ca)\n\nVà ông nhún vai, mỉm cười. Thoát nạn! Bác bếp Tư nhẹ lâng cả người. Một tảng đá lớn tưởng đè trên người bác vừa trút đi. Bác chạy xuống cầu thang, bước hai bậc một. Y như một hòn đá lăn trên sườn núi. Bác chạy thẳng lại cái bể. Nhìn trước nhìn sau một thoáng rồi bác mở nắp ra, cúi đầu xuống. Tối om om. Một mảng nước loang loáng như nước mực. Bác gọi con:\n\n-- Tề! Tề con!\n\nIm lặng. Một nỗi nghi vụt đến. Tim bác nhảy lên một cái. Tiếng khàn khàn, bác gọi:\n\n-- Tề ơi! Ra đây thầy kéo lên.\n\nChẳng có gì đáp lại. Những đốm sáng lăn tăn nhảy nhót trong bóng tối. Ấy là bác bếp Tư hoa mắt, bởi vì đầu bác đã nặng trĩu, quay quay, choáng váng.\n\nNgười thì bủn rủn. Bác nhoai lưng vào trong bể, vừa mếu máo vừa rên rỉ.\n\n-- Con ơi! Tề, con ơi!...\n\n[namcao-p050-para-001 | sau-cach-mang/mo-sam-banh.md | page 50]\nỞ nhà bếp, bếp Tư thích nhất cái bể nước ăn này. Nó to bằng cả một gian nhà rộng, nước mưa ở trên các mái nhà theo hai cái ống máng mà trút xuống. Mặt bể bưng kín mít, trừ một mảng vuông, mỗi bề chừng một thước, có nắp khít như nắp cống. Những ngày nghỉ, vợ chồng ông chủ về Hà Nội, thằng Tề con bác bếp vẫn đậy nắp bể cho thật kín rồi trèo lên mặt bể, co một chân lên bắt chước Lã Bố đi bài tẩu mà hoặc nhảy huỳnh huỵch để bắt chước Võ Tòng sát tẩu. Cái mặt bể toàn xi măng cốt sắt, bốn mươi thằng Tề nhảy cũng không việc gì.",
+        "context_ids": [
+          "namcao-p050-para-012",
+          "namcao-p050-para-010",
+          "namcao-p050-para-001"
+        ],
+        "context_chars": 1690,
+        "n_candidates": 3,
+        "elapsed_ms": 2.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_s83D3TXOXpK7T0cCtsXyKwqm",
+        "method": "bm25",
+        "query": "Bác Tư làm rơi vật gì xuống bể nước",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p050-para-012",
+            "score": 21.467695497378458,
+            "rank": 1,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-010",
+            "score": 20.703451221191393,
+            "rank": 2,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-001",
+            "score": 19.451471741257453,
+            "rank": 3,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          }
+        ],
+        "context": "[namcao-p050-para-012 | sau-cach-mang/mo-sam-banh.md | page 50]\nÔng xua tay bác Tư, như xua đuổi một thằng hủi. Mũi ông chun lại. Ra khỏi cửa, bác Tư nhẹ hẳn người. Bác lấy làm may. Nếu ông chủ xuống xem? Ông chủ biết thằng bé đã ngâm mấy giờ trong bể nước!...\n\nTiền phong (12-1945)\n\n[namcao-p050-para-010 | sau-cach-mang/mo-sam-banh.md | page 50]\n-- Xa (Ca)\n\nVà ông nhún vai, mỉm cười. Thoát nạn! Bác bếp Tư nhẹ lâng cả người. Một tảng đá lớn tưởng đè trên người bác vừa trút đi. Bác chạy xuống cầu thang, bước hai bậc một. Y như một hòn đá lăn trên sườn núi. Bác chạy thẳng lại cái bể. Nhìn trước nhìn sau một thoáng rồi bác mở nắp ra, cúi đầu xuống. Tối om om. Một mảng nước loang loáng như nước mực. Bác gọi con:\n\n-- Tề! Tề con!\n\nIm lặng. Một nỗi nghi vụt đến. Tim bác nhảy lên một cái. Tiếng khàn khàn, bác gọi:\n\n-- Tề ơi! Ra đây thầy kéo lên.\n\nChẳng có gì đáp lại. Những đốm sáng lăn tăn nhảy nhót trong bóng tối. Ấy là bác bếp Tư hoa mắt, bởi vì đầu bác đã nặng trĩu, quay quay, choáng váng.\n\nNgười thì bủn rủn. Bác nhoai lưng vào trong bể, vừa mếu máo vừa rên rỉ.\n\n-- Con ơi! Tề, con ơi!...\n\n[namcao-p050-para-001 | sau-cach-mang/mo-sam-banh.md | page 50]\nỞ nhà bếp, bếp Tư thích nhất cái bể nước ăn này. Nó to bằng cả một gian nhà rộng, nước mưa ở trên các mái nhà theo hai cái ống máng mà trút xuống. Mặt bể bưng kín mít, trừ một mảng vuông, mỗi bề chừng một thước, có nắp khít như nắp cống. Những ngày nghỉ, vợ chồng ông chủ về Hà Nội, thằng Tề con bác bếp vẫn đậy nắp bể cho thật kín rồi trèo lên mặt bể, co một chân lên bắt chước Lã Bố đi bài tẩu mà hoặc nhảy huỳnh huỵch để bắt chước Võ Tòng sát tẩu. Cái mặt bể toàn xi măng cốt sắt, bốn mươi thằng Tề nhảy cũng không việc gì.",
+        "context_ids": [
+          "namcao-p050-para-012",
+          "namcao-p050-para-010",
+          "namcao-p050-para-001"
+        ],
+        "context_chars": 1690,
+        "n_candidates": 3,
+        "elapsed_ms": 3.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_YDMPkGT4eb7NYTuS5KTbBjXx",
+        "method": "bm25",
+        "query": "Bác Tư làm rơi vật gì xuống bể nước",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p050-para-012",
+            "score": 21.467695497378458,
+            "rank": 1,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-010",
+            "score": 20.703451221191393,
+            "rank": 2,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-001",
+            "score": 19.451471741257453,
+            "rank": 3,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          }
+        ],
+        "context": "[namcao-p050-para-012 | sau-cach-mang/mo-sam-banh.md | page 50]\nÔng xua tay bác Tư, như xua đuổi một thằng hủi. Mũi ông chun lại. Ra khỏi cửa, bác Tư nhẹ hẳn người. Bác lấy làm may. Nếu ông chủ xuống xem? Ông chủ biết thằng bé đã ngâm mấy giờ trong bể nước!...\n\nTiền phong (12-1945)\n\n[namcao-p050-para-010 | sau-cach-mang/mo-sam-banh.md | page 50]\n-- Xa (Ca)\n\nVà ông nhún vai, mỉm cười. Thoát nạn! Bác bếp Tư nhẹ lâng cả người. Một tảng đá lớn tưởng đè trên người bác vừa trút đi. Bác chạy xuống cầu thang, bước hai bậc một. Y như một hòn đá lăn trên sườn núi. Bác chạy thẳng lại cái bể. Nhìn trước nhìn sau một thoáng rồi bác mở nắp ra, cúi đầu xuống. Tối om om. Một mảng nước loang loáng như nước mực. Bác gọi con:\n\n-- Tề! Tề con!\n\nIm lặng. Một nỗi nghi vụt đến. Tim bác nhảy lên một cái. Tiếng khàn khàn, bác gọi:\n\n-- Tề ơi! Ra đây thầy kéo lên.\n\nChẳng có gì đáp lại. Những đốm sáng lăn tăn nhảy nhót trong bóng tối. Ấy là bác bếp Tư hoa mắt, bởi vì đầu bác đã nặng trĩu, quay quay, choáng váng.\n\nNgười thì bủn rủn. Bác nhoai lưng vào trong bể, vừa mếu máo vừa rên rỉ.\n\n-- Con ơi! Tề, con ơi!...\n\n[namcao-p050-para-001 | sau-cach-mang/mo-sam-banh.md | page 50]\nỞ nhà bếp, bếp Tư thích nhất cái bể nước ăn này. Nó to bằng cả một gian nhà rộng, nước mưa ở trên các mái nhà theo hai cái ống máng mà trút xuống. Mặt bể bưng kín mít, trừ một mảng vuông, mỗi bề chừng một thước, có nắp khít như nắp cống. Những ngày nghỉ, vợ chồng ông chủ về Hà Nội, thằng Tề con bác bếp vẫn đậy nắp bể cho thật kín rồi trèo lên mặt bể, co một chân lên bắt chước Lã Bố đi bài tẩu mà hoặc nhảy huỳnh huỵch để bắt chước Võ Tòng sát tẩu. Cái mặt bể toàn xi măng cốt sắt, bốn mươi thằng Tề nhảy cũng không việc gì.",
+        "context_ids": [
+          "namcao-p050-para-012",
+          "namcao-p050-para-010",
+          "namcao-p050-para-001"
+        ],
+        "context_chars": 1690,
+        "n_candidates": 3,
+        "elapsed_ms": 2.4
+      },
+      {
+        "event": "search_limit",
+        "tool_call_id": "call_p4uYItckXYcAxuTmMrdsc3Ta"
+      },
+      {
+        "event": "answer",
+        "enough_evidence": false
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1048.6,
+        "prompt_tokens": 532,
+        "completion_tokens": 25
+      },
+      {
+        "ms": 967.1,
+        "prompt_tokens": 1212,
+        "completion_tokens": 25
+      },
+      {
+        "ms": 1043.8,
+        "prompt_tokens": 1259,
+        "completion_tokens": 25
+      },
+      {
+        "ms": 1162.9,
+        "prompt_tokens": 1306,
+        "completion_tokens": 25
+      },
+      {
+        "ms": 1139.5,
+        "prompt_tokens": 1358,
+        "completion_tokens": 30
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "model_answer": "Không đủ bằng chứng để trả lời.",
+    "usage": {
+      "prompt_tokens": 5667,
+      "completion_tokens": 130,
+      "llm_calls": 5
+    },
+    "cost_usd": 0.002475,
+    "n_searches": 3,
+    "elapsed_ms": 5371.0,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": false,
+      "any_search_hit": false
+    }
+  },
+  {
+    "query_id": "d22",
+    "question": "Vợ bác bếp Tư đã mất được bao lâu?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Vợ bác bếp Tư đã mất được ba năm và mấy tháng rồi. Bác Tư vẫn còn thương vợ dù vợ đã mất lâu, thường thắp hương cúng vợ và thở dài, thở ngắn mỗi ngày rằm, mồng một. [namcao-p050-para-002][namcao-p050-para-007]",
+    "citations": [
+      "namcao-p050-para-002",
+      "namcao-p050-para-007"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_xSPlnGQl4cVPmy4DhGOjg3Uh",
+        "method": "bm25",
+        "query": "vợ bác bếp Tư mất",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p050-para-008",
+            "score": 14.692555976622861,
+            "rank": 1,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-002",
+            "score": 14.692082955153149,
+            "rank": 2,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          },
+          {
+            "id": "namcao-p050-para-007",
+            "score": 14.188243565523372,
+            "rank": 3,
+            "source": "sau-cach-mang/mo-sam-banh.md",
+            "page": 50
+          }
+        ],
+        "context": "[namcao-p050-para-008 | sau-cach-mang/mo-sam-banh.md | page 50]\nTuy mồm \"uẩy\" mà bác Tư vẫn không nhúc nhích. Ông chủ tưởng người bếp của mình không hiểu. Ông lại nói, lại ra hiệu lại. Rồi lại nói.\n\n-- Biếc?\n\nThì có gì mà chả biết? Tiếng Tây, bác Tư đã thạo. Ông nói thế là muốn bảo: ông để quên cái kính ở sở và sai bác đi lấy về. Hiểu lắm, nhưng còn thằng Tề trong cái bể?... Ông chủ giục\n\n-- Ale! Maoo!\n\nMồm nói, tay ông nắm vai bác mà đẩy ra phía cửa.\n\n-- Uẩy xừ!\n\nBác đậy vội cái nắp bể lại để ông chủ khỏi thấy, rồi chạy đi. Ông nhìn theo, mỉm cười. Ông định cho bác chạy một tua bở hơi tai để ông có thì giờ chạy vào buồng bác. Ông sẽ nắm cổ người con gái kéo ra. Ông sẽ đeo kính của ông vào mắt y, rồi bắt y ngồi trên giường chồm chỗm như một pho tượng khỏa thân bằng đá trắng. Để người bếp của ông lúc giở về trông thấy y mà cười. Mà chịu rằng ông chủ của bác là ma lanh.\n\nNhưng ông cụt hứng ngay. Bởi vì buồng bác Tư trống rỗng. Không con gái. Không dấu vết một cuộc ái ân vụng trộm. Ông văng tục một tiếng rồi chạy lên với vợ.\n\n[namcao-p050-para-002 | sau-cach-mang/mo-sam-banh.md | page 50]\nTề là con một bác Tư. Mẹ nó chết mới xong tang. Bố nó tính hiền lành nên rất yêu nó. Chẳng như những bồi bếp khác, nay vợ này, mai vợ khác hoặc nhân tình, nhân ngãi với bọn cô đầu, nhà thổ, vợ chết đã ba năm rồi mà nghĩ đến lúc nào bác ta vẫn còn thương. Có khi đang ngồi bác tự nhiên khóc huh u. Hỏi bác thì bác bảo: cũng ngày này năm nọ, bác xin được phép chủ về quê đón vợ con ra ở luôn đây với bác, thế mà bây giờ vợ bác đã nở bỏ bác mà đi cho đành! Chẳng ngày rằm, mồng một nào bác không thắp hương cúng vợ. Cúng xong bác rơm rớm nước mắt, thở dài, thở ngắn. Tề thấy thế thương cha vô cùng.\n\n[namcao-p050-para-007 | sau-cach-mang/mo-sam-banh.md | page 50]\nBác Tư cúi đầu bối rối. Ông đoán ngay là bác đang làm một việc gì vụng trộm. Ăn cắp đồ chẳng hạn, ông nhìn chung quanh bác. Không có đồ gì cả. Ông nhìn cái cửa buồng của bác. Cánh cửa buồng hé mở. Ông mỉm cười. Bởi vì ông tưởng đã đoán được cái việc giấu giếm của người bếp hiền lành ấy. Muốn cuộc gì ông cũng cuộc. Thế chết nào cũng có, một đứa con gái trong căn buồng nhỏ kia. Một con gái vẫn đang luống cuống với những áo quần vắt lên thành giường. Cái này không phải là một tôi. Khi vợ người ta chết đến ba năm và mấy tháng!... Nhưng ông bác bếp tỏ ra sợ hãi, ông muốn đùa một chút. Ông nói to lên, bảo vợ:\n\n-- Đợi một tý, tôi mở cho.\n\nBà vợ rú lên:\n\n-- Ồ! Vậy ra mình đấy ư?\n\n-- Ừ, tôi đây! Tôi lên giờ\n\nVà ông cố chắp nối mấy tiếng thật rõ rệt, cho người bếp hiểu.\n\n-- Moi oublier lunettes bureau Lunette' (ông vừa nhắc lại tiếng ấy vừa lấy ngón tay trỏ khoanh chung quanh mắt để vẽ hình cái kính) biếc?\n\n-- Uẩy xừ!\n\n-- Va chercher (đi tìm)\n\n-- Uẩy xừ!",
+        "context_ids": [
+          "namcao-p050-para-008",
+          "namcao-p050-para-002",
+          "namcao-p050-para-007"
+        ],
+        "context_chars": 2722,
+        "n_candidates": 3,
+        "elapsed_ms": 1.0
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p050-para-002",
+          "namcao-p050-para-007"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1141.6,
+        "prompt_tokens": 521,
+        "completion_tokens": 20
+      },
+      {
+        "ms": 1790.6,
+        "prompt_tokens": 1499,
+        "completion_tokens": 101
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2020,
+      "completion_tokens": 121,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.001002,
+    "n_searches": 1,
+    "elapsed_ms": 2933.5,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d23",
+    "question": "Chị tổ trưởng du kích cho biết bao nhiêu phần trong đội đã có chồng?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Chị tổ trưởng du kích cho biết hai phần ba trong đội đã có chồng, một vài người đã có con [namcao-p052-para-004].",
+    "citations": [
+      "namcao-p052-para-004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_6WSVItemWvovPYr4UQ2WLHpr",
+        "method": "bm25",
+        "query": "chị tổ trưởng du kích bao nhiêu phần trong đội đã có chồng",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p052-para-004",
+            "score": 24.714315413696262,
+            "rank": 1,
+            "source": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+            "page": 52
+          },
+          {
+            "id": "namcao-p052-para-009",
+            "score": 23.873687510923247,
+            "rank": 2,
+            "source": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+            "page": 52
+          },
+          {
+            "id": "namcao-p052-para-010",
+            "score": 21.636095460731795,
+            "rank": 3,
+            "source": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+            "page": 52
+          }
+        ],
+        "context": "[namcao-p052-para-004 | sau-cach-mang/nhung-ban-tay-dep-ay.md | page 52]\nChị tổ trưởng du kích bảo tôi\n\n-- Hai phần ba chúng em đã có chồng, một vài người đã có con.\n\nTôi băn khoăn không hiểu những đứa con ấy bây giờ ở với ai. Chúng nó có thấy thiếu mẹ lắm không? Và những người chồng có vui lòng thành thật khi thấy vợ vào du kích không?\n\nChị mỉm cười:\n\n-- Các anh ấy rất bằng lòng. Bởi vì các anh ấy cũng đi công tác cả. Hiểu nhau lắm.\n\n-- Còn các em?\n\n-- Anh không biết đấy thôi, chứ ở những vùng buôn bán không mấy khi chính người mẹ được nuôi con. Bán hàng cứ lần lượt đi hết chợ nọ đến chợ kia. Thường thường ở cữ xong được mấy tháng hay hơn một tháng, chị em đã phải đem con đi gửi u nuôi để đi chợ. Các chị phụ nữ nông dân cũng chẳng làm gì có thì giờ ôm ấp trẻ một ngày. Chị em chúng tôi, người nào có con đã có chị em họ giúp. Có thể nói rằng chúng nó được săn sóc chu đáo lắm. Chị em phụ nữ địa phương coi sóc chúng nó hơn chính con các chị. Chúng nó nhiều mẹ lắm!\n\nChị cười hóm hỉnh. Đôi mắt đen lay láy rời đôi bàn tay đẹp để nhìn một chút, vẻ hơi chế nhạo.\n\n[namcao-p052-para-009 | sau-cach-mang/nhung-ban-tay-dep-ay.md | page 52]\nChị bảo thêm như vậy. Làm như Hà Nội chỉ có một trường và có ở Hà Nội thì người ta phải biết tất cả những người Hà Nội khác! Nhưng dù sao thì đó cũng là một điều rất lý thú, đối với tôi. Một nữ sinh Hà Nội làm chính trị viên đội du kích phụ nữ này. Bây giờ lại có quyền đội trưởng chỉ huy cả về quân sự nữa. Mà xung trận rất gan, đánh rất hăng. Thì ra không phải chỉ những phụ nữ nông dân đã quen với công việc nặng nề có thể trở thành đội viên du kích...\n\n-- Các cụ ở nhà đối với việc các chị vào đội du kích như thế nào?\n\n-- Đều vui lòng cả... Chúng tôi không nhận những chị không được gia đình ưng thuận.\n\n-- Nghĩa là vẫn có những cụ không ưng thuận?\n\n[namcao-p052-para-010 | sau-cach-mang/nhung-ban-tay-dep-ay.md | page 52]\n-- Tất nhiên là phải có. Các cụ lo con đua chị, đua em như vậy rồi thành ra lêu lổng. Bây giờ thì hầu hết các cụ đã hiểu rồi. Một người hư thì không phải đợi vào du kích mới hư, trái lại vào du kích, được rèn luyện theo kỷ luật, còn ngoan ra nhiều nữa. Vả lại ở trong vùng địch, Tây khủng bố, phụ nữ muốn giữ thân cần biết quân sự. Có thể nói rằng phụ nữ trong vùng địch thích quân sự hơn chính trị.\n\nMấy hôm trước mấy anh cán bộ vùng địch cũng đã bảo tôi như vậy. Kể cũng là một điều đáng cho chúng ta suy nghĩ. Trong vùng địch phần lớn nam giới thích đi làm cán bộ, chị em phụ nữ thì lại thích vào du kích, hơi nghe nói có lớp quân sự nào là các chị đòi đi học. Mà không phải chỉ học cho biết thôi đâu. Các chị thích đi đánh lắm. Bộ đội tới thường được các chị đem xôi chuối, quà bánh ủng hộ luôn. Ủng hộ để được ngắm nghía khẩu súng cho đỡ thèm. Và để gạ: \"Các anh cho chúng em đi đánh với!\".",
+        "context_ids": [
+          "namcao-p052-para-004",
+          "namcao-p052-para-009",
+          "namcao-p052-para-010"
+        ],
+        "context_chars": 2768,
+        "n_candidates": 3,
+        "elapsed_ms": 3.0
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1270.8,
+        "prompt_tokens": 527,
+        "completion_tokens": 27
+      },
+      {
+        "ms": 1232.6,
+        "prompt_tokens": 1420,
+        "completion_tokens": 66
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1947,
+      "completion_tokens": 93,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000928,
+    "n_searches": 1,
+    "elapsed_ms": 2506.5,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d24",
+    "question": "So với làm ruộng, các chị du kích thấy việc đi chiến đấu vất vả thế nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Các chị du kích cho biết họ không thấy việc đi chiến đấu vất vả bằng làm ruộng, thậm chí còn muốn thử xem phụ nữ có thể đi đánh giặc được như đàn ông không, và họ không e lệ khi nói về điều đó [namcao-p052-para-007].",
+    "citations": [
+      "namcao-p052-para-007"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_seyKwCwV8lVcc5E5TE8zCvyq",
+        "method": "bm25",
+        "query": "chị du kích vất vả chiến đấu so với làm ruộng",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p052-para-007",
+            "score": 30.740836157438775,
+            "rank": 1,
+            "source": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+            "page": 52
+          },
+          {
+            "id": "namcao-p052-para-000",
+            "score": 22.885271281306387,
+            "rank": 2,
+            "source": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+            "page": 52
+          },
+          {
+            "id": "namcao-p052-para-015",
+            "score": 19.314031241542054,
+            "rank": 3,
+            "source": "sau-cach-mang/nhung-ban-tay-dep-ay.md",
+            "page": 52
+          }
+        ],
+        "context": "[namcao-p052-para-007 | sau-cach-mang/nhung-ban-tay-dep-ay.md | page 52]\nTôi thành thực nghĩ rằng trong một gia đình như gia đình ấy, nếu họ có con, có lẽ anh chồng nên yên phận ẵm con để cho chị vợ thay anh làm bổn phận công dân!... Vấn đề không phải thích hay không thích. Vấn đề chính là cần hay không cần...\n\nChị phụ nữ du kích ngồi trước mặt tôi vẫn mỉm cười. Bây giờ thì chị không e lệ một chút nào. Chị nhìn thẳng vào mặt tôi, chị bảo:\n\n-- Cần thì có lẽ cũng cần lắm. Phụ nữ còn khối việc làm ở hậu phương. Nhưng chúng tôi khó chịu vì có những người đàn ông nhút nhát. Vả lại chúng tôi cũng muốn thử xem phụ nữ có thể đi đánh giặc được như đàn ông không.\n\n-- Chị thấy thế nào?\n\n-- Anh muốn nói sao?\n\n-- Tôi muốn biết các chị đi chiến đấu có thấy vất vả lắm không?\n\nĐôi mắt chị lại cười. Chị tủm tỉm trả lời tôi.\n\n-- Chúng tôi không thấy vất vả bằng làm ruộng.\n\n[namcao-p052-para-000 | sau-cach-mang/nhung-ban-tay-dep-ay.md | page 52]\nBa thằng nói láo, bảo rằng \"Phún có xấu và ế chồng, chiến đấu mới hăng!\". Tôi đã được gặp nữ du kích ấy rồi. Những thằng nói thế là những thằng nói láo. Các chị không xấu, cũng không ế muộn.\n\n[namcao-p052-para-015 | sau-cach-mang/nhung-ban-tay-dep-ay.md | page 52]\nNhững bàn tay đẹp cầm súng chiến đấu cùng một lúc giải phóng cho dân tộc và giải phóng cho phụ nữ. Sự ấy không chướng mắt. Sự ấy đáng cho ta cảm phục.\n\n(Trích ở tập tài liệu \"Sức mạnh dân quân\" do Nhà xuất bản Quân du kích xuất bản năm 1948)",
+        "context_ids": [
+          "namcao-p052-para-007",
+          "namcao-p052-para-000",
+          "namcao-p052-para-015"
+        ],
+        "context_chars": 1447,
+        "n_candidates": 3,
+        "elapsed_ms": 3.3
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1027.0,
+        "prompt_tokens": 530,
+        "completion_tokens": 26
+      },
+      {
+        "ms": 1449.8,
+        "prompt_tokens": 1044,
+        "completion_tokens": 95
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1574,
+      "completion_tokens": 121,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000823,
+    "n_searches": 1,
+    "elapsed_ms": 2480.4,
+    "split": "dev",
+    "answerable": true,
+    "diagnostics": {
+      "context_has_evidence": true,
+      "any_search_hit": true
+    }
+  },
+  {
+    "query_id": "d25",
+    "question": "Anh cu chị cu trong truyện Con mèo ở làng nào?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Anh cu và chị cu là hai nhân vật trong truyện Con mèo của Nam Cao, thể hiện qua các đoạn kể về cuộc sống gia đình họ với những tình huống sinh hoạt hàng ngày và mâu thuẫn nhỏ trong nhà, có con nhỏ và chú mèo xuất hiện trong bối cảnh làng quê bình dị [namcao-p007-para-001][namcao-p007-para-005][namcao-p007-para-006].",
+    "citations": [
+      "namcao-p007-para-001",
+      "namcao-p007-para-005",
+      "namcao-p007-para-006"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_u85KcInJOFVt7PSEvO2NjFnT",
+        "method": "bm25",
+        "query": "Anh cu chị cu",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p007-para-006",
+            "score": 10.747042337817634,
+            "rank": 1,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-005",
+            "score": 10.544001519049232,
+            "rank": 2,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          },
+          {
+            "id": "namcao-p007-para-001",
+            "score": 10.09516746955345,
+            "rank": 3,
+            "source": "truoc-cach-mang/con-meo.md",
+            "page": 7
+          }
+        ],
+        "context": "[namcao-p007-para-006 | truoc-cach-mang/con-meo.md | page 7]\nAnh cu đuổi. Chị vừa chạy quanh vườn, vừa kêu. Anh không đuổi nữa, chị cứ đứng ngoài vườn mà nhiếc mãi. Đến lúc mỏi miệng, không buồn nói nữa, chị về sân, thì chồng chị đã lăn ra hè, ngủ như chết từ bao giờ rồi, Viển và thằng cu cũng ngủ. Chị đi vào giường.\n\nĐêm hôm ấy, trời nổi gió, rồi nổi mưa. Mãi đến lúc thấy nước hắt vào người, anh cu mới thức giấc. Anh vội vàng nhổm dậy, anh giụi mắt. Anh vào nhà. Một cái chớp lóe lên. Anh thoáng thấy cái Viển ôm con anh ngủ trên cái võng. Anh đưa võng cho con một cái. Viển ngủ mệt, không biết gì. Anh đứng tần ngần một lúc. Rồi anh rón rén đi lại giường...\n\n...Sáng hôm sau, tiếng người láo quáo bên hàng xóm, làm chị cu giật mình, mở mắt ra. Chị hơi sửng sốt, trong nhà đã sáng. Chị ngóc đầu nhìn lại võng. Viển ôm con chị, miệng vẫn còn há hốc, xem chừng ngủ mệt. Chị lay đầu chồng, khẽ gọi:\n\n-- Phải gió! Dậy đi!... Sáng rồi.\n\nAnh cu mở mắt ra. Chị giục:\n\n-- Kìa, dậy đi!\n\n-- Tạnh mưa rồi à?\n\n-- Tạnh rồi! Dậy đi!\n\n-- Yên đã nào!...\n\n[namcao-p007-para-005 | truoc-cach-mang/con-meo.md | page 7]\nAnh cu biết ngay là vợ dỗi. Anh cười gằn, hỏi:\n\n-- Nào, có đứa nào ăn không nào?\n\nChị cu không thèm đáp. Cái Viển đoán là chị giận, vội lại vét nốt cơm ra bát...\n\n-- Mời chị lại xơi nốt...\n\nChị gắt:\n\n-- Đổ té nó đi! Tao đã bảo...\n\nThì \"choang\" một cái, anh cu đã hất cái mâm ra ngoài giữa sân. Chị cu gào thật to:\n\n-- Trời ơi là trời!.... Mày phá tao thế à? Từ sáng đến giờ, tao ngồi trầy trầy trên khung cửi, mới được chừng một đồng hào, mà mày phá tao một lúc một cái niêu, bốn năm cái bát...\n\nThằng cu trong nhà lại thét lên. Viền chạy vào, \"rước\" nó. Chị cu thì vừa nhảy loi choi, vừa vỗ tay đen đét, xỉa xói vào mặt chồng mà kể lể. Nhưng chị bỗng nhiên ngừng bặt...Có tiếng đấm đá nhau huỳnh huỵch. Rồi tiếng người đàn bà gào to hơn:\n\n-- Mày cứ đánh chết bà đi! Mày đánh chết bà xem nào! Mày không đánh chết được bà thì...\n\n[namcao-p007-para-001 | truoc-cach-mang/con-meo.md | page 7]\nAnh vừa quát vừa vỗ tay xuống hè bèn bẹt. Thằng cu giật mình, thét lên. Chị cu bực mình quá, quay ra trị chồng:\n\n-- Gớm mồm với miệng gì mà toang toang như ngỗng đực. Làm thằng bé dậy.\n\n-- Không thế để nó ăn hết, hả?\n\n-- Có mốc gì mà nó ăn? Không trách được!...\n\nChị chạy vào rước thằng cu dậy. Trong nhà nực quá, chị ẵm nó ra ngoài hè. Nó chúi đầu vào ngực, mấp lấy đầu vú, day. Day mãi. Trời này mà cứ phải ôm lấy nó thì có bực mình không chứ? Chị thấy ngứa lung tung, khắp người. Chị lẩm bẩm trách chồng:\n\n-- Cái giống người gì hơi một tí là oang oang như mõ ấy! Thằng bé đang ngủ mệt mà cũng làm nó dậy. Chỉ chết người ta thôi.\n\nAnh tức lắm. Chỉ có thế mà chị lỉa rỉa đay nghiến anh mãi được. Có thứ người gì ấy lại lắm điều đến thế? Cái đầu anh càng ngứa dữ. Anh rứt từng mảng tóc đi...Giữa lúc ấy thì chú mèo thấy tình hình như đã yên ổn lại, lại lò dò đến, trèo lên mâm. Anh cu cười đắc chí, anh bảo vợ:",
+        "context_ids": [
+          "namcao-p007-para-006",
+          "namcao-p007-para-005",
+          "namcao-p007-para-001"
+        ],
+        "context_chars": 2905,
+        "n_candidates": 3,
+        "elapsed_ms": 2.8
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 993.8,
+        "prompt_tokens": 523,
+        "completion_tokens": 16
+      },
+      {
+        "ms": 1621.7,
+        "prompt_tokens": 1609,
+        "completion_tokens": 145
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 2132,
+      "completion_tokens": 161,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.00111,
+    "n_searches": 1,
+    "elapsed_ms": 2618.6,
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "query_id": "d26",
+    "question": "Con Mực trong truyện Cái chết của con Mực được bao nhiêu tuổi?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Con Mực là con già hơn trong hai con chó của nhà, nhưng truyện không nêu rõ tuổi cụ thể của nó. [namcao-p003-para-000]",
+    "citations": [
+      "namcao-p003-para-000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_pd3ALae3crllgRJBhsPZSVP9",
+        "method": "bm25",
+        "query": "Con Mực tuổi",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p003-para-000",
+            "score": 7.747619654960531,
+            "rank": 1,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p003-para-005",
+            "score": 7.004013065175526,
+            "rank": 2,
+            "source": "truoc-cach-mang/cai-chet-cua-con-muc.md",
+            "page": 3
+          },
+          {
+            "id": "namcao-p027-para-002",
+            "score": 6.731668896976291,
+            "rank": 3,
+            "source": "truoc-cach-mang/nhung-chuyen-khong-muon-viet.md",
+            "page": 27
+          }
+        ],
+        "context": "[namcao-p003-para-000 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nNgười ta định giết Mực đã lâu rồi. Mực là con già hơn trong hai con chó của nhà. Nhưng cũng là con nhiều nết xấu. Nó tục ăn: đó là thường. Nó nhiều vắt: cái ấy đủ khổ cho nó. Nó cắn càn ấy là cái khổ của bọn ăn mày. Nhưng nó lại sủa như một con gà gáy: cái này thì không thể nào tha thứ được. Thoạt tiên người ta định ngày chết cho nó vào dịp Thanh Minh. May cho nó hôm ấy bà chủ nhà bị ốm. Rồi thì là Tết tháng năm. Bỗng nhiên đứa con út của bà ươn mình: bà phải kiêng để lấy sữa lành cho con bú. Sau cùng người ta nhất định thịt nó vào rằm tháng bảy ai ốm mặc. Nhưng lần nầy Mực vẫn còn thoát nạn là vì nhờ có Du. Người con cả xa xôi ấy vừa viết thư báo chẳng bao lâu sẽ về. Bà mẹ mừng như tìm được một vật quý bị rơi và bà nhất định lùi ngày xử con Mực lại.\n\n[namcao-p003-para-005 | truoc-cach-mang/cai-chet-cua-con-muc.md | page 3]\nCon Hoa tủm tỉm cười. Lũ em ngơ ngác nhìn theo con chó vừa ẳng ẳng vừa chạy ở ngoài vườn. Còn Du thì mặt đỏ như gấc chín. Chàng thấy mình yếu tay hơn cả con Hoa. Có lẽ nào chàng lại dịu lòng hơn cả một người con gái. Và tự nhiên chàng giận con Mực. Người ta còn lo con Mực sợ hãi mà đi mất. Quả nhiên suốt ngày hôm ấy nó không về. Nó vẩn vơ vườn hàng xóm, lẩn lút như một con chó trước khi hóa dại.\n\nNgười ta tưởng đã mất toi. Nhưng tối hôm ấy nó lần vào gầm giường rồi Du lại nghe thấy cái thứ tiếng gà gáy của nó rít lên ở phía ngõ.\n\nSáng hôm sau nó vẫn bỏ cơm. Trưa cũng thế. Và cứ thấy bóng người lại cúp đuôi chạy mất. Du thương hại sai người đem cơm đổ ra vườn. Một lúc sau Mực lại gần. Nó trông trước trông sau, đưa mõm rê trên những hạt cơm rồi vô giật mình chạy thẳng. Có lẽ cái kỹ niệm khủng khiếp vừa lóe ra và đập mạnh vào thần kinh nó như luồng điện. Du thấy bồn chồn và vẩn vơ: thương, hối hận hay là thẹn.\n\n[namcao-p027-para-002 | truoc-cach-mang/nhung-chuyen-khong-muon-viet.md | page 27]\nTôi viết truyện một con chó mực. Tôi thề rằng: quả thực đó là chuyện một con chó mực. Nhưng chuyện vừa in ra thì tôi gặp một thằng say. Hắn trợn mắt lên. Mắt hắn đỏ ngầu ngầu. Hắn lè nhè hỏi tôi: sao lại bảo hắn là con chó? Rồi hắn chửi cho tôi một mẻ, vuốt mặt không kịp. Tôi ức quá, nhưng rồi tôi lại cười. Tôi lẳng lặng về nhà, lấy giấy bút viết truyện một thằng say rượu.\n\nThằng say này say lắm. Nó uống rượu vào rồi nó chửi. Chửi lung tung cả. Thằng say nào chẳng vậy? Ấy thế mà có một bọn người rất tỉnh kêu bù lu bù loa lên rằng: tôi mượn rượu để chửi cả làng nhà họ. Và họ dọa tôi đủ thứ. Trời đất ơi!...",
+        "context_ids": [
+          "namcao-p003-para-000",
+          "namcao-p003-para-005",
+          "namcao-p027-para-002"
+        ],
+        "context_chars": 2527,
+        "n_candidates": 3,
+        "elapsed_ms": 1.7
+      },
+      {
+        "event": "citations_appended",
+        "ids": [
+          "namcao-p003-para-000"
+        ]
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1242.1,
+        "prompt_tokens": 527,
+        "completion_tokens": 16
+      },
+      {
+        "ms": 1159.1,
+        "prompt_tokens": 1430,
+        "completion_tokens": 58
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1957,
+      "completion_tokens": 74,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000901,
+    "n_searches": 1,
+    "elapsed_ms": 2403.1,
+    "split": "dev",
+    "answerable": false
+  },
+  {
+    "query_id": "d27",
+    "question": "Vợ chồng Lúng trong truyện Đòn chồng đã lấy nhau được mấy năm?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Vợ chồng Lúng lấy nhau đã được nhiều năm, trong đó thầy con (chồng) thường xuyên đi làm xa, chỉ về nhà vài ngày trong năm, có khi chỉ năm, ba ngày; chưa bao giờ ở luôn với vợ đến một tháng kể từ khi lấy nhau [namcao-p028-para-015].",
+    "citations": [
+      "namcao-p028-para-015"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "tool_call_id": "call_qkLrGfaizx03Yi0TtaAxiVhl",
+        "method": "bm25",
+        "query": "Vợ chồng Lúng lấy nhau mấy năm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "namcao-p028-para-015",
+            "score": 11.405418438671171,
+            "rank": 1,
+            "source": "truoc-cach-mang/nhung-tre-khon-nan.md",
+            "page": 28
+          },
+          {
+            "id": "namcao-p012-para-005",
+            "score": 11.227181520441466,
+            "rank": 2,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          },
+          {
+            "id": "namcao-p012-para-001",
+            "score": 11.073337235661299,
+            "rank": 3,
+            "source": "truoc-cach-mang/don-chong.md",
+            "page": 12
+          }
+        ],
+        "context": "[namcao-p028-para-015 | truoc-cach-mang/nhung-tre-khon-nan.md | page 28]\n— Bu cứ sang rồi khi nào thầy khỏi, cả bu, cả thầy cùng về với con. Thầy có tiền thầy giả tiền bà lý. Con lại về ở với thầy, bu và em... Như hồi thầy về lần trước... Mà thầy sẽ ở nhà luôn với con... Lần này, hễ thầy về, con không cho thầy đi nữa... Sao thầy cứ đi quanh năm như vậy?...\n\n— Con ơi! Thầy không đi thì mẹ lấy tiền đâu mà nuôi con và em con? Từ ngày vợ chồng lấy nhau đến giờ, chưa bao giờ thầy con ở luôn với bu đến một tháng. mà cứ đi hàng mấy năm mới về nhà mươi lăm ngày, có khi chỉ năm, ba ngày.\n\n[namcao-p012-para-005 | truoc-cach-mang/don-chong.md | page 12]\nCâu chuyện đến tai Lúng. Lúng thâm tím mặt. Giá lúc ấy vợ hắn có nhà thì có lẽ hắn đã đâm chết vợ. Nhưng vợ hắn còn đi dệt cửi. Hắn đành nén giận, để đi làm trai đã. Hôm ấy hắn dận được nhiều trai lắm. Toàn những con to cả. Trai, chỉ ăn thua cái vỏ, bán cho người ta làm cúc hay khảm xà cừ chẳng hiểu. Chỉ biết người ta mua nhiều lắm. Lần này, tính nguyên vỏ đã được năm, sau hào. Ruột chỉ được hơn hào chỉ. Hắn không thèm bán nữa. Hắn đem nấu một nồi cháo ăn.\n\n[namcao-p012-para-001 | truoc-cach-mang/don-chong.md | page 12]\nCố nhiên là câu chuyện đồn đi. Thoạt tiên là các bà vợ về kể lại với chồng. Rồi các ông chồng đem kể lại với nhau. Bây giờ thì cả làng ai cũng biết. Ai cũng biết: con vợ thằng Lùng, mặt mũi như thế ấy, mà gian vô cùng. Chẳng gian mà lại làm cái trò nhập nhòa như thế này...Chẳng biết y xin ai hay là nhặt ở đâu được có mỗi một đồng xu. Nếu không xin, không nhặt được thì hẳn là ăn cắp. Bởi y làm gì mà có xu! Vườn có ba sào, chồng thua bạc cố rồi. Đồ bòn, thức bán không. Đi dệt cửi thuê cho người ta ngày được một hào thì chồng lấy cả một hào, thiếu một đồng xèng nó đánh cho gãy gối. Vả nó chẳng đánh thì cũng không dám thiếu: thiếu lấy gì mà đổ vào mồm? Gạo nước năm nay...Có một hào mà những hai cái miệng ăn, mà lại còn chực thiếu nữa thì có lẽ đến phải đếm mà chia nhau từng hạt. Bởi vì hai vợ chồng chỉ trông vào tiền của vợ để mà ăn gạo. Chồng chẳng chịu bỏ ra một đồng trinh. Hắn dận trai mỗi ngày cũng được vài hào. Có ngày bốn năm hào. Nhưng bốn năm hào thì cũng hết.",
+        "context_ids": [
+          "namcao-p028-para-015",
+          "namcao-p012-para-005",
+          "namcao-p012-para-001"
+        ],
+        "context_chars": 2155,
+        "n_candidates": 3,
+        "elapsed_ms": 2.2
+      },
+      {
+        "event": "answer",
+        "enough_evidence": true
+      }
+    ],
+    "llm_calls": [
+      {
+        "ms": 1092.5,
+        "prompt_tokens": 529,
+        "completion_tokens": 23
+      },
+      {
+        "ms": 1943.2,
+        "prompt_tokens": 1305,
+        "completion_tokens": 102
+      }
+    ],
+    "config": {
+      "model": "gpt-4.1-mini",
+      "methods": [
+        "bm25",
+        "dense",
+        "hybrid"
+      ],
+      "top_k": 3,
+      "budget_chars": 3500,
+      "max_searches": 3,
+      "max_llm_turns": 8,
+      "temperature": 0.0,
+      "prompt": "base",
+      "guidance": "bm25-first",
+      "require_quote": false,
+      "name": "v2-bm25-first"
+    },
+    "usage": {
+      "prompt_tokens": 1834,
+      "completion_tokens": 125,
+      "llm_calls": 2
+    },
+    "cost_usd": 0.000934,
+    "n_searches": 1,
+    "elapsed_ms": 3038.0,
+    "split": "dev",
+    "answerable": false
+  }
+]

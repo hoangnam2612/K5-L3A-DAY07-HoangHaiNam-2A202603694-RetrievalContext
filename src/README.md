@@ -14,8 +14,9 @@ Scripts: `scripts/export_chunks.py` (xuất chunk từ pgvector), `scripts/build
 ```bash
 python -m venv .venv && .venv/Scripts/python -m pip install -r requirements.txt   # Windows; Linux/macOS: .venv/bin/python
 cp .env.example .env            # điền OPENAI_API_KEY (không commit)
-docker compose -f infra/docker-compose.yml -p day6_student_starter up -d --wait    # Postgres + pgvector
-# Nếu database còn trống: nạp lại vector bằng pipeline Day 6 (src/day6/ + chunk B) — tốn khoảng 0,01 USD embedding.
+docker compose -f infra/docker-compose.yml -p day7_pgvector up -d --wait           # Postgres 16 + pgvector 0.8.7, cổng 127.0.0.1:55433
+python -X utf8 scripts/load_vectors.py --dry-run                   # ước tính chi phí, không gọi API, không ghi DB
+python -X utf8 scripts/load_vectors.py                             # tái tạo index từ data/chunks.json (≈ 0,011 USD, ≈ 25 giây)
 python -X utf8 -m unittest discover -s tests -v                    # test offline (mock, chỉ kiểm tra code)
 python -X utf8 scripts/eval_retrieval.py --split dev --methods dense bm25 hybrid
 python -X utf8 scripts/run_agent.py --name baseline-dense --methods dense --split dev
@@ -23,6 +24,12 @@ python -X utf8 scripts/run_agent.py --name multi-tool --methods dense bm25 hybri
 ```
 
 `--split test` bị từ chối nếu không có `--final`: chỉ dùng sau khi đã chốt cấu hình trên dev.
+
+## Tái tạo index Day 6 (cho người chấm)
+
+Database Day 6 của tác giả không được nộp. `data/chunks.json` (1.310 chunk strategy B, xuất từ Day 6; nguồn và giấy phép trong `data/day6/manifest.json`) cùng `scripts/load_vectors.py` đủ để dựng lại index với **cùng embedding model** (`text-embedding-3-small`, 1.536 chiều) và cùng schema bảng `chunks` của Day 6. Script an toàn khi chạy lại (upsert theo `(strategy, chunk_id)`, không nhân đôi) và báo lỗi rõ ràng, không dùng vector giả.
+
+Đã kiểm chứng trên một Postgres trống tách riêng: nạp 1.310 dòng (557.213 token, ≈ 0,011 USD), chạy lại vẫn 1.310 dòng. Truy xuất dense trên dev cho Hit@1 = 8/24 và Hit@3 = 10/24 giống index gốc, danh sách câu trượt giống hệt; top-3 trùng cả ID lẫn thứ tự ở 22/24 câu, 2 câu còn lại (d04, d20) chỉ đổi thứ tự giữa các chunk có điểm gần bằng nhau (chênh tối đa 5e-4) vì embedding API không hoàn toàn tất định. Vì vậy các con số retrieval có thể lệch rất nhỏ so với báo cáo khi người chấm tự tái tạo.
 
 ## Quyết định thiết kế
 

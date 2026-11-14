@@ -33,6 +33,10 @@ def main() -> None:
     p.add_argument("--top-k", type=int, default=3)
     p.add_argument("--budget", type=int, default=3500)
     p.add_argument("--max-searches", type=int, default=3)
+    p.add_argument("--prompt", default="base", choices=("base", "strict"))
+    p.add_argument("--guidance", default="none", choices=("none", "bm25-first"))
+    p.add_argument("--require-quote", action="store_true")
+    p.add_argument("--query-guide", default="none", choices=("none", "keywords"))
     p.add_argument("--ids", nargs="*", help="only these case IDs (smoke test)")
     p.add_argument("--no-filter", action="store_true")
     args = p.parse_args()
@@ -51,7 +55,8 @@ def main() -> None:
         retrievers["dense"] = DenseRetriever()
         retrievers["hybrid"] = HybridRetriever(retrievers["dense"], retrievers["bm25"])
     cfg = AgentConfig(model=args.model, methods=tuple(args.methods), top_k=args.top_k,
-                      budget_chars=args.budget, max_searches=args.max_searches, name=args.name)
+                      budget_chars=args.budget, max_searches=args.max_searches, prompt=args.prompt,
+                      guidance=args.guidance, require_quote=args.require_quote, query_guide=args.query_guide, name=args.name)
     agent = Agent(OpenAI(), retrievers, cfg)
 
     traces = []

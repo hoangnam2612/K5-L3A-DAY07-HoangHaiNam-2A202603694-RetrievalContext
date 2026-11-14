@@ -1,0 +1,40 @@
+{
+  "name": "v2-bm25-first-quote",
+  "split": "dev",
+  "config": {
+    "model": "gpt-4.1-mini",
+    "methods": [
+      "bm25",
+      "dense",
+      "hybrid"
+    ],
+    "top_k": 3,
+    "budget_chars": 3500,
+    "max_searches": 3,
+    "max_llm_turns": 8,
+    "temperature": 0.0,
+    "prompt": "base",
+    "guidance": "bm25-first",
+    "require_quote": true,
+    "name": "v2-bm25-first-quote"
+  },
+  "cases": 27,
+  "status": {
+    "answered": 23,
+    "abstain": 4,
+    "error": 0
+  },
+  "answerable": 24,
+  "context_evidence_rate": "20/24",
+  "searches": {
+    "1": 21,
+    "2": 3,
+    "3": 3
+  },
+  "tokens": {
+    "prompt": 87365,
+    "completion": 4492
+  },
+  "cost_usd": 0.04213,
+  "median_ms": 3394.3
+}

@@ -1,0 +1,41 @@
+{
+  "name": "v2-kw-r2",
+  "split": "dev",
+  "config": {
+    "model": "gpt-4.1-mini",
+    "methods": [
+      "bm25",
+      "dense",
+      "hybrid"
+    ],
+    "top_k": 3,
+    "budget_chars": 3500,
+    "max_searches": 3,
+    "max_llm_turns": 8,
+    "temperature": 0.0,
+    "prompt": "base",
+    "guidance": "bm25-first",
+    "require_quote": true,
+    "query_guide": "keywords",
+    "name": "v2-kw-r2"
+  },
+  "cases": 27,
+  "status": {
+    "answered": 21,
+    "abstain": 6,
+    "error": 0
+  },
+  "answerable": 24,
+  "context_evidence_rate": "17/24",
+  "searches": {
+    "1": 21,
+    "2": 1,
+    "3": 5
+  },
+  "tokens": {
+    "prompt": 104521,
+    "completion": 4490
+  },
+  "cost_usd": 0.04899,
+  "median_ms": 3306.8
+}

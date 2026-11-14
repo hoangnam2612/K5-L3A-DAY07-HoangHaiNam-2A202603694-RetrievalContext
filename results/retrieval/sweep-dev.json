@@ -1,0 +1,817 @@
+{
+ "n": 24,
+ "rule": "Parameter sweep of retrieval methods on DEV only (original query, case filter, same chunks).\n\nDecision rule fixed BEFORE looking at the table: prefer higher Evidence Hit@3, then Hit@1; a non-default\nsetting must win by >= 2 questions over the default to be adopted (24 questions => 1 question is noise).\nDense query embeddings are computed once and reused, so the sweep costs ~24 embedding calls.\n",
+ "rows": [
+  {
+   "method": "dense",
+   "params": "Hit@1",
+   "hit1": null,
+   "hit3": null,
+   "hit@10": null,
+   "hit_at_k": "8/24"
+  },
+  {
+   "method": "dense",
+   "params": "Hit@3",
+   "hit1": null,
+   "hit3": null,
+   "hit@10": null,
+   "hit_at_k": "10/24"
+  },
+  {
+   "method": "dense",
+   "params": "Hit@5",
+   "hit1": null,
+   "hit3": null,
+   "hit@10": null,
+   "hit_at_k": "12/24"
+  },
+  {
+   "method": "dense",
+   "params": "Hit@10",
+   "hit1": null,
+   "hit3": null,
+   "hit@10": null,
+   "hit_at_k": "14/24"
+  },
+  {
+   "method": "dense",
+   "params": "Hit@30",
+   "hit1": null,
+   "hit3": null,
+   "hit@10": null,
+   "hit_at_k": "16/24"
+  },
+  {
+   "method": "dense",
+   "params": "default",
+   "hit1": 8,
+   "hit3": 10,
+   "hit@10": 14
+  },
+  {
+   "method": "dense",
+   "params": "no-filter on filter-cases only",
+   "hit1": null,
+   "hit3": 1,
+   "hit@10": null,
+   "n": 3
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=0.9 b=0.4",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=0.9 b=0.75",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=0.9 b=0.9",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=1.2 b=0.4",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=1.2 b=0.75",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=False] pool=10 rrf_k=20",
+   "hit1": 12,
+   "hit3": 19,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=False] pool=10 rrf_k=60",
+   "hit1": 12,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=False] pool=20 rrf_k=20",
+   "hit1": 11,
+   "hit3": 17,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=False] pool=20 rrf_k=60",
+   "hit1": 11,
+   "hit3": 16,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=False] pool=30 rrf_k=20",
+   "hit1": 10,
+   "hit3": 16,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=False] pool=30 rrf_k=60",
+   "hit1": 10,
+   "hit3": 15,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=1.2 b=0.9",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=1.5 b=0.4",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=1.5 b=0.75",
+   "hit1": 14,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=1.5 b=0.9",
+   "hit1": 13,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=2.0 b=0.4",
+   "hit1": 15,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=2.0 b=0.75",
+   "hit1": 13,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=False k1=2.0 b=0.9",
+   "hit1": 14,
+   "hit3": 20,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=0.9 b=0.4",
+   "hit1": 13,
+   "hit3": 17,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=0.9 b=0.75",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=0.9 b=0.9",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=1.2 b=0.4",
+   "hit1": 12,
+   "hit3": 17,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=1.2 b=0.75",
+   "hit1": 12,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=True] pool=10 rrf_k=20",
+   "hit1": 12,
+   "hit3": 17,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=True] pool=10 rrf_k=60",
+   "hit1": 12,
+   "hit3": 17,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=True] pool=20 rrf_k=20",
+   "hit1": 11,
+   "hit3": 18,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=True] pool=20 rrf_k=60",
+   "hit1": 11,
+   "hit3": 18,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=True] pool=30 rrf_k=20",
+   "hit1": 10,
+   "hit3": 17,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[syllable,fold=True] pool=30 rrf_k=60",
+   "hit1": 9,
+   "hit3": 17,
+   "hit@10": 20
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=1.2 b=0.9",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 19
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=1.5 b=0.4",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=1.5 b=0.75",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=1.5 b=0.9",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=2.0 b=0.4",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 19
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=2.0 b=0.75",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=syllable fold=True k1=2.0 b=0.9",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=0.9 b=0.4",
+   "hit1": 11,
+   "hit3": 14,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=0.9 b=0.75",
+   "hit1": 11,
+   "hit3": 14,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=0.9 b=0.9",
+   "hit1": 11,
+   "hit3": 14,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=1.2 b=0.4",
+   "hit1": 11,
+   "hit3": 14,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=1.2 b=0.75",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 18
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=False] pool=10 rrf_k=20",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=False] pool=10 rrf_k=60",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=False] pool=20 rrf_k=20",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 19
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=False] pool=20 rrf_k=60",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 19
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=False] pool=30 rrf_k=20",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 18
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=False] pool=30 rrf_k=60",
+   "hit1": 11,
+   "hit3": 15,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=1.2 b=0.9",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=1.5 b=0.4",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=1.5 b=0.75",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=1.5 b=0.9",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=2.0 b=0.4",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 19
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=2.0 b=0.75",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 19
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=False k1=2.0 b=0.9",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=0.9 b=0.4",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=0.9 b=0.75",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=0.9 b=0.9",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=1.2 b=0.4",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=1.2 b=0.75",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=True] pool=10 rrf_k=20",
+   "hit1": 12,
+   "hit3": 15,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=True] pool=10 rrf_k=60",
+   "hit1": 12,
+   "hit3": 15,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=True] pool=20 rrf_k=20",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 18
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=True] pool=20 rrf_k=60",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 18
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=True] pool=30 rrf_k=20",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 18
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[bigram,fold=True] pool=30 rrf_k=60",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 18
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=1.2 b=0.9",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=1.5 b=0.4",
+   "hit1": 11,
+   "hit3": 13,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=1.5 b=0.75",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=1.5 b=0.9",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=2.0 b=0.4",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 17
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=2.0 b=0.75",
+   "hit1": 11,
+   "hit3": 12,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=bigram fold=True k1=2.0 b=0.9",
+   "hit1": 10,
+   "hit3": 12,
+   "hit@10": 16
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=0.9 b=0.4",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=0.9 b=0.75",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=0.9 b=0.9",
+   "hit1": 12,
+   "hit3": 17,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=1.2 b=0.4",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=1.2 b=0.75",
+   "hit1": 12,
+   "hit3": 17,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=False] pool=10 rrf_k=20",
+   "hit1": 12,
+   "hit3": 16,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=False] pool=10 rrf_k=60",
+   "hit1": 12,
+   "hit3": 15,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=False] pool=20 rrf_k=20",
+   "hit1": 11,
+   "hit3": 17,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=False] pool=20 rrf_k=60",
+   "hit1": 11,
+   "hit3": 16,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=False] pool=30 rrf_k=20",
+   "hit1": 10,
+   "hit3": 17,
+   "hit@10": 20
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=False] pool=30 rrf_k=60",
+   "hit1": 10,
+   "hit3": 16,
+   "hit@10": 20
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=1.2 b=0.9",
+   "hit1": 12,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=1.5 b=0.4",
+   "hit1": 12,
+   "hit3": 17,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=1.5 b=0.75",
+   "hit1": 12,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=1.5 b=0.9",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=2.0 b=0.4",
+   "hit1": 13,
+   "hit3": 17,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=2.0 b=0.75",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=False k1=2.0 b=0.9",
+   "hit1": 13,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=0.9 b=0.4",
+   "hit1": 13,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=0.9 b=0.75",
+   "hit1": 14,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=0.9 b=0.9",
+   "hit1": 14,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=1.2 b=0.4",
+   "hit1": 15,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=1.2 b=0.75",
+   "hit1": 15,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=True] pool=10 rrf_k=20",
+   "hit1": 11,
+   "hit3": 18,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=True] pool=10 rrf_k=60",
+   "hit1": 11,
+   "hit3": 17,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=True] pool=20 rrf_k=20",
+   "hit1": 11,
+   "hit3": 16,
+   "hit@10": 21
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=True] pool=20 rrf_k=60",
+   "hit1": 11,
+   "hit3": 16,
+   "hit@10": 21
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=True] pool=30 rrf_k=20",
+   "hit1": 10,
+   "hit3": 15,
+   "hit@10": 22
+  },
+  {
+   "method": "hybrid",
+   "params": "bm25[both,fold=True] pool=30 rrf_k=60",
+   "hit1": 10,
+   "hit3": 15,
+   "hit@10": 22
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=1.2 b=0.9",
+   "hit1": 15,
+   "hit3": 16,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=1.5 b=0.4",
+   "hit1": 15,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=1.5 b=0.75",
+   "hit1": 15,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=1.5 b=0.9",
+   "hit1": 15,
+   "hit3": 16,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=2.0 b=0.4",
+   "hit1": 15,
+   "hit3": 15,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=2.0 b=0.75",
+   "hit1": 15,
+   "hit3": 16,
+   "hit@10": 21
+  },
+  {
+   "method": "bm25",
+   "params": "mode=both fold=True k1=2.0 b=0.9",
+   "hit1": 15,
+   "hit3": 16,
+   "hit@10": 21
+  }
+ ]
+}

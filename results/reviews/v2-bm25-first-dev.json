@@ -1,0 +1,219 @@
+[
+ {
+  "query_id": "d01",
+  "citation_support": [
+   true,
+   true,
+   false
+  ],
+  "note": "Như cấu hình quote: mô tả đúng diễn biến cãi vã nhưng không nêu nguyên nhân gốc (con mèo, trời bức); 008-para-015 không hỗ trợ ý nào.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "d02",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d03",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng; chi tiết thêm có trong đoạn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d04",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d05",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng đủ.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d06",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d07",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d08",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d09",
+  "citation_support": [
+   false,
+   false
+  ],
+  "note": "Sai: kể \"giả vờ ăn một tấm, nuốt nửa tấm\", không nêu \"chập hai tấm làm một\"; đoạn cite không hỗ trợ tố cáo cốt lõi.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d10",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d11",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d12",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d13",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng; chi tiết thêm (đau đớn, bất ngờ, rất yêu Nga) có trong đoạn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d14",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: năm đồng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d15",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng; chi tiết thêm có trong đoạn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d16",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng; chi tiết thêm có trong p51-para-000/001.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d17",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d18",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d19",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Đúng: cám; chi tiết ốm/thuốc có trong p24-para-003. Lỗi nhỏ gán câu \"cám nấu mà bu bảo chè\" cho chị Chuột (là lời đứa con); \"che giấu nghèo đói\" là suy diễn nhẹ.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d20",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d21",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: ba năm và mấy tháng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d23",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d24",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng; chi tiết thêm (muốn thử đánh giặc như đàn ông, không e lệ) có trong đoạn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d25",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Không từ chối: trả lời lạc đề thay vì nói không nêu tên làng.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "d26",
+  "citation_support": [
+   true
+  ],
+  "note": "Nội dung nói không nêu tuổi nhưng agent đặt enough_evidence=true (status answered).",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "d27",
+  "citation_support": [
+   false
+  ],
+  "note": "Bịa: dùng câu của cặp vợ chồng khác (p28) cho vợ chồng Lúng.",
+  "abstention_correct": false
+ }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "v2-baseline-dense",
+  "split": "dev",
+  "config": {
+    "model": "gpt-4.1-mini",
+    "methods": [
+      "dense"
+    ],
+    "top_k": 3,
+    "budget_chars": 3500,
+    "max_searches": 3,
+    "max_llm_turns": 8,
+    "temperature": 0.0,
+    "prompt": "base",
+    "guidance": "none",
+    "require_quote": false,
+    "name": "v2-baseline-dense"
+  },
+  "cases": 27,
+  "status": {
+    "answered": 16,
+    "abstain": 11,
+    "error": 0
+  },
+  "answerable": 24,
+  "context_evidence_rate": "9/24",
+  "searches": {
+    "1": 17,
+    "2": 2,
+    "3": 8
+  },
+  "tokens": {
+    "prompt": 85079,
+    "completion": 3466
+  },
+  "cost_usd": 0.03958,
+  "median_ms": 3795.6
+}

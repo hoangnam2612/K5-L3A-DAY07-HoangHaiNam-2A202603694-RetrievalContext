@@ -8,7 +8,7 @@ from types import SimpleNamespace as NS
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from src.agent import ABSTAIN_TEXT, Agent, AgentConfig, pack_context  # noqa: E402
+from src.agent import ABSTAIN_TEXT, Agent, AgentConfig, pack_context, quote_in_chunks  # noqa: E402
 from src.retrievers import Bm25Retriever, HybridRetriever, rrf, tokenize  # noqa: E402
 
 
@@ -99,6 +99,13 @@ class AgentTests(unittest.TestCase):
         self.assertEqual((t["status"], t["answer"], t["citations"]), ("abstain", ABSTAIN_TEXT, []))
         self.assertEqual([e["event"] for e in t["events"]].count("invalid_answer"), 2)
 
+    def test_missing_inline_marker_is_appended_not_rejected(self):
+        a, _ = self.agent([reply(call("search", {"query": "q"})),
+                           reply(call("answer", {"enough_evidence": True, "answer": "Bốn hào", "citations": ["c1"]}))])
+        t = a.run("q", "?")
+        self.assertEqual((t["status"], t["answer"], t["citations"]), ("answered", "Bốn hào [c1]", ["c1"]))
+        self.assertIn("citations_appended", [e["event"] for e in t["events"]])
+
     def test_model_abstains_and_answer_before_search_is_rejected(self):
         a, _ = self.agent([reply(call("answer", {"enough_evidence": False, "answer": "?", "citations": []})),
                            reply(call("search", {"query": "q"})),
@@ -128,6 +135,30 @@ class AgentTests(unittest.TestCase):
         self.assertIn("method", a.tools[0]["function"]["parameters"]["properties"])
         t = a.run("q", "?")
         self.assertEqual((len(d.calls), len(l.calls), t["events"][0]["method"]), (0, 1, "bm25"))
+
+
+class QuoteTests(unittest.TestCase):
+    def test_quote_verification(self):
+        t = ["Chị Chuột bán con chó mực và hai buồng chuối non được bốn hào."]
+        self.assertTrue(quote_in_chunks("hai buồng chuối non được bốn hào", t))
+        self.assertTrue(quote_in_chunks("Chị  Chuột bán con chó mực ... được bốn hào.", t))    # '...' joins verbatim parts
+        self.assertFalse(quote_in_chunks("chị chuột bán con mèo và hai buồng chuối", t))        # paraphrase rejected
+        self.assertFalse(quote_in_chunks("", t))
+        self.assertFalse(quote_in_chunks("ngắn", t))                                          # too short to prove anything
+
+    def test_agent_rejects_unverifiable_quote_then_abstains(self):
+        bad = call("answer", {"enough_evidence": True, "answer": "Bốn hào [c1]", "citations": ["c1"],
+                              "evidence_quote": "Chị Chuột nhận được năm hào"})
+        good = call("answer", {"enough_evidence": True, "answer": "Bốn hào [c1]", "citations": ["c1"],
+                               "evidence_quote": "hai buồng chuối non được bốn hào"})
+        a = Agent(FakeClient([reply(call("search", {"query": "q"})), reply(bad), reply(good)]),
+                  {"dense": Fixed(["c1"])}, AgentConfig(require_quote=True))
+        self.assertIn("evidence_quote", a.tools[1]["function"]["parameters"]["required"])
+        t = a.run("q", "?")
+        self.assertEqual((t["status"], t["evidence_quote"]), ("answered", "hai buồng chuối non được bốn hào"))
+        a2 = Agent(FakeClient([reply(call("search", {"query": "q"})), reply(bad), reply(bad)]),
+                   {"dense": Fixed(["c1"])}, AgentConfig(require_quote=True))
+        self.assertEqual(a2.run("q", "?")["status"], "abstain")
 
 
 if __name__ == "__main__":

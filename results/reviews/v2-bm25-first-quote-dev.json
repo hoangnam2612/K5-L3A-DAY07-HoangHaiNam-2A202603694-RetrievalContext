@@ -1,0 +1,217 @@
+[
+ {
+  "query_id": "d01",
+  "citation_support": [
+   true,
+   true,
+   false
+  ],
+  "note": "Mô tả đúng diễn biến cãi vã nhưng không nêu nguyên nhân gốc (con mèo, trời bức); 008-para-015 không hỗ trợ ý nào.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "d02",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: chừng một đồng hào.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d03",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: bát muối vừng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d04",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: ba hột cơm.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d05",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng đủ.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d06",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d07",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d08",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d09",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: chập hai tấm làm một; 012-para-003 chứa evidence, 002 hỗ trợ chi tiết một xu.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d10",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: một hào, chồng lấy cả.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d11",
+  "citation_support": [],
+  "note": "Từ chối nhầm: BM25 không lấy được đoạn \"mua rượu, cả chai, đùi vịt\".",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d12",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: đòn gánh và dây thừng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d13",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d14",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: năm đồng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d15",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng; chi tiết thêm (rơi bút) có trong đoạn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d16",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng; \"bán nước, Việt gian\" có trong p51-para-001.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d17",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d18",
+  "citation_support": [],
+  "note": "Từ chối nhầm: BM25 không tìm được đoạn \"ba chén nước\".",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d19",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: cám. Lỗi nhỏ: gán câu \"cám nấu mà bu bảo chè\" cho chị Chuột (thật ra là lời đứa con).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d20",
+  "citation_support": [],
+  "note": "Từ chối nhầm: BM25 không lấy được đoạn \"bán con chó mực...\".",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d21",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: chai sâm-banh.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: ba năm và mấy tháng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d23",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d24",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d25",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Không từ chối: trả lời lạc đề (nhân vật là ai) thay vì nói không nêu tên làng.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "d26",
+  "citation_support": [],
+  "note": "Từ chối đúng (quote gate bắt được).",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "d27",
+  "citation_support": [
+   false
+  ],
+  "note": "Bịa: dùng câu của cặp vợ chồng khác (p28 Những trẻ khôn nạn) cho vợ chồng Lúng; quote có thật nhưng sai chủ thể -> kiểm tra chuỗi con không bắt được.",
+  "abstention_correct": false
+ }
+]

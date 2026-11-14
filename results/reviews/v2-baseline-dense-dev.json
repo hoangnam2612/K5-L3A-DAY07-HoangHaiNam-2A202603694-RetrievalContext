@@ -1,0 +1,202 @@
+[
+ {
+  "query_id": "d01",
+  "citation_support": [
+   false
+  ],
+  "note": "Bịa nguyên nhân (anh đau ốm); cite đoạn truyện khác (p10).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d02",
+  "citation_support": [],
+  "note": "Từ chối nhầm (3 lượt search, evidence không vào context).",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d03",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d04",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d05",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng đủ: Thanh Minh, bà chủ ốm; chi tiết thêm có trong đoạn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d06",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: sủa như gà gáy.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d07",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: nhờ Du báo sắp về.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d08",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: cái thúng.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d09",
+  "citation_support": [
+   false
+  ],
+  "note": "Sai: không nêu \"chập hai tấm làm một\"; đoạn cite không chứa tố cáo cốt lõi.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d10",
+  "citation_support": [
+   false,
+   false
+  ],
+  "note": "Sai: hai hào làm cỏ thuê (truyện khác, p22), không phải dệt cửi/một hào.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d11",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng đủ: chai rượu + đùi vịt hai hào.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d12",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d13",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng lõi (5 tháng trước) nhưng thêm khẳng định bịa \"Nga không chung thủy\" không có trong đoạn.",
+  "answer_grade": 1
+ },
+ {
+  "query_id": "d14",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d15",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d16",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: vẫn còn người bán thịt cho Pháp.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d17",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d18",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d19",
+  "citation_support": [
+   true,
+   true,
+   true
+  ],
+  "note": "Không nêu được \"cám\"; chỉ tả bát chè màu nâu đục. Citation hỗ trợ phần mô tả nhưng không trả lời câu hỏi.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d20",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d21",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: chai sâm-banh; đoạn cite có nhắc chai sâm-banh (evidence chính nằm ở para-004).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d22",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Đúng: ba năm (và mấy tháng, có trong p50-para-007).",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d23",
+  "citation_support": [
+   true
+  ],
+  "note": "Đúng: hai phần ba.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "d24",
+  "citation_support": [],
+  "note": "Từ chối nhầm.",
+  "answer_grade": 0
+ },
+ {
+  "query_id": "d25",
+  "citation_support": [
+   true,
+   true
+  ],
+  "note": "Không từ chối: trả lời lạc đề (giới thiệu nhân vật) thay vì nói truyện không nêu tên làng.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "d26",
+  "citation_support": [
+   true,
+   false
+  ],
+  "note": "Nội dung có nói không có thông tin về tuổi, nhưng agent đặt enough_evidence=true (status answered) kèm citation; citation 003-para-005 không hỗ trợ ý nào.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "d27",
+  "citation_support": [],
+  "note": "Từ chối đúng.",
+  "abstention_correct": true
+ }
+]
